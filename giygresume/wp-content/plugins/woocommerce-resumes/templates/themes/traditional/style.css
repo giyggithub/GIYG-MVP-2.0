@@ -1,0 +1,5676 @@
+/*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
+.container-wrap {
+    width: 940px;
+    margin: 0 auto;
+    background: #fff
+}
+
+.container {
+    width: 780px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*body {
+    font-family: 'Roboto', sans-serif;
+}*/
+
+
+/*header*/
+
+.header-info {
+    padding-top: 50px;
+}
+
+.profile-img-wrap {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+.profile-img-wrap img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.profile-details {
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+
+.profile-details p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.profile-image {
+    padding-left: 106px;
+    display: inline-block;
+    width: 32.5%;
+    float: left;
+}
+
+.profile-details p.tagline {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 9px;
+}
+
+h1 {
+    font-size: 43px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 9px;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+h1 span {
+    font-weight: 900;
+    font-weight: bold;
+}
+
+.contact {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.contact img {
+    margin-right: 12px;
+    margin-top: -5px;
+}
+
+.phone-num {
+    margin-right: 15px;
+}
+
+.phone-num,
+.email {
+    display: inline-block;
+}
+
+.dot {
+    background: #645198;
+    border-radius: 85px;
+    display: inline-block;
+    height: 5px;
+    margin: 0 4px;
+    vertical-align: middle;
+    width: 5px;
+}
+
+
+/*header ends*/
+
+
+/*Accomplishment list, skill list, energises list, core skills*/
+
+h2 {
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 0;
+    line-height: 23px;
+}
+
+.accomplishments {
+    width: 48%;
+    display: inline-block;
+    margin-top: 30px;
+    float: left;
+    margin-right: 2%;
+}
+
+.accomplishment-list,
+.skill-list,
+.energises-list {
+    padding-left: 15px;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.energises-list {
+    padding-left: 22px;
+}
+
+.accomplishment-list li,
+.skill-list li,
+.energises-list li {
+    font-weight: 400;
+    margin-bottom: 15px;
+    position: relative;
+    line-height: 1.33;
+    padding-left: 7px;
+}
+
+.energises-list li {
+    padding-left: 5px;
+}
+
+.skill-list li {
+    margin-bottom: 0;
+    font-size: 17px;
+    line-height: 15px;
+    margin-top: 8px;
+}
+
+.accomplishment-list li:before,
+.energises-list li:before,
+.ideal-list li:before {
+    width: 8px;
+    height: 8px;
+    content: '';
+    border-radius: 100%;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+}
+
+.energises {
+    width: 48%;
+    display: inline-block;
+    margin-top: 30px;
+    float: left;
+    margin-left: 2%;
+}
+
+.top-skills {
+    width: 48%;
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
+    margin-top: 15px;
+}
+
+.core-values {
+    width: 48%;
+    display: inline-block;
+    float: left;
+    margin-left: 2%;
+    margin-top: 15px;
+}
+
+.value-list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style-position: inside;
+    list-style: none;
+    position: relative;
+}
+
+.value-list {
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+
+.value-list li {
+    margin-bottom: 20px;
+    padding-left: 30px;
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+}
+/*Checkbox*/
+
+.Checkbox {
+    width: 14px;
+    height: 13px;
+    position: relative;
+}
+
+.Checkbox > * {
+    position: absolute;
+}
+
+.Checkbox-visible {
+    border: 1px solid gray;
+    width: 16px;
+    height: 16px;
+    margin: 2px;
+    background: #fff;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+}
+
+.first-chkbox .Checkbox-visible {
+    border: 1px solid #E9E7FC;
+}
+
+.second-chkbox .Checkbox-visible {
+    border: 1px solid #C5C0F8;
+}
+
+.third-chkbox .Checkbox-visible {
+    border: 1px solid #ABA3F5;
+}
+
+.fourth-chkbox .Checkbox-visible {
+    border: 1px solid #8175EF;
+}
+
+.fifth-chkbox .Checkbox-visible {
+    border: 1px solid #6D5FED;
+}
+
+.sixth-chkbox .Checkbox-visible {
+    border: 1px solid #4E3DE8;
+}
+
+.last-four-chkbox .Checkbox-visible {
+    border: 1px solid #635198;
+}
+
+.Checkbox > input {
+    z-index: 1;
+    opacity: 0;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translatex(-50%) translatey(-50%);
+    transform: translatex(-50%) translatey(-50%);
+    display: block;
+    cursor: pointer;
+    width: 14px;
+    height: 13px;
+}
+
+.Checkbox > input:checked + .Checkbox-visible {
+    background: #59cb59;
+    border-color: #59cb59;
+    width: 16px;
+    height: 16px;
+}
+
+.Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+    background: #E9E7FC;
+    border-color: #E9E7FC;
+}
+
+.Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+.Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+    border-color: #E9E7FC;
+}
+
+.Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+    background: #C5C0F8;
+    border-color: #C5C0F8;
+}
+
+.Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+.Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+    border-color: #C5C0F8;
+}
+
+.Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+    background: #ABA3F5;
+    border-color: #ABA3F5;
+}
+
+.Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+.Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+    border-color: #ABA3F5;
+}
+
+.Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+    background: #8175EF;
+    border-color: #8175EF;
+}
+
+.Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+.Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #8175EF;
+}
+
+.Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+    background: #6D5FED;
+    border-color: #6D5FED;
+}
+
+.Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+.Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #6D5FED;
+}
+
+.Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+    background: #4E3DE8;
+    border-color: #4E3DE8;
+}
+
+.Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+.Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #4E3DE8;
+}
+
+.Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+    background: #4E3DE8;
+    border-color: #4E3DE8;
+}
+
+.Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+.Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+    border-color: #4E3DE8;
+}
+
+.Checkbox-visible {
+    border-radius: 50px
+}
+
+.Checkbox {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+/*List ends*/
+
+
+/*third row*/
+
+.third-row-left {
+    width: 48%;
+    float: left;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+
+/*Personality*/
+
+.personality {
+    margin-top: 25px;
+}
+
+.personality-box {
+    width: 146px;
+    height: 146px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.personality-list-one {
+    list-style: none;
+    display: inline;
+    float: left;
+    padding-left: 15px;
+    padding-top: 2px;
+    width: 110px;
+}
+
+.personality-list-one li,
+.personality-list-two li {
+    padding: 2px 5px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    position: relative;
+    line-height: 14px;
+    font-size: 13px;
+}
+
+.personality-list-two {
+    float: right;
+    display: inline;
+    list-style: none;
+    padding-left: 15px;
+    margin-top: 24px;
+    width: 110px;
+}
+
+.personality-list-one li:before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 26px;
+    left: -26px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.personality-list-two li:before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 143px;
+    left: -144px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+/*Most valued team attributes*/
+
+.most-valued {
+    /*width: 48%;
+    display: inline-block;
+    float: left;
+    margin-left: 2%;*/
+    margin-top: 2px;
+}
+
+.most-values {
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.each-value {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.each-value p {
+    text-align: right;
+    margin-bottom: 0;
+    padding-right: 8px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 400;
+    padding-top: 8px;
+}
+
+.value-circle {
+    position: absolute;
+    width: 13.8px;
+    height: 13.4px;
+    border-radius: 100%;
+    left: -7px;
+    top: 0px;
+}
+
+
+/*best-fit*/
+
+.best-fit {
+    clear: both;
+    display: inline-block;
+    margin-top: 15px;
+    height: 200px;
+}
+
+.culture-list-left,
+.culture-list-right {
+    list-style: none;
+    position: relative;
+    padding-left: 0;
+    padding-right: 60px;
+    float: left;
+}
+
+.culture-list-right {
+    float: right;
+    padding-right: 45px;
+    padding-left: 31px;
+}
+
+.culture-list-left li,
+.culture-list-right li {
+    padding-top: 10px;
+}
+
+.culture-list-left {
+    left: -3.5px;
+    border-radius: 14px;
+    padding-right: 65px;
+}
+
+.border-class {
+    position: absolute;
+    background-color: #000;
+    margin: auto;
+    top: 10px;
+    left: -3px;
+}
+
+.border-class-left {
+    position: absolute;
+    background-color: #000;
+    margin: auto;
+    top: 10px;
+    right: 15px;
+}
+
+.border-class:after {
+    content: '';
+    border-top-left-radius: 18px;
+    height: 132px;
+    position: absolute;
+    border-bottom-left-radius: 18px;
+    padding-left: 15px;
+    top: 0;
+}
+
+.border-class-left:after {
+    content: '';
+    border-top-right-radius: 18px;
+    height: 132px;
+    position: absolute;
+    border-bottom-right-radius: 18px;
+    padding-left: 15px;
+    top: 0;
+}
+
+.culture-list-left li.border-class-left,
+.culture-list-right li.border-class {
+    padding-top: 11px;
+}
+
+.culture-list-right {
+    right: -4px;
+}
+
+.culture-list-left li.value-top,
+.culture-list-right li.value-top {
+    padding-top: 25px;
+}
+
+.culture-type {
+    font-size: 17px;
+    font-weight: 400;
+    float: left;
+    padding: 12px 18px;
+    border-radius: 17px;
+    margin-top: 55px;
+    position: relative;
+}
+
+.culture-type p {
+    margin-bottom: 0;
+}
+
+.culture-type:before,
+.culture-type:after {
+    position: absolute;
+    width: 3.5px;
+    height: 1.2px;
+    content: '';
+    display: inline-block;
+    top: 50%;
+}
+
+.culture-type:before {
+    left: -3.5px;
+}
+
+.culture-type:after {
+    right: -3.5px;
+}
+
+
+/*third-row-right*/
+
+.third-row-right {
+    width: 48%;
+    float: right;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+
+/*ideal company*/
+
+.ideal-company {
+    margin-top: 53px;
+}
+
+.ideal-list {
+    padding-left: 45px;
+}
+
+
+/*hire-me*/
+
+.hire-me {
+    margin-top: 5px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.hire-me p {
+    text-align: left;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.hire-me h2.title {
+    display: inline-block;
+}
+
+
+/*Footer social-icons*/
+
+footer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.social-icons-wrap {
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.twitter,
+.linkedin {
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.others {
+    display: inline-block;
+}
+
+.social-icons-wrap label {
+    margin-left: 7px;
+    font-style: italic;
+    font-weight: 400;
+    color: #3B3B3B;
+    margin-right: 15px;
+}
+
+/*.social-label-only .social-icons-wrap .label-two {
+    margin-left: 42px;
+}
+
+.social-label-only .social-icons-wrap .label-three {
+    margin-left: 66px
+}*/
+
+
+
+/*Colors*/
+
+.profile-details p {
+    color: #3B3B3B;
+}
+
+.profile-img-border {
+    border: 1px solid #635198;
+}
+
+.traditional-violet h1 {
+    color: #635198;
+}
+
+.contact {
+    color: #3B3B3B;
+}
+
+.profile-details p.tagline {
+    color: #363F40;
+}
+
+.title {
+    color: #635198;
+}
+
+h2 {
+    border-bottom: 3px solid #635198;
+}
+
+.accomplishment-list li,
+.skill-list li,
+.energises-list li {
+    color: #363F40;
+}
+
+.accomplishment-list li:before,
+.energises-list li:before,
+.ideal-list li:before {
+    background-color: #635198;
+}
+
+.value-list li:before {
+    background-color: #635198;
+}
+
+.personality-list-one li,
+.personality-list-two li {
+    border: 1px solid #3B3B3B;
+}
+
+.personality-list-one li:before,
+.personality-list-two li:before {
+    border: 1px solid #3B3B3B;
+}
+
+.each-value {
+    border-bottom: 2px solid #635198;
+    border-left: 2px solid #635198;
+}
+
+.value-circle {
+    background-color: #635198;
+}
+
+.personality-box {
+    border: 8px solid #635198;
+}
+
+.culture-type {
+    background-color: #3B3B3B;
+    color: #fff;
+}
+
+.culture-type:before,
+.culture-type:after {
+    background-color: #3B3B3B;
+}
+
+.border-class-left:after {
+    border-bottom: 1px solid #3B3B3B;
+    border-right: 1px solid #3B3B3B;
+    border-top: 1px solid #3B3B3B;
+}
+
+.border-class:after {
+    border-bottom: 1px solid #3B3B3B;
+    border-left: 1px solid #3B3B3B;
+    border-top: 1px solid #3B3B3B;
+}
+
+.culture-list-left li,
+.culture-list-right li {
+    font-size: 17px;
+}
+
+.culture-type p {
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.profile-details p {
+    font-size: 21px;
+}
+
+.profile-details p.tagline {
+    font-size: 17px;
+}
+
+.phone-num,
+.email {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.social-icons-wrap label {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.profile-details h1 {
+    margin-bottom: 8px;
+}
+
+.profile-details p {
+    margin-bottom: 5px;
+}
+
+h2 {
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.skill-list p {
+    margin-bottom: 3px;
+}
+
+.personality-list-one li::before,
+.personality-list-two li::before {
+    border: 1px solid #5f6062;
+}
+
+.personality-list-one li,
+.personality-list-two li {
+    border: 1px solid #5f6062;
+}
+
+.culture-type::before,
+.culture-type::after {
+    background: #5f6062;
+}
+
+.culture-type {
+    background: #5f6062;
+}
+
+.each-value p {
+    font-size: 16px;
+}
+
+.border-class-left::after {
+    border-bottom: 1px solid #5f6062;
+    border-right: 1px solid #5f6062;
+    border-top: 1px solid #5f6062;
+}
+
+.border-class::after {
+    border-bottom: 1px solid #5f6062;
+    border-left: 1px solid #5f6062;
+    border-top: 1px solid #5f6062;
+}
+
+.hire-me p {
+    font-size: 16px;
+    max-width: 760px;
+    text-align: center;
+}
+
+.culture-list-right {
+    padding-right: 10px;
+}
+
+.culture-list-left li.value-top,
+.culture-list-right li.value-top {
+    padding-top: 11px;
+}
+
+.hire-me h2.title {
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+}
+
+.hire-me {
+    margin-top: 5px;
+}
+
+.profile-details p {
+    color: #5f6062;
+}
+
+.value-list li::before {
+    top: 8px;
+}
+
+.value-list li {
+    margin-bottom: 15px;
+    display: inline-block;
+   /* float: left;*/
+    width: 100%;
+}
+
+.second-row {
+    display: inline-block;
+    width: 100%;
+}
+
+.first-row {
+    display: inline-block;
+    width: 100%;
+}
+
+.container {
+    width: 845px;
+}
+
+.culture-list-right {
+    right: -6px;
+    float: left;
+}
+
+.personality-list-two li::before {
+    left: -173px;
+    width: 173px;
+}
+
+.culture-type {
+    padding: 11px 18px;
+}
+
+.skill-list p {
+    font-size: 17px;
+    line-height: 15px;
+    margin-top: 8px;
+}
+
+.social-icons-wrap .others a:hover {
+    text-decoration: none;
+}
+
+.profile-img-wrap.profile-img-border > img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.profile-img-wrap {
+    text-align: center;
+    overflow: hidden;
+}
+
+@media print {
+    .profile-details p {
+        color: #3B3B3B !important;
+    }
+    .profile-img-border {
+        border: 1px solid #635198 !important;
+    }
+    .traditional-violet h1 {
+        color: #635198 !important;
+    }
+    .title {
+        color: #635198 !important;
+    }
+    h1 span {
+        color: #635198 !important;
+    }
+    .accomplishment-list li:before,
+    .energises-list li:before,
+    .ideal-list li:before {
+        background-color: #635198 !important;
+    }
+    .value-list li:before {
+        background-color: #635198 !important;
+    }
+    .value-circle {
+        background-color: #635198 !important;
+    }
+    .culture-type {
+        background-color: #3B3B3B !important;
+        color: #fff !important;
+    }
+    .culture-type p {
+        color: #fff !important;
+    }
+    .culture-type:before,
+    .culture-type:after {
+        background-color: #3B3B3B !important;
+    }
+    .border-class-left:after {
+        border-bottom: 1px solid #3B3B3B !important;
+        border-right: 1px solid #3B3B3B !important;
+        border-top: 1px solid #3B3B3B !important;
+    }
+    .border-class:after {
+        border-bottom: 1px solid #3B3B3B !important;
+        border-left: 1px solid #3B3B3B !important;
+        border-top: 1px solid #3B3B3B !important;
+    }
+    /*checkbox*/
+    .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+        background: #E9E7FC !important;
+        border-color: #E9E7FC !important;
+    }
+    .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+    .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+        border-color: #E9E7FC !important;
+    }
+    .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+        background: #C5C0F8 !important;
+        border-color: #C5C0F8 !important;
+    }
+    .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+    .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+        border-color: #C5C0F8 !important;
+    }
+    .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+        background: #ABA3F5 !important;
+        border-color: #ABA3F5 !important;
+    }
+    .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+    .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+        border-color: #ABA3F5 !important;
+    }
+    .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+        background: #8175EF !important;
+        border-color: #8175EF !important;
+    }
+    .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+    .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #8175EF !important;
+    }
+    .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+        background: #6D5FED !important;
+        border-color: #6D5FED !important;
+    }
+    .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+    .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #6D5FED !important;
+    }
+    .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+        background: #4E3DE8 !important;
+        border-color: #4E3DE8 !important;
+    }
+    .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+    .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #4E3DE8 !important;
+    }
+    .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+        background: #4E3DE8 !important;
+        border-color: #4E3DE8 !important;
+    }
+    .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+    .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+        border-color: #4E3DE8 !important;
+    }
+}
+
+
+/*Black Theme*/
+
+.traditional-black .profile-details p {
+    color: #2E2E2E;
+}
+
+.traditional-black .profile-img-border {
+    border: 1px solid #000;
+}
+
+.traditional-black h1 {
+    color: #000;
+}
+
+.traditional-black h1 span {
+    color: #000;
+}
+
+.traditional-black h2 {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.traditional-black .contact {
+    color: #2E2E2E;
+}
+
+.traditional-black .profile-details p.tagline {
+    color: #000;
+}
+
+.traditional-black .title {
+    color: #000;
+}
+
+.traditional-black h2 {
+    border-bottom: 3px solid #000;
+}
+
+.traditional-black .accomplishment-list li,
+.traditional-black .skill-list li,
+.traditional-black .energises-list li,
+.traditional-black .personality-list-one li,
+.traditional-black .personality-list-two li,
+.traditional-black .culture-list-left li,
+.traditional-black .culture-list-right li .traditional-black .hire-me p {
+    color: #2E2E2E;
+}
+
+.traditional-black .accomplishment-list li:before,
+.traditional-black .energises-list li:before,
+.traditional-black .ideal-list li:before,
+.traditional-black .value-list li:before {
+    background-color: #000;
+}
+
+.traditional-black .each-value {
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+}
+
+.traditional-black .value-circle {
+    background-color: #000;
+}
+
+.traditional-black .personality-box {
+    border: 8px solid #000;
+}
+
+.traditional-black .culture-type {
+    background-color: #000;
+    color: #fff;
+}
+
+.traditional-black .personality-list-one li,
+.traditional-black .personality-list-two li {
+    border: 1px solid #000;
+}
+
+.traditional-black .personality-list-one li:before,
+.traditional-black .personality-list-two li:before {
+    background: #000;
+}
+
+.traditional-black .border-class-left:after {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+.traditional-black .border-class:after {
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+.traditional-black .culture-type:before,
+.traditional-black .culture-type:after {
+    background-color: #000;
+}
+
+.traditional-black .dot {
+    background: #000000;
+}
+
+@media print {
+    .header-info {
+        padding-top: 0px !important;
+    }
+    .accomplishments,
+    .energises {
+        margin-top: 20px !important
+    }
+    .traditional-black .profile-details p {
+        color: #2E2E2E !important;
+    }
+    .traditional-black .profile-img-border {
+        border: 1px solid #000 !important;
+    }
+    .traditional-black h1 {
+        color: #000 !important;
+    }
+    .traditional-black h1 span {
+        color: #000 !important;
+    }
+    .traditional-black .title {
+        color: #000 !important;
+    }
+    .traditional-black .border-class-left:after {
+        border-bottom: 1px solid #000 !important;
+        border-right: 1px solid #000 !important;
+        border-top: 1px solid #000!important;
+    }
+    .traditional-black .border-class:after {
+        border-bottom: 1px solid #000 !important;
+        border-left: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+    }
+    .traditional-black .accomplishment-list li:before,
+    .traditional-black .energises-list li:before,
+    .traditional-black .ideal-list li:before,
+    .traditional-black .value-list li:before {
+        background-color: #000 !important;
+    }
+    .traditional-black .value-circle {
+        background-color: #000 !important;
+    }
+    .traditional-black .border-class-left:after {
+        border-bottom: 1px solid #000 !important;
+        border-right: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+    }
+    .traditional-black .border-class:after {
+        border-bottom: 1px solid #000 !important;
+        border-left: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+    }
+    .traditional-black .culture-type {
+        background-color: #000 !important;
+        color: #fff !important;
+    }
+    .traditional-black .personality-list-one li,
+    .traditional-black .personality-list-two li {
+        border: 1px solid #000 !important;
+    }
+    .traditional-black .culture-type:before,
+    .traditional-black .culture-type:after {
+        background-color: #000 !important;
+    }
+    .accomplishment-list li,
+    .skill-list li,
+    .energises-list li {
+        margin-bottom: 10px !important;
+    }
+    footer {
+        margin-bottom: 10px !important;
+    }
+}
+
+
+/*Black Theme*/
+
+.traditional-black .profile-details p {
+    color: #535456;
+}
+
+.traditional-black .profile-img-border {
+    border: 1px solid #000;
+}
+
+.traditional-black h1 {
+    color: #231f20;
+}
+
+.traditional-black h1 span {
+    color: #000;
+}
+
+.traditional-black h2 {
+    font-size: 23px;
+    line-height: 24px;
+}
+
+.traditional-black .contact {
+    color: #535456;
+}
+
+.traditional-black .profile-details p.tagline {
+    color: #000;
+}
+
+.traditional-black .title {
+    color: #000;
+}
+
+.traditional-black h2 {
+    border-bottom: 3px solid #000;
+    margin-bottom: 18px;
+}
+
+.traditional-black .accomplishment-list li,
+.traditional-black .skill-list li,
+.traditional-black .energises-list li,
+.traditional-black .personality-list-one li,
+.traditional-black .personality-list-two li,
+.traditional-black .culture-list-left li,
+.traditional-black .culture-list-right li .traditional-black .hire-me p {
+    color: #717274;
+}
+
+.traditional-black .accomplishment-list li:before,
+.traditional-black .energises-list li:before,
+.traditional-black .ideal-list li:before,
+.traditional-black .value-list li:before {
+    background-color: #000;
+}
+
+.traditional-black .each-value {
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+}
+
+.traditional-black .value-circle {
+    background-color: #000;
+}
+
+.traditional-black .personality-box {
+    border: 8px solid #000;
+}
+
+.traditional-black .culture-type {
+    background-color: #000;
+    color: #fff;
+}
+
+.traditional-black .personality-list-one li,
+.traditional-black .personality-list-two li {
+    border: 1px solid #000;
+}
+
+.traditional-black .personality-list-one li:before,
+.traditional-black .personality-list-two li:before {
+    background: #000;
+}
+
+.traditional-black .border-class-left:after {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+.traditional-black .border-class:after {
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+.traditional-black .culture-type:before,
+.traditional-black .culture-type:after {
+    background-color: #000;
+}
+
+.traditional-black .Checkbox > input:checked + .Checkbox-visible {
+    background: #000;
+    border-color: #000;
+}
+
+.traditional-black .Checkbox > input:hover + .Checkbox-visible,
+.traditional-black .Checkbox > input:hover + .Checkbox-visible,
+.traditional-black .Checkbox > input:hover:checked + .Checkbox-visible,
+.traditional-black .Checkbox > input:focus + .Checkbox-visible {
+    border-color: #000;
+}
+
+.traditional-black .Checkbox-visible {
+    border: 1px solid #000;
+}
+
+@media print {
+    .traditional-black .profile-details p {
+        color: #535456 !important;
+    }
+    .traditional-black .profile-img-border {
+        border: 1px solid #000 !important;
+    }
+    .traditional-black h1 {
+        color: #231f20 !important;
+    }
+    .traditional-black h1 span {
+        color: #231f20 !important;
+    }
+    .traditional-black .title {
+        color: #000 !important;
+    }
+    .traditional-black .border-class-left:after {
+        border-bottom: 1px solid #000 !important;
+        border-right: 1px solid #000 !important;
+        border-top: 1px solid #000!important;
+    }
+    .traditional-black .border-class:after {
+        border-bottom: 1px solid #000 !important;
+        border-left: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+    }
+    .traditional-black .accomplishment-list li:before,
+    .traditional-black .energises-list li:before,
+    .traditional-black .ideal-list li:before,
+    .traditional-black .value-list li:before {
+        background-color: #000 !important;
+    }
+    .traditional-black .value-circle {
+        background-color: #000 !important;
+    }
+    .traditional-black .border-class-left:after {
+        border-bottom: 1px solid #000 !important;
+        border-right: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+    }
+    .traditional-black .border-class:after {
+        border-bottom: 1px solid #000 !important;
+        border-left: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+    }
+    .traditional-black .culture-type {
+        background-color: #000 !important;
+        color: #fff !important;
+    }
+    .traditional-black .personality-list-one li,
+    .traditional-black .personality-list-two li {
+        border: 1px solid #000 !important;
+    }
+    .traditional-black .culture-type:before,
+    .traditional-black .culture-type:after {
+        background-color: #000 !important;
+    }
+    .traditional-black .Checkbox > input:checked + .Checkbox-visible {
+        background: #000 !important;
+        border-color: #000 !important;
+    }
+    .traditional-black .Checkbox > input:hover + .Checkbox-visible,
+    .traditional-black .Checkbox > input:hover + .Checkbox-visible,
+    .traditional-black .Checkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-black .Checkbox > input:focus + .Checkbox-visible {
+        border-color: #000 !important;
+    }
+    .traditional-black .Checkbox-visible {
+        border: 1px solid #000 !important;
+    }
+    .traditional-black .dot {
+        background: #645198 !important;
+    }
+}
+
+
+/*Bold-Blue */
+
+.traditional-bold-blue .profile-details p {
+    color: #3d5161;
+}
+
+.traditional-bold-blue .profile-img-border {
+    border: 1px solid #c6322c;
+}
+
+.traditional-bold-blue h1 {
+    color: #c6322c;
+}
+
+.traditional-bold-blue h1 span {
+    color: #c6322c;
+}
+
+.traditional-bold-blue .contact {
+    color: #3d5161;
+}
+
+.traditional-bold-blue .profile-details p.tagline {
+    color: #535455;
+}
+
+.traditional-bold-blue .title {
+    color: #007092;
+}
+
+.traditional-bold-blue h2 {
+    border-bottom: 3px solid #007092;
+}
+
+.traditional-black .accomplishment-list li,
+.traditional-black .skill-list li,
+.traditional-black .energises-list li,
+.traditional-black .personality-list-one li,
+.traditional-black .personality-list-two li,
+.traditional-black .culture-list-left li,
+.traditional-black .culture-list-right li .traditional-black .hire-me p {
+    color: #2E2E2E;
+}
+
+.traditional-bold-blue .accomplishment-list li:before,
+.traditional-bold-blue .energises-list li:before,
+.traditional-bold-blue .ideal-list li:before,
+.traditional-bold-blue .value-list li:before {
+    background-color: #c6322c;
+}
+
+.traditional-bold-blue .each-value {
+    border-bottom: 2px solid #2a6868;
+    border-left: 2px solid #2a6868;
+}
+
+.traditional-bold-blue .value-circle {
+    background-color: #2a6868;
+}
+
+.traditional-bold-blue .personality-box {
+    border: 8px solid #2a6868;
+}
+
+.traditional-bold-blue .culture-type {
+    background-color: #2a6868;
+    color: #fff;
+}
+
+.traditional-bold-blue .personality-list-one li,
+.traditional-bold-blue .personality-list-two li {
+    border: 1px solid #2a6868;
+}
+
+.traditional-bold-blue .personality-list-one li:before,
+.traditional-bold-blue .personality-list-two li:before {
+    background: #2a6868;
+    border: 1px solid #2a6868;
+}
+
+.traditional-bold-blue .border-class-left:after {
+    border-bottom: 1px solid #2a6868;
+    border-right: 1px solid #2a6868;
+    border-top: 1px solid #2a6868;
+}
+
+.traditional-bold-blue .border-class:after {
+    border-bottom: 1px solid #2a6868;
+    border-left: 1px solid #2a6868;
+    border-top: 1px solid #2a6868;
+}
+
+.traditional-bold-blue .culture-type:before,
+.traditional-bold-blue .culture-type:after {
+    background-color: #2a6868;
+}
+
+.traditional-bold-blue .first-chkbox .Checkbox-visible {
+    border: 1px solid #f7e1d6;
+}
+
+.traditional-bold-blue .second-chkbox .Checkbox-visible {
+    border: 1px solid #eab9a5;
+}
+
+.traditional-bold-blue .third-chkbox .Checkbox-visible {
+    border: 1px solid #e29d84;
+}
+
+.traditional-bold-blue .fourth-chkbox .Checkbox-visible {
+    border: 1px solid #d6745a;
+}
+
+.traditional-bold-blue .fifth-chkbox .Checkbox-visible {
+    border: 1px solid #d05f47;
+}
+
+.traditional-bold-blue .sixth-chkbox .Checkbox-visible {
+    border: 1px solid #c83b31;
+}
+
+.traditional-bold-blue .last-four-chkbox .Checkbox-visible {
+    border: 1px solid #c6322c;
+}
+
+.traditional-bold-blue .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+    background: #FCDDDD;
+    border-color: #FCDDDD;
+}
+
+.traditional-bold-blue .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+    border-color: #FCDDDD;
+}
+
+.traditional-bold-blue .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+    background: #eab9a5;
+    border-color: #eab9a5;
+}
+
+.traditional-bold-blue .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+    border-color: #eab9a5;
+}
+
+.traditional-bold-blue .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+    background: #e29d84;
+    border-color: #e29d84;
+}
+
+.traditional-bold-blue .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+    border-color: #e29d84;
+}
+
+.traditional-bold-blue .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+    background: #d6745a;
+    border-color: #d6745a;
+}
+
+.traditional-bold-blue .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #d6745a;
+}
+
+.traditional-bold-blue .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+    background: #d05f47;
+    border-color: #d05f47;
+}
+
+.traditional-bold-blue .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #d05f47;
+}
+
+.traditional-bold-blue .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+    background: #c83b31;
+    border-color: #c83b31;
+}
+
+.traditional-bold-blue .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #c83b31;
+}
+
+.traditional-bold-blue .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+    background: #c6322c;
+    border-color: #c6322c;
+}
+
+.traditional-bold-blue .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-blue .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+    border-color: #c6322c;
+}
+
+.traditional-bold-blue .social-icons-wrap label {
+    color: #c6322c !important;
+}
+
+.traditional-bold-blue .dot {
+    background: #2a6868;
+}
+
+@media print {
+    .traditional-bold-blue .profile-details p {
+        color: #3d5161 !important;
+    }
+    .traditional-bold-blue .profile-img-border {
+        border: 1px solid #c6322c !important;
+    }
+    .traditional-bold-blue h1 {
+        color: #c6322c !important;
+    }
+    .traditional-bold-blue h1 span {
+        color: #c6322c !important;
+    }
+    .traditional-bold-blue .contact {
+        color: #3d5161 !important;
+    }
+    .traditional-bold-blue .profile-details p.tagline {
+        color: #535455 !important;
+    }
+    .traditional-bold-blue .title {
+        color: #007092 !important;
+    }
+    .traditional-bold-blue h2 {
+        border-bottom: 3px solid #007092 !important;
+    }
+    .traditional-black .accomplishment-list li,
+    .traditional-black .skill-list li,
+    .traditional-black .energises-list li,
+    .traditional-black .personality-list-one li,
+    .traditional-black .personality-list-two li,
+    .traditional-black .culture-list-left li,
+    .traditional-black .culture-list-right li .traditional-black .hire-me p {
+        color: #2E2E2E !important;
+    }
+    .traditional-bold-blue .accomplishment-list li:before,
+    .traditional-bold-blue .energises-list li:before,
+    .traditional-bold-blue .ideal-list li:before,
+    .traditional-bold-blue .value-list li:before {
+        background-color: #c6322c !important;
+    }
+    .traditional-bold-blue .each-value {
+        border-bottom: 2px solid #2a6868 !important;
+        border-left: 2px solid #2a6868 !important;
+    }
+    .traditional-bold-blue .value-circle {
+        background-color: #2a6868 !important;
+    }
+    .traditional-bold-blue .personality-box {
+        border: 8px solid #2a6868 !important;
+    }
+    .traditional-bold-blue .culture-type {
+        background-color: #2a6868 !important;
+        color: #fff !important;
+    }
+    .traditional-bold-blue .personality-list-one li,
+    .traditional-bold-blue .personality-list-two li {
+        border: 1px solid #2a6868 !important;
+    }
+    .traditional-bold-blue .personality-list-one li:before,
+    .traditional-bold-blue .personality-list-two li:before {
+        background: #2a6868 !important;
+    }
+    .traditional-bold-blue .border-class-left:after {
+        border-bottom: 1px solid #2a6868 !important;
+        border-right: 1px solid #2a6868 !important;
+        border-top: 1px solid #2a6868 !important;
+    }
+    .traditional-bold-blue .border-class:after {
+        border-bottom: 1px solid #2a6868 !important;
+        border-left: 1px solid #2a6868 !important;
+        border-top: 1px solid #2a6868 !important;
+    }
+    .traditional-bold-blue .culture-type:before,
+    .traditional-bold-blue .culture-type:after {
+        background-color: #2a6868 !important;
+    }
+    .traditional-bold-blue .first-chkbox .Checkbox-visible {
+        border: 1px solid #f7e1d6 !important;
+    }
+    .traditional-bold-blue .second-chkbox .Checkbox-visible {
+        border: 1px solid #eab9a5 !important;
+    }
+    .traditional-bold-blue .third-chkbox .Checkbox-visible {
+        border: 1px solid #e29d84 !important;
+    }
+    .traditional-bold-blue .fourth-chkbox .Checkbox-visible {
+        border: 1px solid #d6745a !important;
+    }
+    .traditional-bold-blue .fifth-chkbox .Checkbox-visible {
+        border: 1px solid #d05f47 !important;
+    }
+    .traditional-bold-blue .sixth-chkbox .Checkbox-visible {
+        border: 1px solid #c83b31 !important;
+    }
+    .traditional-bold-blue .last-four-chkbox .Checkbox-visible {
+        border: 1px solid #c6322c !important;
+    }
+    .traditional-bold-blue .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+        background: #FCDDDD !important;
+        border-color: #FCDDDD !important;
+    }
+    .traditional-bold-blue .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+        border-color: #FCDDDD !important;
+    }
+    .traditional-bold-blue .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+        background: #eab9a5 !important;
+        border-color: #eab9a5 !important;
+    }
+    .traditional-bold-blue .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+        border-color: #eab9a5 !important;
+    }
+    .traditional-bold-blue .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+        background: #e29d84 !important;
+        border-color: #e29d84 !important;
+    }
+    .traditional-bold-blue .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+        border-color: #e29d84 !important;
+    }
+    .traditional-bold-blue .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+        background: #d6745a !important;
+        border-color: #d6745a !important;
+    }
+    .traditional-bold-blue .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #d6745a !important;
+    }
+    .traditional-bold-blue .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+        background: #d05f47 !important;
+        border-color: #d05f47 !important;
+    }
+    .traditional-bold-blue .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #d05f47 !important;
+    }
+    .traditional-bold-blue .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+        background: #c83b31 !important;
+        border-color: #c83b31 !important;
+    }
+    .traditional-bold-blue .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #c83b31 !important;
+    }
+    .traditional-bold-blue .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+        background: #c6322c !important;
+        border-color: #c6322c !important;
+    }
+    .traditional-bold-blue .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-blue .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+        border-color: #c6322c !important;
+    }
+    .traditional-bold-blue .social-icons-wrap label {
+        color: #c6322c !important;
+    }
+    .traditional-bold-blue .dot {
+        background: #2a6868 !important;
+    }
+}
+
+
+/*Bold Green*/
+
+.traditional-bold-green .profile-details p {
+    color: #78b399;
+}
+
+.traditional-bold-green .profile-img-border {
+    border: 1px solid #e06340;
+}
+
+.traditional-bold-green h1 {
+    color: #618963;
+}
+
+.traditional-bold-green h1 span {
+    color: #618963;
+}
+
+.traditional-bold-green .contact {
+    color: #535455;
+}
+
+.traditional-bold-green .profile-details p.tagline {
+    color: #535455;
+}
+
+.traditional-bold-green .title {
+    color: #4aa382;
+}
+
+.traditional-bold-green h2 {
+    border-bottom: 3px solid #4aa382;
+}
+
+.traditional-bold-green .accomplishment-list li,
+.traditional-bold-green .skill-list li,
+.traditional-bold-green .energises-list li,
+.traditional-bold-green .personality-list-one li,
+.traditional-bold-green .personality-list-two li,
+.traditional-bold-green .culture-list-left li,
+.traditional-bold-green .culture-list-right li .traditional-bold-green .hire-me p {
+    color: #535455;
+}
+
+.traditional-bold-green .accomplishment-list li:before,
+.traditional-bold-green .energises-list li:before,
+.traditional-bold-green .ideal-list li:before,
+.traditional-bold-green .value-list li:before {
+    background-color: #618963;
+}
+
+.traditional-bold-green .each-value {
+    border-bottom: 2px solid #e06340;
+    border-left: 2px solid #e06340;
+}
+
+.traditional-bold-green .value-circle {
+    background-color: #e06340;
+}
+
+.traditional-bold-green .personality-box {
+    border: 8px solid #e06340;
+}
+
+.traditional-bold-green .culture-type {
+    background-color: #e06340;
+    color: #fff;
+}
+
+.traditional-bold-green .personality-list-one li,
+.traditional-bold-green .personality-list-two li {
+    border: 1px solid #e06340;
+}
+
+.traditional-bold-green .personality-list-one li:before,
+.traditional-bold-green .personality-list-two li:before {
+    background: #e06340;
+    border: 1px solid #e06340;
+}
+
+.traditional-bold-green .border-class-left:after {
+    border-bottom: 1px solid #e06340;
+    border-right: 1px solid #e06340;
+    border-top: 1px solid #e06340;
+}
+
+.traditional-bold-green .border-class:after {
+    border-bottom: 1px solid #e06340;
+    border-left: 1px solid #e06340;
+    border-top: 1px solid #e06340;
+}
+
+.traditional-bold-green .culture-type:before,
+.traditional-bold-green .culture-type:after {
+    background-color: #e06340;
+}
+
+.traditional-bold-green .first-chkbox .Checkbox-visible {
+    border: 1px solid #e7ebe5;
+}
+
+.traditional-bold-green .second-chkbox .Checkbox-visible {
+    border: 1px solid #c6d1c2;
+}
+
+.traditional-bold-green .third-chkbox .Checkbox-visible {
+    border: 1px solid #b0bfab;
+}
+
+.traditional-bold-green .fourth-chkbox .Checkbox-visible {
+    border: 1px solid #8da68a;
+}
+
+.traditional-bold-green .fifth-chkbox .Checkbox-visible {
+    border: 1px solid #7e9c7d;
+}
+
+.traditional-bold-green .sixth-chkbox .Checkbox-visible {
+    border: 1px solid #668d68;
+}
+
+.traditional-bold-green .last-four-chkbox .Checkbox-visible {
+    border: 1px solid #618963;
+}
+
+.traditional-bold-green .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+    background: #e7ebe5;
+    border-color: #e7ebe5;
+}
+
+.traditional-bold-green .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-green .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-green .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-green .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+    border-color: #e7ebe5;
+}
+
+.traditional-bold-green .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+    background: #c6d1c2;
+    border-color: #c6d1c2;
+}
+
+.traditional-bold-green .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-green .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-green .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-green .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+    border-color: #c6d1c2;
+}
+
+.traditional-bold-green .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+    background: #b0bfab;
+    border-color: #b0bfab;
+}
+
+.traditional-bold-green .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-green .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-green .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-green .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+    border-color: #b0bfab;
+}
+
+.traditional-bold-green .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+    background: #8da68a;
+    border-color: #8da68a;
+}
+
+.traditional-bold-green .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-green .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-green .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-green .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #8da68a;
+}
+
+.traditional-bold-green .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+    background: #7e9c7d;
+    border-color: #7e9c7d;
+}
+
+.traditional-bold-green .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-green .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-green .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-green .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #7e9c7d;
+}
+
+.traditional-bold-green .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+    background: #668d68;
+    border-color: #668d68;
+}
+
+.traditional-bold-green .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-green .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-green .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-green .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #668d68;
+}
+
+.traditional-bold-green .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+    background: #618963;
+    border-color: #618963;
+}
+
+.traditional-bold-green .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-green .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-green .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-green .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+    border-color: #618963;
+}
+
+.traditional-bold-green .social-icons-wrap label {
+    color: #e06340 !important;
+}
+
+.traditional-bold-green .dot {
+    background: #e06340;
+}
+
+@media print {
+    .traditional-bold-green .profile-details p {
+        color: #78b399 !important;
+    }
+    .traditional-bold-green .profile-img-border {
+        border: 1px solid #e06340 !important;
+    }
+    .traditional-bold-green h1 {
+        color: #618963 !important;
+    }
+    .traditional-bold-green h1 span {
+        color: #618963 !important;
+    }
+    .traditional-bold-green .contact {
+        color: #535455 !important;
+    }
+    .traditional-bold-green .profile-details p.tagline {
+        color: #535455 !important;
+    }
+    .traditional-bold-green .title {
+        color: #4aa382 !important;
+    }
+    .traditional-bold-green h2 {
+        border-bottom: 3px solid #4aa382 !important;
+    }
+    .traditional-bold-green .accomplishment-list li,
+    .traditional-bold-green .skill-list li,
+    .traditional-bold-green .energises-list li,
+    .traditional-bold-green .personality-list-one li,
+    .traditional-bold-green .personality-list-two li,
+    .traditional-bold-green .culture-list-left li,
+    .traditional-bold-green .culture-list-right li .traditional-bold-green .hire-me p {
+        color: #535455 !important;
+    }
+    .traditional-bold-green .accomplishment-list li:before,
+    .traditional-bold-green .energises-list li:before,
+    .traditional-bold-green .ideal-list li:before,
+    .traditional-bold-green .value-list li:before {
+        background-color: #618963 !important;
+    }
+    .traditional-bold-green .each-value {
+        border-bottom: 2px solid #e06340 !important;
+        border-left: 2px solid #e06340 !important;
+    }
+    .traditional-bold-green .value-circle {
+        background-color: #e06340 !important;
+    }
+    .traditional-bold-green .personality-box {
+        border: 8px solid #e06340 !important;
+    }
+    .traditional-bold-green .culture-type {
+        background-color: #e06340 !important;
+        color: #fff !important;
+    }
+    .traditional-bold-green .personality-list-one li,
+    .traditional-bold-green .personality-list-two li {
+        border: 1px solid #e06340 !important;
+    }
+    .traditional-bold-green .personality-list-one li:before,
+    .traditional-bold-green .personality-list-two li:before {
+        background: #e06340 !important;
+        border: 1px solid #e06340 !important;
+    }
+    .traditional-bold-green .border-class-left:after {
+        border-bottom: 1px solid #e06340 !important;
+        border-right: 1px solid #e06340 !important;
+        border-top: 1px solid #e06340 !important;
+    }
+    .traditional-bold-green .border-class:after {
+        border-bottom: 1px solid #e06340 !important;
+        border-left: 1px solid #e06340 !important;
+        border-top: 1px solid #e06340 !important;
+    }
+    .traditional-bold-green .culture-type:before,
+    .traditional-bold-green .culture-type:after {
+        background-color: #e06340 !important;
+    }
+    .traditional-bold-green .first-chkbox .Checkbox-visible {
+        border: 1px solid #e7ebe5 !important;
+    }
+    .traditional-bold-green .second-chkbox .Checkbox-visible {
+        border: 1px solid #c6d1c2 !important;
+    }
+    .traditional-bold-green .third-chkbox .Checkbox-visible {
+        border: 1px solid #b0bfab !important;
+    }
+    .traditional-bold-green .fourth-chkbox .Checkbox-visible {
+        border: 1px solid #8da68a !important;
+    }
+    .traditional-bold-green .fifth-chkbox .Checkbox-visible {
+        border: 1px solid #7e9c7d !important;
+    }
+    .traditional-bold-green .sixth-chkbox .Checkbox-visible {
+        border: 1px solid #668d68 !important;
+    }
+    .traditional-bold-green .last-four-chkbox .Checkbox-visible {
+        border: 1px solid #618963 !important;
+    }
+    .traditional-bold-green .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+        background: #e7ebe5 !important;
+        border-color: #e7ebe5 !important;
+    }
+    .traditional-bold-green .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+        border-color: #e7ebe5 !important;
+    }
+    .traditional-bold-green .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+        background: #c6d1c2 !important;
+        border-color: #c6d1c2 !important;
+    }
+    .traditional-bold-green .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+        border-color: #c6d1c2 !important;
+    }
+    .traditional-bold-green .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+        background: #b0bfab !important;
+        border-color: #b0bfab !important;
+    }
+    .traditional-bold-green .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+        border-color: #b0bfab !important;
+    }
+    .traditional-bold-green .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+        background: #8da68a !important;
+        border-color: #8da68a !important;
+    }
+    .traditional-bold-green .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #8da68a !important;
+    }
+    .traditional-bold-green .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+        background: #7e9c7d !important;
+        border-color: #7e9c7d !important;
+    }
+    .traditional-bold-green .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #7e9c7d !important;
+    }
+    .traditional-bold-green .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+        background: #668d68 !important;
+        border-color: #668d68 !important;
+    }
+    .traditional-bold-green .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #668d68 !important;
+    }
+    .traditional-bold-green .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+        background: #618963 !important;
+        border-color: #618963 !important;
+    }
+    .traditional-bold-green .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-green .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+        border-color: #618963 !important;
+    }
+    .traditional-bold-green .social-icons-wrap label {
+        color: #e06340 !important;
+    }
+    .traditional-bold-green .dot {
+        background: #e06340 !important;
+    }
+}
+
+
+/*Bold Red*/
+
+.traditional-bold-red .profile-details p {
+    color: #87c6b1;
+}
+
+.traditional-bold-red .profile-img-border {
+    border: 1px solid #00a7b2;
+}
+
+.traditional-bold-red h1 {
+    color: #00797f;
+}
+
+.traditional-bold-red h1 span {
+    color: #00797f;
+}
+
+.traditional-bold-red .contact {
+    color: #535455;
+}
+
+.traditional-bold-red .profile-details p.tagline {
+    color: #686869;
+}
+
+.traditional-bold-red .title {
+    color: #da374c;
+}
+
+.traditional-bold-red h2 {
+    border-bottom: 3px solid #da374c;
+}
+
+.traditional-bold-red .accomplishment-list li,
+.traditional-bold-red .skill-list li,
+.traditional-bold-red .energises-list li,
+.traditional-bold-red .personality-list-one li,
+.traditional-bold-red .personality-list-two li,
+.traditional-bold-red .culture-list-left li,
+.traditional-bold-red .culture-list-right li .traditional-bold-red .hire-me p {
+    color: #535455;
+}
+
+.traditional-bold-red .accomplishment-list li:before,
+.traditional-bold-red .energises-list li:before,
+.traditional-bold-red .ideal-list li:before,
+.traditional-bold-red .value-list li:before {
+    background-color: #00797f;
+}
+
+.traditional-bold-red .each-value {
+    border-bottom: 2px solid #61b99f;
+    border-left: 2px solid #61b99f;
+}
+
+.traditional-bold-red .value-circle {
+    background-color: #61b99f;
+}
+
+.traditional-bold-red .personality-box {
+    border: 8px solid #61b99f;
+}
+
+.traditional-bold-red .culture-type {
+    background-color: #61b99f;
+    color: #fff;
+}
+
+.traditional-bold-red .personality-list-one li,
+.traditional-bold-red .personality-list-two li {
+    border: 1px solid #61b99f;
+}
+
+.traditional-bold-red .personality-list-one li:before,
+.traditional-bold-red .personality-list-two li:before {
+    background: #61b99f;
+    border: 1px solid #61b99f;
+}
+
+.traditional-bold-red .border-class-left:after {
+    border-bottom: 1px solid #61b99f;
+    border-right: 1px solid #61b99f;
+    border-top: 1px solid #61b99f;
+}
+
+.traditional-bold-red .border-class:after {
+    border-bottom: 1px solid #61b99f;
+    border-left: 1px solid #61b99f;
+    border-top: 1px solid #61b99f;
+}
+
+.traditional-bold-red .culture-type:before,
+.traditional-bold-red .culture-type:after {
+    background-color: #61b99f;
+}
+
+.traditional-bold-red .first-chkbox .Checkbox-visible {
+    border: 1px solid #d8e7eb;
+}
+
+.traditional-bold-red .second-chkbox .Checkbox-visible {
+    border: 1px solid #a5c8cd;
+}
+
+.traditional-bold-red .third-chkbox .Checkbox-visible {
+    border: 1px solid #82b5bb;
+}
+
+.traditional-bold-red .fourth-chkbox .Checkbox-visible {
+    border: 1px solid #4b99a0;
+}
+
+.traditional-bold-red .fifth-chkbox .Checkbox-visible {
+    border: 1px solid #278d95;
+}
+
+.traditional-bold-red .sixth-chkbox .Checkbox-visible {
+    border: 1px solid #007c83;
+}
+
+.traditional-bold-red .last-four-chkbox .Checkbox-visible {
+    border: 1px solid #00797f;
+}
+
+.traditional-bold-red .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+    background: #d8e7eb;
+    border-color: #d8e7eb;
+}
+
+.traditional-bold-red .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-red .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-red .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-red .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+    border-color: #d8e7eb;
+}
+
+.traditional-bold-red .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+    background: #a5c8cd;
+    border-color: #a5c8cd;
+}
+
+.traditional-bold-red .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-red .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-red .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-red .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+    border-color: #a5c8cd;
+}
+
+.traditional-bold-red .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+    background: #82b5bb;
+    border-color: #82b5bb;
+}
+
+.traditional-bold-red .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-red .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-red .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-red .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+    border-color: #82b5bb;
+}
+
+.traditional-bold-red .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+    background: #4b99a0;
+    border-color: #4b99a0;
+}
+
+.traditional-bold-red .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-red .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-red .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-red .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #4b99a0;
+}
+
+.traditional-bold-red .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+    background: #278d95;
+    border-color: #278d95;
+}
+
+.traditional-bold-red .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-red .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-red .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-red .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #278d95;
+}
+
+.traditional-bold-red .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+    background: #007c83;
+    border-color: #007c83;
+}
+
+.traditional-bold-red .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-red .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-red .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-red .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #007c83;
+}
+
+.traditional-bold-red .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+    background: #00797f;
+    border-color: #00797f;
+}
+
+.traditional-bold-red .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-red .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-bold-red .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-bold-red .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+    border-color: #00797f;
+}
+
+.traditional-bold-red .social-icons-wrap label {
+    color: #00a7b2 !important;
+}
+
+.traditional-bold-red .dot {
+    background: #e06340;
+}
+
+@media print {
+    .traditional-bold-red .profile-details p {
+        color: #87c6b1 !important;
+    }
+    .traditional-bold-red .profile-img-border {
+        border: 1px solid #00a7b2 !important;
+    }
+    .traditional-bold-red h1 {
+        color: #00797f !important;
+    }
+    .traditional-bold-red h1 span {
+        color: #00797f !important;
+    }
+    .traditional-bold-red .contact {
+        color: #535455 !important;
+    }
+    .traditional-bold-red .profile-details p.tagline {
+        color: #686869 !important;
+    }
+    .traditional-bold-red .title {
+        color: #da374c !important;
+    }
+    .traditional-bold-red h2 {
+        border-bottom: 3px solid #da374c !important;
+    }
+    .traditional-bold-red .accomplishment-list li,
+    .traditional-bold-red .skill-list li,
+    .traditional-bold-red .energises-list li,
+    .traditional-bold-red .personality-list-one li,
+    .traditional-bold-red .personality-list-two li,
+    .traditional-bold-red .culture-list-left li,
+    .traditional-bold-red .culture-list-right li .traditional-bold-red .hire-me p {
+        color: #535455 !important;
+    }
+    .traditional-bold-red .accomplishment-list li:before,
+    .traditional-bold-red .energises-list li:before,
+    .traditional-bold-red .ideal-list li:before,
+    .traditional-bold-red .value-list li:before {
+        background-color: #00797f !important;
+    }
+    .traditional-bold-red .each-value {
+        border-bottom: 2px solid #61b99f !important;
+        border-left: 2px solid #61b99f !important;
+    }
+    .traditional-bold-red .value-circle {
+        background-color: #61b99f !important;
+    }
+    .traditional-bold-red .personality-box {
+        border: 8px solid #61b99f !important;
+    }
+    .traditional-bold-red .culture-type {
+        background-color: #61b99f !important;
+        color: #fff !important;
+    }
+    .traditional-bold-red .personality-list-one li,
+    .traditional-bold-red .personality-list-two li {
+        border: 1px solid #61b99f !important;
+    }
+    .traditional-bold-red .personality-list-one li:before,
+    .traditional-bold-red .personality-list-two li:before {
+        background: #61b99f !important;
+        border: 1px solid #61b99f !important;
+    }
+    .traditional-bold-red .border-class-left:after {
+        border-bottom: 1px solid #61b99f !important;
+        border-right: 1px solid #61b99f !important;
+        border-top: 1px solid #61b99f !important;
+    }
+    .traditional-bold-red .border-class:after {
+        border-bottom: 1px solid #61b99f !important;
+        border-left: 1px solid #61b99f !important;
+        border-top: 1px solid #61b99f !important;
+    }
+    .traditional-bold-red .culture-type:before,
+    .traditional-bold-red .culture-type:after {
+        background-color: #61b99f !important;
+    }
+    .traditional-bold-red .first-chkbox .Checkbox-visible {
+        border: 1px solid #d8e7eb !important;
+    }
+    .traditional-bold-red .second-chkbox .Checkbox-visible {
+        border: 1px solid #a5c8cd !important;
+    }
+    .traditional-bold-red .third-chkbox .Checkbox-visible {
+        border: 1px solid #82b5bb !important;
+    }
+    .traditional-bold-red .fourth-chkbox .Checkbox-visible {
+        border: 1px solid #4b99a0 !important;
+    }
+    .traditional-bold-red .fifth-chkbox .Checkbox-visible {
+        border: 1px solid #278d95 !important;
+    }
+    .traditional-bold-red .sixth-chkbox .Checkbox-visible {
+        border: 1px solid #007c83 !important;
+    }
+    .traditional-bold-red .last-four-chkbox .Checkbox-visible {
+        border: 1px solid #00797f !important;
+    }
+    .traditional-bold-red .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+        background: #d8e7eb !important;
+        border-color: #d8e7eb !important;
+    }
+    .traditional-bold-red .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+        border-color: #d8e7eb !important;
+    }
+    .traditional-bold-red .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+        background: #a5c8cd !important;
+        border-color: #a5c8cd !important;
+    }
+    .traditional-bold-red .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+        border-color: #a5c8cd !important;
+    }
+    .traditional-bold-red .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+        background: #82b5bb !important;
+        border-color: #82b5bb !important;
+    }
+    .traditional-bold-red .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+        border-color: #82b5bb !important;
+    }
+    .traditional-bold-red .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+        background: #4b99a0 !important;
+        border-color: #4b99a0 !important;
+    }
+    .traditional-bold-red .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #4b99a0 !important;
+    }
+    .traditional-bold-red .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+        background: #278d95 !important;
+        border-color: #278d95 !important;
+    }
+    .traditional-bold-red .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #278d95 !important;
+    }
+    .traditional-bold-red .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+        background: #007c83 !important;
+        border-color: #007c83 !important;
+    }
+    .traditional-bold-red .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #007c83 !important;
+    }
+    .traditional-bold-red .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+        background: #00797f !important;
+        border-color: #00797f !important;
+    }
+    .traditional-bold-red .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-bold-red .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+        border-color: #00797f !important;
+    }
+    .traditional-bold-red .social-icons-wrap label {
+        color: #00a7b2 !important;
+    }
+    .traditional-bold-red .dot {
+        background: #e06340 !important;
+    }
+}
+
+
+/* Classic Brown theme*/
+
+.traditional-classic-brown .profile-details p {
+    color: #839bb2;
+}
+
+.traditional-classic-brown .profile-img-border {
+    border: 1px solid #008f9c;
+}
+
+.traditional-classic-brown h1 .first-name-text span {
+    color: #de5a58;
+}
+
+.traditional-classic-brown h1 span {
+    color: #008f9c;
+}
+
+.traditional-classic-brown .contact {
+    color: #839bb2;
+}
+
+.traditional-classic-brown .profile-details p.tagline {
+    color: #3b2e2a;
+}
+
+.traditional-classic-brown .title {
+    color: #008f9c;
+}
+
+.traditional-classic-brown h2 {
+    border-bottom: 3px solid #008f9c;
+}
+
+.traditional-classic-brown .accomplishment-list li,
+.traditional-classic-brown .skill-list li,
+.traditional-classic-brown .energises-list li,
+.traditional-classic-brown .personality-list-one li,
+.traditional-classic-brown .personality-list-two li,
+.traditional-classic-brown .culture-list-left li,
+.traditional-classic-brown .culture-list-right li .traditional-classic-brown .hire-me p {
+    color: #3b2e2a;
+}
+
+.traditional-classic-brown .accomplishment-list li:before,
+.traditional-classic-brown .energises-list li:before,
+.traditional-classic-brown .ideal-list li:before,
+.traditional-classic-brown .value-list li:before {
+    background-color: #de5a58;
+}
+
+.traditional-classic-brown .each-value {
+    border-bottom: 2px solid #6386a1;
+    border-left: 2px solid #6386a1;
+}
+
+.traditional-classic-brown .value-circle {
+    background-color: #6386a1;
+}
+
+.traditional-classic-brown .personality-box {
+    border: 8px solid #6386a1;
+}
+
+.traditional-classic-brown .culture-type {
+    background-color: #839bb2;
+    color: #fff;
+}
+
+.traditional-classic-brown .personality-list-one li,
+.traditional-classic-brown .personality-list-two li {
+    border: 1px solid #839bb2;
+}
+
+.traditional-classic-brown .personality-list-one li:before,
+.traditional-classic-brown .personality-list-two li:before {
+    background: #839bb2;
+    border: 1px solid #839bb2;
+}
+
+.traditional-classic-brown .border-class-left:after {
+    border-bottom: 1px solid #839bb2;
+    border-right: 1px solid #839bb2;
+    border-top: 1px solid #839bb2;
+}
+
+.traditional-classic-brown .border-class:after {
+    border-bottom: 1px solid #839bb2;
+    border-left: 1px solid #839bb2;
+    border-top: 1px solid #839bb2;
+}
+
+.traditional-classic-brown .culture-type:before,
+.traditional-classic-brown .culture-type:after {
+    background-color: #839bb2;
+}
+
+.traditional-classic-brown .first-chkbox .Checkbox-visible {
+    border: 1px solid #fae9e3;
+}
+
+.traditional-classic-brown .second-chkbox .Checkbox-visible {
+    border: 1px solid #f3c8bc;
+}
+
+.traditional-classic-brown .third-chkbox .Checkbox-visible {
+    border: 1px solid #eeb0a4;
+}
+
+.traditional-classic-brown .fourth-chkbox .Checkbox-visible {
+    border: 1px solid #e78e81;
+}
+
+.traditional-classic-brown .fifth-chkbox .Checkbox-visible {
+    border: 1px solid #e47d72;
+}
+
+.traditional-classic-brown .sixth-chkbox .Checkbox-visible {
+    border: 1px solid #df615d;
+}
+
+.traditional-classic-brown .last-four-chkbox .Checkbox-visible {
+    border: 1px solid #de5a58;
+}
+
+.traditional-classic-brown .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+    background: #fae9e3;
+    border-color: #fae9e3;
+}
+
+.traditional-classic-brown .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+    border-color: #fae9e3;
+}
+
+.traditional-classic-brown .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+    background: #f3c8bc;
+    border-color: #f3c8bc;
+}
+
+.traditional-classic-brown .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+    border-color: #f3c8bc;
+}
+
+.traditional-classic-brown .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+    background: #eeb0a4;
+    border-color: #eeb0a4;
+}
+
+.traditional-classic-brown .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+    border-color: #eeb0a4;
+}
+
+.traditional-classic-brown .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+    background: #e78e81;
+    border-color: #e78e81;
+}
+
+.traditional-classic-brown .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #e78e81;
+}
+
+.traditional-classic-brown .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+    background: #e47d72;
+    border-color: #e47d72;
+}
+
+.traditional-classic-brown .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #e47d72;
+}
+
+.traditional-classic-brown .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+    background: #df615d;
+    border-color: #df615d;
+}
+
+.traditional-classic-brown .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #df615d;
+}
+
+.traditional-classic-brown .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+    background: #de5a58;
+    border-color: #de5a58;
+}
+
+.traditional-classic-brown .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-brown .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+    border-color: #de5a58;
+}
+
+.traditional-classic-brown .social-icons-wrap label {
+    color: #291E1E;
+}
+
+.traditional-classic-brown .dot {
+    background: #de5a58;
+}
+
+@media print {
+    .traditional-classic-brown .profile-details p {
+        color: #839bb2 !important;
+    }
+    .traditional-classic-brown .profile-img-border {
+        border: 1px solid #008f9c !important;
+    }
+    .traditional-classic-brown h1 {
+        color: #de5a58 !important;
+    }
+    .traditional-classic-brown h1 span {
+        color: #008f9c !important;
+    }
+    .traditional-classic-brown .contact {
+        color: #3b2e2a !important;
+    }
+    .traditional-classic-brown .profile-details p.tagline {
+        color: #3b2e2a !important;
+    }
+    .traditional-classic-brown .title {
+        color: #008f9c !important;
+    }
+    .traditional-classic-brown h2 {
+        border-bottom: 3px solid #008f9c !important;
+    }
+    .traditional-classic-brown .accomplishment-list li,
+    .traditional-classic-brown .skill-list li,
+    .traditional-classic-brown .energises-list li,
+    .traditional-classic-brown .personality-list-one li,
+    .traditional-classic-brown .personality-list-two li,
+    .traditional-classic-brown .culture-list-left li,
+    .traditional-classic-brown .culture-list-right li .traditional-classic-brown .hire-me p {
+        color: #3b2e2a !important;
+    }
+    .traditional-classic-brown .accomplishment-list li:before,
+    .traditional-classic-brown .energises-list li:before,
+    .traditional-classic-brown .ideal-list li:before,
+    .traditional-classic-brown .value-list li:before {
+        background-color: #de5a58 !important;
+    }
+    .traditional-classic-brown .each-value {
+        border-bottom: 2px solid #6386a1 !important;
+        border-left: 2px solid #6386a1 !important;
+    }
+    .traditional-classic-brown .value-circle {
+        background-color: #6386a1 !important;
+    }
+    .traditional-classic-brown .personality-box {
+        border: 8px solid #6386a1 !important;
+    }
+    .traditional-classic-brown .culture-type {
+        background-color: #839bb2 !important;
+        color: #fff !important;
+    }
+    .traditional-classic-brown .personality-list-one li,
+    .traditional-classic-brown .personality-list-two li {
+        border: 1px solid #839bb2 !important;
+    }
+    .traditional-classic-brown .personality-list-one li:before,
+    .traditional-classic-brown .personality-list-two li:before {
+        background: #839bb2 !important;
+        border: 1px solid #839bb2 !important;
+    }
+    .traditional-classic-brown .border-class-left:after {
+        border-bottom: 1px solid #839bb2 !important;
+        border-right: 1px solid #839bb2 !important;
+        border-top: 1px solid #839bb2 !important;
+    }
+    .traditional-classic-brown .border-class:after {
+        border-bottom: 1px solid #839bb2 !important;
+        border-left: 1px solid #839bb2 !important;
+        border-top: 1px solid #839bb2 !important;
+    }
+    .traditional-classic-brown .culture-type:before,
+    .traditional-classic-brown .culture-type:after {
+        background-color: #839bb2 !important;
+    }
+    .traditional-classic-brown .first-chkbox .Checkbox-visible {
+        border: 1px solid #fae9e3 !important;
+    }
+    .traditional-classic-brown .second-chkbox .Checkbox-visible {
+        border: 1px solid #f3c8bc !important;
+    }
+    .traditional-classic-brown .third-chkbox .Checkbox-visible {
+        border: 1px solid #eeb0a4 !important;
+    }
+    .traditional-classic-brown .fourth-chkbox .Checkbox-visible {
+        border: 1px solid #e78e81 !important;
+    }
+    .traditional-classic-brown .fifth-chkbox .Checkbox-visible {
+        border: 1px solid #e47d72 !important;
+    }
+    .traditional-classic-brown .sixth-chkbox .Checkbox-visible {
+        border: 1px solid #df615d !important;
+    }
+    .traditional-classic-brown .last-four-chkbox .Checkbox-visible {
+        border: 1px solid #de5a58 !important;
+    }
+    .traditional-classic-brown .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+        background: #fae9e3 !important;
+        border-color: #fae9e3 !important;
+    }
+    .traditional-classic-brown .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+        border-color: #fae9e3 !important;
+    }
+    .traditional-classic-brown .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+        background: #f3c8bc !important;
+        border-color: #f3c8bc !important;
+    }
+    .traditional-classic-brown .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+        border-color: #f3c8bc !important;
+    }
+    .traditional-classic-brown .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+        background: #eeb0a4 !important;
+        border-color: #eeb0a4 !important;
+    }
+    .traditional-classic-brown .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+        border-color: #eeb0a4 !important;
+    }
+    .traditional-classic-brown .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+        background: #e78e81 !important;
+        border-color: #e78e81 !important;
+    }
+    .traditional-classic-brown .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #e78e81 !important;
+    }
+    .traditional-classic-brown .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+        background: #e47d72 !important;
+        border-color: #e47d72 !important;
+    }
+    .traditional-classic-brown .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #e47d72 !important;
+    }
+    .traditional-classic-brown .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+        background: #df615d !important;
+        border-color: #df615d !important;
+    }
+    .traditional-classic-brown .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #df615d !important;
+    }
+    .traditional-classic-brown .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+        background: #de5a58 !important;
+        border-color: #de5a58 !important;
+    }
+    .traditional-classic-brown .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-brown .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+        border-color: #de5a58 !important;
+    }
+    .traditional-classic-brown .social-icons-wrap label {
+        color: #291E1E !important;
+    }
+    .traditional-classic-brown .dot {
+        background: #de5a58 !important;
+    }
+}
+
+
+/*CLASSIC LIGHT BLUE */
+
+.traditional-classic-light-blue .profile-details p {
+    color: #5f6062;
+}
+
+.traditional-classic-light-blue .profile-img-border {
+    border: 1px solid #74a4b6;
+}
+
+.traditional-classic-light-blue h1 {
+    color: #6097ac;
+}
+
+.traditional-classic-light-blue h1 span {
+    color: #6097ac;
+}
+
+.traditional-classic-light-blue .contact {
+    color: #5f6062;
+}
+
+.traditional-classic-light-blue .profile-details p.tagline {
+    color: #231f20;
+}
+
+.traditional-classic-light-blue .title {
+    color: #7c8d97;
+}
+
+.traditional-classic-light-blue h2 {
+    border-bottom: 3px solid #7c8d97;
+}
+
+.traditional-classic-light-blue .accomplishment-list li,
+.traditional-classic-light-blue .skill-list li,
+.traditional-classic-light-blue .energises-list li,
+.traditional-classic-light-blue .personality-list-one li,
+.traditional-classic-light-blue .personality-list-two li,
+.traditional-classic-light-blue .culture-list-left li,
+.traditional-classic-light-blue .culture-list-right li .traditional-classic-light-blue .hire-me p {
+    color: #231f20;
+}
+
+.traditional-classic-light-blue .accomplishment-list li:before,
+.traditional-classic-light-blue .energises-list li:before,
+.traditional-classic-light-blue .ideal-list li:before,
+.traditional-classic-light-blue .value-list li:before {
+    background-color: #6097ac;
+}
+
+.traditional-classic-light-blue .each-value {
+    border-bottom: 2px solid #6097ac;
+    border-left: 2px solid #6097ac;
+}
+
+.traditional-classic-light-blue .value-circle {
+    background-color: #6097ac;
+}
+
+.traditional-classic-light-blue .personality-box {
+    border: 8px solid #6097ac;
+}
+
+.traditional-classic-light-blue .culture-type {
+    background-color: #83a9bc;
+    color: #fff;
+}
+
+.traditional-classic-light-blue .personality-list-one li,
+.traditional-classic-light-blue .personality-list-two li {
+    border: 1px solid #83a9bc;
+}
+
+.traditional-classic-light-blue .personality-list-one li:before,
+.traditional-classic-light-blue .personality-list-two li:before {
+    background: #83a9bc;
+    border: 1px solid #83a9bc;
+}
+
+.traditional-classic-light-blue .border-class-left:after {
+    border-bottom: 1px solid #83a9bc;
+    border-right: 1px solid #83a9bc;
+    border-top: 1px solid #83a9bc;
+}
+
+.traditional-classic-light-blue .border-class:after {
+    border-bottom: 1px solid #83a9bc;
+    border-left: 1px solid #83a9bc;
+    border-top: 1px solid #83a9bc;
+}
+
+.traditional-classic-light-blue .culture-type:before,
+.traditional-classic-light-blue .culture-type:after {
+    background-color: #83a9bc;
+}
+
+.traditional-classic-light-blue .first-chkbox .Checkbox-visible {
+    border: 1px solid #e9eff3;
+}
+
+.traditional-classic-light-blue .second-chkbox .Checkbox-visible {
+    border: 1px solid #c9d7e0;
+}
+
+.traditional-classic-light-blue .third-chkbox .Checkbox-visible {
+    border: 1px solid #b4c8d4;
+}
+
+.traditional-classic-light-blue .fourth-chkbox .Checkbox-visible {
+    border: 1px solid #90b1c3;
+}
+
+.traditional-classic-light-blue .fifth-chkbox .Checkbox-visible {
+    border: 1px solid #80a8bb;
+}
+
+.traditional-classic-light-blue .sixth-chkbox .Checkbox-visible {
+    border: 1px solid #679aaf;
+}
+
+.traditional-classic-light-blue .last-four-chkbox .Checkbox-visible {
+    border: 1px solid #6097ac;
+}
+
+.traditional-classic-light-blue .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+    background: #e9eff3;
+    border-color: #e9eff3;
+}
+
+.traditional-classic-light-blue .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+    border-color: #e9eff3;
+}
+
+.traditional-classic-light-blue .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+    background: #c9d7e0;
+    border-color: #c9d7e0;
+}
+
+.traditional-classic-light-blue .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+    border-color: #c9d7e0;
+}
+
+.traditional-classic-light-blue .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+    background: #b4c8d4;
+    border-color: #b4c8d4;
+}
+
+.traditional-classic-light-blue .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+    border-color: #b4c8d4;
+}
+
+.traditional-classic-light-blue .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+    background: #90b1c3;
+    border-color: #90b1c3;
+}
+
+.traditional-classic-light-blue .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #90b1c3;
+}
+
+.traditional-classic-light-blue .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+    background: #80a8bb;
+    border-color: #80a8bb;
+}
+
+.traditional-classic-light-blue .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #80a8bb;
+}
+
+.traditional-classic-light-blue .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+    background: #679aaf;
+    border-color: #679aaf;
+}
+
+.traditional-classic-light-blue .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #679aaf;
+}
+
+.traditional-classic-light-blue .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+    background: #6097ac;
+    border-color: #6097ac;
+}
+
+.traditional-classic-light-blue .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-light-blue .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+    border-color: #6097ac;
+}
+
+.traditional-classic-light-blue .social-icons-wrap label {
+    color: #291E1E;
+}
+
+.traditional-classic-light-blue .dot {
+    background: #6097ac;
+}
+
+@media print {
+    .traditional-classic-light-blue .profile-details p {
+        color: #5f6062 !important;
+    }
+    .traditional-classic-light-blue .profile-img-border {
+        border: 1px solid #74a4b6 !important;
+    }
+    .traditional-classic-light-blue h1 {
+        color: #6097ac !important;
+    }
+    .traditional-classic-light-blue h1 span {
+        color: #6097ac !important;
+    }
+    .traditional-classic-light-blue .contact {
+        color: #5f6062 !important;
+    }
+    .traditional-classic-light-blue .profile-details p.tagline {
+        color: #231f20 !important;
+    }
+    .traditional-classic-light-blue .title {
+        color: #7c8d97 !important;
+    }
+    .traditional-classic-light-blue h2 {
+        border-bottom: 3px solid #7c8d97 !important;
+    }
+    .traditional-classic-light-blue .accomplishment-list li,
+    .traditional-classic-light-blue .skill-list li,
+    .traditional-classic-light-blue .energises-list li,
+    .traditional-classic-light-blue .personality-list-one li,
+    .traditional-classic-light-blue .personality-list-two li,
+    .traditional-classic-light-blue .culture-list-left li,
+    .traditional-classic-light-blue .culture-list-right li .traditional-classic-light-blue .hire-me p {
+        color: #231f20 !important;
+    }
+    .traditional-classic-light-blue .accomplishment-list li:before,
+    .traditional-classic-light-blue .energises-list li:before,
+    .traditional-classic-light-blue .ideal-list li:before,
+    .traditional-classic-light-blue .value-list li:before {
+        background-color: #6097ac !important;
+    }
+    .traditional-classic-light-blue .each-value {
+        border-bottom: 2px solid #6097ac !important;
+        border-left: 2px solid #6097ac !important;
+    }
+    .traditional-classic-light-blue .value-circle {
+        background-color: #6097ac !important;
+    }
+    .traditional-classic-light-blue .personality-box {
+        border: 8px solid #6097ac !important;
+    }
+    .traditional-classic-light-blue .culture-type {
+        background-color: #83a9bc !important;
+        color: #fff !important;
+    }
+    .traditional-classic-light-blue .personality-list-one li,
+    .traditional-classic-light-blue .personality-list-two li {
+        border: 1px solid #83a9bc !important;
+    }
+    .traditional-classic-light-blue .personality-list-one li:before,
+    .traditional-classic-light-blue .personality-list-two li:before {
+        background: #83a9bc !important;
+        border: 1px solid #83a9bc !important;
+    }
+    .traditional-classic-light-blue .border-class-left:after {
+        border-bottom: 2px solid #83a9bc !important;
+        border-right: 2px solid #83a9bc !important;
+        border-top: 2px solid #83a9bc !important;
+    }
+    .traditional-classic-light-blue .border-class:after {
+        border-bottom: 2px solid #83a9bc !important;
+        border-left: 2px solid #83a9bc !important;
+        border-top: 2px solid #83a9bc !important;
+    }
+    .traditional-classic-light-blue .culture-type:before,
+    .traditional-classic-light-blue .culture-type:after {
+        background-color: #83a9bc !important;
+    }
+    .traditional-classic-light-blue .first-chkbox .Checkbox-visible {
+        border: 1px solid #e9eff3 !important;
+    }
+    .traditional-classic-light-blue .second-chkbox .Checkbox-visible {
+        border: 1px solid #c9d7e0 !important;
+    }
+    .traditional-classic-light-blue .third-chkbox .Checkbox-visible {
+        border: 1px solid #b4c8d4 !important;
+    }
+    .traditional-classic-light-blue .fourth-chkbox .Checkbox-visible {
+        border: 1px solid #90b1c3 !important;
+    }
+    .traditional-classic-light-blue .fifth-chkbox .Checkbox-visible {
+        border: 1px solid #80a8bb !important;
+    }
+    .traditional-classic-light-blue .sixth-chkbox .Checkbox-visible {
+        border: 1px solid #679aaf !important;
+    }
+    .traditional-classic-light-blue .last-four-chkbox .Checkbox-visible {
+        border: 1px solid #6097ac !important;
+    }
+    .traditional-classic-light-blue .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+        background: #e9eff3 !important;
+        border-color: #e9eff3 !important;
+    }
+    .traditional-classic-light-blue .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+        border-color: #e9eff3 !important;
+    }
+    .traditional-classic-light-blue .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+        background: #c9d7e0 !important;
+        border-color: #c9d7e0 !important;
+    }
+    .traditional-classic-light-blue .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+        border-color: #c9d7e0 !important;
+    }
+    .traditional-classic-light-blue .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+        background: #b4c8d4 !important;
+        border-color: #b4c8d4 !important;
+    }
+    .traditional-classic-light-blue .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+        border-color: #b4c8d4 !important;
+    }
+    .traditional-classic-light-blue .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+        background: #90b1c3 !important;
+        border-color: #90b1c3 !important;
+    }
+    .traditional-classic-light-blue .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #90b1c3 !important;
+    }
+    .traditional-classic-light-blue .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+        background: #80a8bb !important;
+        border-color: #80a8bb !important;
+    }
+    .traditional-classic-light-blue .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #80a8bb !important;
+    }
+    .traditional-classic-light-blue .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+        background: #679aaf !important;
+        border-color: #679aaf !important;
+    }
+    .traditional-classic-light-blue .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #679aaf !important;
+    }
+    .traditional-classic-light-blue .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+        background: #6097ac !important;
+        border-color: #6097ac !important;
+    }
+    .traditional-classic-light-blue .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-light-blue .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+        border-color: #6097ac !important;
+    }
+    .traditional-classic-light-blue .social-icons-wrap label {
+        color: #291E1E !important;
+    }
+    .traditional-classic-light-blue .dot {
+        background: #6097ac !important;
+    }
+}
+
+
+/*Traditional classic teal*/
+
+.traditional-classic-teal .profile-img-border {
+    border: 1px solid #7898a4;
+}
+.traditional-classic-teal .profile-details p {
+    color: #867b77;
+}
+.traditional-classic-teal h1 {
+    color: #7898a4;
+}
+.traditional-classic-teal h1 span {
+    color: #7898a4;
+}
+.traditional-classic-teal .contact {
+    color: #535455;
+}
+.traditional-classic-teal .profile-details p.tagline {
+    color: #535455;
+}
+.traditional-classic-teal .title {
+    color: #7898a4;
+}
+.traditional-classic-teal h2 {
+    border-bottom: 2.5px solid #7898a4;
+}
+.traditional-classic-teal .accomplishment-list li,
+.traditional-classic-teal .skill-list li,
+.traditional-classic-teal .energises-list li,
+.traditional-classic-teal .personality-list-one li,
+.traditional-classic-teal .personality-list-two li,
+.traditional-classic-teal .culture-list-left li,
+.traditional-classic-teal .culture-list-right li .traditional-classic-teal .hire-me p {
+    color: #7c7d7e;
+}
+.traditional-classic-teal .accomplishment-list li:before,
+.traditional-classic-teal .energises-list li:before,
+.traditional-classic-teal .ideal-list li:before,
+.traditional-classic-teal .value-list li:before {
+    background-color: #ccac71;
+}
+.traditional-classic-teal .each-value {
+    border-bottom: 2px solid #6b605e;
+    border-left: 2px solid #6b605e;
+}
+.traditional-classic-teal .value-circle {
+    background-color: #6b605e;
+}
+.traditional-classic-teal .personality-box {
+    border: 8px solid #6b605e;
+}
+.traditional-classic-teal .culture-type {
+    background-color: #6b605e;
+    color: #fff;
+}
+.traditional-classic-teal .personality-list-one li,
+.traditional-classic-teal .personality-list-two li {
+    border: 1px solid #6b605e;
+}
+.traditional-classic-teal .personality-list-one li:before,
+.traditional-classic-teal .personality-list-two li:before {
+    background: #6b605e;
+    border: 1px solid #6b605e;
+}
+.traditional-classic-teal .border-class-left:after {
+    border-bottom: 1px solid #6b605e;
+    border-right: 1px solid #6b605e;
+    border-top: 1px solid #6b605e;
+}
+.traditional-classic-teal .border-class:after {
+    border-bottom: 1px solid #6b605e;
+    border-left: 1px solid #6b605e;
+    border-top: 1px solid #6b605e;
+}
+.traditional-classic-teal .culture-type:before,
+.traditional-classic-teal .culture-type:after {
+    background-color: #6b605e;
+}
+.traditional-classic-teal .first-chkbox .Checkbox-visible {
+    border: 1px solid #f9f4ea;
+}
+.traditional-classic-teal .second-chkbox .Checkbox-visible {
+    border: 1px solid #eee2cb;
+}
+.traditional-classic-teal .third-chkbox .Checkbox-visible {
+    border: 1px solid #e7d6b5;
+}
+.traditional-classic-teal .fourth-chkbox .Checkbox-visible {
+    border: 1px solid #dbc396;
+}
+.traditional-classic-teal .fifth-chkbox .Checkbox-visible {
+    border: 1px solid #d6bb89;
+}
+.traditional-classic-teal .sixth-chkbox .Checkbox-visible {
+    border: 1px solid #ceaf75;
+}
+.traditional-classic-teal .last-four-chkbox .Checkbox-visible {
+    border: 1px solid #ccac71;
+}
+.traditional-classic-teal .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+    background: #f9f4ea;
+    border-color: #f9f4ea;
+}
+.traditional-classic-teal .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+    border-color: #f9f4ea;
+}
+.traditional-classic-teal .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+    background: #eee2cb;
+    border-color: #eee2cb;
+}
+.traditional-classic-teal .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+    border-color: #eee2cb;
+}
+.traditional-classic-teal .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+    background: #e7d6b5;
+    border-color: #e7d6b5;
+}
+.traditional-classic-teal .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+    border-color: #e7d6b5;
+}
+.traditional-classic-teal .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+    background: #dbc396;
+    border-color: #dbc396;
+}
+.traditional-classic-teal .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #dbc396;
+}
+.traditional-classic-teal .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+    background: #d6bb89;
+    border-color: #d6bb89;
+}
+.traditional-classic-teal .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #d6bb89;
+}
+.traditional-classic-teal .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+    background: #ceaf75;
+    border-color: #ceaf75;
+}
+.traditional-classic-teal .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #ceaf75;
+}
+.traditional-classic-teal .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+    background: #ccac71;
+    border-color: #ccac71;
+}
+.traditional-classic-teal .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-classic-teal .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+    border-color: #ccac71;
+}
+.traditional-classic-teal .social-icons-wrap label {
+    color: #7898a4;
+}
+.traditional-classic-teal .dot {
+    background: #ccac71;
+}
+@media print {
+    .traditional-classic-teal .profile-img-border {
+        border: 1px solid #7898a4 !important;
+    }
+    .traditional-classic-teal .profile-details p {
+        color: #867b77 !important;
+    }
+    .traditional-classic-teal h1 {
+        color: #7898a4 !important;
+    }
+    .traditional-classic-teal h1 span {
+        color: #7898a4 !important;
+    }
+    .traditional-classic-teal .contact {
+        color: #535455 !important;
+    }
+    .traditional-classic-teal .profile-details p.tagline {
+        color: #535455 !important;
+    }
+    .traditional-classic-teal .title {
+        color: #7898a4 !important;
+    }
+    .traditional-classic-teal h2 {
+        border-bottom: 2.5px solid #7898a4 !important;
+    }
+    .traditional-classic-teal .accomplishment-list li,
+    .traditional-classic-teal .skill-list li,
+    .traditional-classic-teal .energises-list li,
+    .traditional-classic-teal .personality-list-one li,
+    .traditional-classic-teal .personality-list-two li,
+    .traditional-classic-teal .culture-list-left li,
+    .traditional-classic-teal .culture-list-right li .traditional-classic-teal .hire-me p {
+        color: #7c7d7e !important;
+    }
+    .traditional-classic-teal .accomplishment-list li:before,
+    .traditional-classic-teal .energises-list li:before,
+    .traditional-classic-teal .ideal-list li:before,
+    .traditional-classic-teal .value-list li:before {
+        background-color: #ccac71 !important;
+    }
+    .traditional-classic-teal .each-value {
+        border-bottom: 2px solid #6b605e !important;
+        border-left: 2px solid #6b605e !important;
+    }
+    .traditional-classic-teal .value-circle {
+        background-color: #6b605e !important;
+    }
+    .traditional-classic-teal .personality-box {
+        border: 8px solid #6b605e !important;
+    }
+    .traditional-classic-teal .culture-type {
+        background-color: #6b605e !important;
+        color: #fff !important;
+    }
+    .traditional-classic-teal .personality-list-one li,
+    .traditional-classic-teal .personality-list-two li {
+        border: 1px solid #6b605e !important;
+    }
+    .traditional-classic-teal .personality-list-one li:before,
+    .traditional-classic-teal .personality-list-two li:before {
+        background: #6b605e !important;
+        border: 1px solid #6b605e !important;
+    }
+    .traditional-classic-teal .border-class-left:after {
+        border-bottom: 1px solid #6b605e !important;
+        border-right: 1px solid #6b605e !important;
+        border-top: 1px solid #6b605e !important;
+    }
+    .traditional-classic-teal .border-class:after {
+        border-bottom: 1px solid #6b605e !important;
+        border-left: 1px solid #6b605e !important;
+        border-top: 1px solid #6b605e !important;
+    }
+    .traditional-classic-teal .culture-type:before,
+    .traditional-classic-teal .culture-type:after {
+        background-color: #6b605e !important;
+    }
+    .traditional-classic-teal .first-chkbox .Checkbox-visible {
+        border: 1px solid #f9f4ea !important;
+    }
+    .traditional-classic-teal .second-chkbox .Checkbox-visible {
+        border: 1px solid #eee2cb !important;
+    }
+    .traditional-classic-teal .third-chkbox .Checkbox-visible {
+        border: 1px solid #e7d6b5 !important;
+    }
+    .traditional-classic-teal .fourth-chkbox .Checkbox-visible {
+        border: 1px solid #dbc396 !important;
+    }
+    .traditional-classic-teal .fifth-chkbox .Checkbox-visible {
+        border: 1px solid #d6bb89 !important;
+    }
+    .traditional-classic-teal .sixth-chkbox .Checkbox-visible {
+        border: 1px solid #ceaf75 !important;
+    }
+    .traditional-classic-teal .last-four-chkbox .Checkbox-visible {
+        border: 1px solid #ccac71 !important;
+    }
+    .traditional-classic-teal .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+        background: #f9f4ea !important;
+        border-color: #f9f4ea !important;
+    }
+    .traditional-classic-teal .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+        border-color: #f9f4ea !important;
+    }
+    .traditional-classic-teal .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+        background: #eee2cb !important;
+        border-color: #eee2cb !important;
+    }
+    .traditional-classic-teal .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+        border-color: #eee2cb !important;
+    }
+    .traditional-classic-teal .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+        background: #e7d6b5 !important;
+        border-color: #e7d6b5 !important;
+    }
+    .traditional-classic-teal .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+        border-color: #e7d6b5 !important;
+    }
+    .traditional-classic-teal .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+        background: #dbc396 !important;
+        border-color: #dbc396 !important;
+    }
+    .traditional-classic-teal .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #dbc396 !important;
+    }
+    .traditional-classic-teal .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+        background: #d6bb89 !important;
+        border-color: #d6bb89 !important;
+    }
+    .traditional-classic-teal .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #d6bb89 !important;
+    }
+    .traditional-classic-teal .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+        background: #ceaf75 !important;
+        border-color: #ceaf75 !important;
+    }
+    .traditional-classic-teal .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #ceaf75 !important;
+    }
+    .traditional-classic-teal .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+        background: #ccac71 !important;
+        border-color: #ccac71 !important;
+    }
+    .traditional-classic-teal .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-classic-teal .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+        border-color: #ccac71 !important;
+    }
+    .traditional-classic-teal .social-icons-wrap label {
+        color: #7898a4 !important;
+    }
+    .traditional-classic-teal .dot {
+        background: #ccac71 !important;
+    }
+}
+
+
+/*Traditional conservative beige*/
+
+.traditional-beige .profile-img-border {
+    border: 1px solid #476d75;
+}
+
+.traditional-beige .profile-details p {
+    color: #948884;
+}
+
+.traditional-beige h1 {
+    color: #af9a73;
+}
+
+.traditional-beige h1 span {
+    color: #af9a73;
+}
+
+.traditional-beige .contact {
+    color: #948884;
+}
+
+.traditional-beige .profile-details p.tagline {
+    color: #7b706d;
+}
+
+.traditional-beige .title {
+    color: #af9a73;
+}
+
+.traditional-beige h2 {
+    border-bottom: 3px solid #af9a73;
+}
+
+.traditional-beige .accomplishment-list li,
+.traditional-beige .skill-list li,
+.traditional-beige .energises-list li,
+.traditional-beige .personality-list-one li,
+.traditional-beige .personality-list-two li,
+.traditional-beige .culture-list-left li,
+.traditional-beige .culture-list-right li .traditional-beige .hire-me p {
+    color: #7b706d;
+}
+
+.traditional-beige .accomplishment-list li:before,
+.traditional-beige .energises-list li:before,
+.traditional-beige .ideal-list li:before,
+.traditional-beige .value-list li:before {
+    background-color: #476d75;
+}
+
+.traditional-beige .each-value {
+    border-bottom: 2px solid #476d75;
+    border-left: 2px solid #476d75;
+}
+
+.traditional-beige .value-circle {
+    background-color: #476d75;
+}
+
+.traditional-beige .personality-box {
+    border: 8px solid #476d75;
+}
+
+.traditional-beige .culture-type {
+    background-color: #476d75;
+    color: #fff;
+}
+
+.traditional-beige .personality-list-one li,
+.traditional-beige .personality-list-two li {
+    border: 1px solid #476d75;
+}
+
+.traditional-beige .personality-list-one li:before,
+.traditional-beige .personality-list-two li:before {
+    background: #476d75;
+    border: 1px solid #476d75;
+}
+
+.traditional-beige .border-class-left:after {
+    border-bottom: 2px solid #476d75;
+    border-right: 2px solid #476d75;
+    border-top: 2px solid #476d75;
+}
+
+.traditional-beige .border-class:after {
+    border-bottom: 2px solid #476d75;
+    border-left: 2px solid #476d75;
+    border-top: 2px solid #476d75;
+}
+
+.traditional-beige .culture-type:before,
+.traditional-beige .culture-type:after {
+    background-color: #476d75;
+}
+
+.traditional-beige .first-chkbox .Checkbox-visible {
+    border: 1px solid #e3e5e7;
+}
+
+.traditional-beige .second-chkbox .Checkbox-visible {
+    border: 1px solid #bdc3c6;
+}
+
+.traditional-beige .third-chkbox .Checkbox-visible {
+    border: 1px solid #a3aeb3;
+}
+
+.traditional-beige .fourth-chkbox .Checkbox-visible {
+    border: 1px solid #7e8f95;
+}
+
+.traditional-beige .fifth-chkbox .Checkbox-visible {
+    border: 1px solid #6c8289;
+}
+
+.traditional-beige .sixth-chkbox .Checkbox-visible {
+    border: 1px solid #4f7178;
+}
+
+.traditional-beige .last-four-chkbox .Checkbox-visible {
+    border: 1px solid #476d75;
+}
+
+.traditional-beige .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+    background: #e3e5e7;
+    border-color: #e3e5e7;
+}
+
+.traditional-beige .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-beige .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-beige .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-beige .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+    border-color: #e3e5e7;
+}
+
+.traditional-beige .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+    background: #bdc3c6;
+    border-color: #bdc3c6;
+}
+
+.traditional-beige .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-beige .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-beige .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-beige .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+    border-color: #bdc3c6;
+}
+
+.traditional-beige .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+    background: #a3aeb3;
+    border-color: #a3aeb3;
+}
+
+.traditional-beige .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-beige .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-beige .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-beige .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+    border-color: #a3aeb3;
+}
+
+.traditional-beige .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+    background: #7e8f95;
+    border-color: #7e8f95;
+}
+
+.traditional-beige .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-beige .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-beige .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-beige .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #7e8f95;
+}
+
+.traditional-beige .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+    background: #6c8289;
+    border-color: #6c8289;
+}
+
+.traditional-beige .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-beige .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-beige .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-beige .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #6c8289;
+}
+
+.traditional-beige .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+    background: #4f7178;
+    border-color: #4f7178;
+}
+
+.traditional-beige .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-beige .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-beige .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-beige .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #4f7178;
+}
+
+.traditional-beige .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+    background: #476d75;
+    border-color: #476d75;
+}
+
+.traditional-beige .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-beige .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-beige .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-beige .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+    border-color: #476d75;
+}
+
+.traditional-beige .social-icons-wrap label {
+    color: #7b706d;
+}
+
+.traditional-beige .dot {
+    background: #476d75;
+}
+
+@media print {
+    .traditional-beige .profile-img-border {
+        border: 1px solid #476d75 !important;
+    }
+    .traditional-beige .profile-details p {
+        color: #948884 !important;
+    }
+    .traditional-beige h1 {
+        color: #af9a73 !important;
+    }
+    .traditional-beige h1 span {
+        color: #af9a73 !important;
+    }
+    .traditional-beige .contact {
+        color: #948884 !important;
+    }
+    .traditional-beige .profile-details p.tagline {
+        color: #7b706d !important;
+    }
+    .traditional-beige .title {
+        color: #af9a73 !important;
+    }
+    .traditional-beige h2 {
+        border-bottom: 3px solid #af9a73 !important;
+    }
+    .traditional-beige .accomplishment-list li,
+    .traditional-beige .skill-list li,
+    .traditional-beige .energises-list li,
+    .traditional-beige .personality-list-one li,
+    .traditional-beige .personality-list-two li,
+    .traditional-beige .culture-list-left li,
+    .traditional-beige .culture-list-right li .traditional-beige .hire-me p {
+        color: #7b706d !important;
+    }
+    .traditional-beige .accomplishment-list li:before,
+    .traditional-beige .energises-list li:before,
+    .traditional-beige .ideal-list li:before,
+    .traditional-beige .value-list li:before {
+        background-color: #476d75 !important;
+    }
+    .traditional-beige .each-value {
+        border-bottom: 2px solid #476d75 !important;
+        border-left: 2px solid #476d75 !important;
+    }
+    .traditional-beige .value-circle {
+        background-color: #476d75 !important;
+    }
+    .traditional-beige .personality-box {
+        border: 8px solid #476d75 !important;
+    }
+    .traditional-beige .culture-type {
+        background-color: #476d75 !important;
+        color: #fff !important;
+    }
+    .traditional-beige .personality-list-one li,
+    .traditional-beige .personality-list-two li {
+        border: 1px solid #476d75 !important;
+    }
+    .traditional-beige .personality-list-one li:before,
+    .traditional-beige .personality-list-two li:before {
+        background: #476d75 !important;
+        border: 1px solid #476d75 !important;
+    }
+    .traditional-beige .border-class-left:after {
+        border-bottom: 2px solid #476d75 !important;
+        border-right: 2px solid #476d75 !important;
+        border-top: 2px solid #476d75 !important;
+    }
+    .traditional-beige .border-class:after {
+        border-bottom: 2px solid #476d75 !important;
+        border-left: 2px solid #476d75 !important;
+        border-top: 2px solid #476d75 !important;
+    }
+    .traditional-beige .culture-type:before,
+    .traditional-beige .culture-type:after {
+        background-color: #476d75 !important;
+    }
+    .traditional-beige .first-chkbox .Checkbox-visible {
+        border: 1px solid #e3e5e7 !important;
+    }
+    .traditional-beige .second-chkbox .Checkbox-visible {
+        border: 1px solid #bdc3c6 !important;
+    }
+    .traditional-beige .third-chkbox .Checkbox-visible {
+        border: 1px solid #a3aeb3 !important;
+    }
+    .traditional-beige .fourth-chkbox .Checkbox-visible {
+        border: 1px solid #7e8f95 !important;
+    }
+    .traditional-beige .fifth-chkbox .Checkbox-visible {
+        border: 1px solid #6c8289 !important;
+    }
+    .traditional-beige .sixth-chkbox .Checkbox-visible {
+        border: 1px solid #4f7178 !important;
+    }
+    .traditional-beige .last-four-chkbox .Checkbox-visible {
+        border: 1px solid #476d75 !important;
+    }
+    .traditional-beige .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+        background: #e3e5e7 !important;
+        border-color: #e3e5e7 !important;
+    }
+    .traditional-beige .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-beige .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-beige .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-beige .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+        border-color: #e3e5e7 !important;
+    }
+    .traditional-beige .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+        background: #bdc3c6 !important;
+        border-color: #bdc3c6 !important;
+    }
+    .traditional-beige .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-beige .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-beige .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-beige .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+        border-color: #bdc3c6 !important;
+    }
+    .traditional-beige .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+        background: #a3aeb3 !important;
+        border-color: #a3aeb3 !important;
+    }
+    .traditional-beige .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-beige .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-beige .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-beige .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+        border-color: #a3aeb3 !important;
+    }
+    .traditional-beige .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+        background: #7e8f95 !important;
+        border-color: #7e8f95 !important;
+    }
+    .traditional-beige .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-beige .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-beige .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-beige .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #7e8f95 !important;
+    }
+    .traditional-beige .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+        background: #6c8289 !important;
+        border-color: #6c8289 !important;
+    }
+    .traditional-beige .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-beige .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-beige .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-beige .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #6c8289 !important;
+    }
+    .traditional-beige .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+        background: #4f7178 !important;
+        border-color: #4f7178 !important;
+    }
+    .traditional-beige .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-beige .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-beige .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-beige .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #4f7178 !important;
+    }
+    .traditional-beige .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+        background: #476d75 !important;
+        border-color: #476d75 !important;
+    }
+    .traditional-beige .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-beige .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-beige .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-beige .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+        border-color: #476d75 !important;
+    }
+    .traditional-beige .social-icons-wrap label {
+        color: #7b706d !important;
+    }
+    .traditional-beige .dot {
+        background: #476d75 !important;
+    }
+    .traditional-beige .dot {
+        background: #476d75;
+    }
+}
+
+
+/* Traditional conservative blue*/
+
+.traditional-blue .profile-img-border {
+    border: 1px solid #e3785c;
+}
+
+.traditional-blue .profile-details p {
+    color: #a4cd95;
+}
+
+.traditional-blue h1 {
+    color: #5d85b7;
+}
+
+.traditional-blue h1 span {
+    color: #5d85b7;
+}
+
+.traditional-blue .contact {
+    color: #535455;
+}
+
+.traditional-blue .profile-details p.tagline {
+    color: #535455;
+}
+
+.traditional-blue .title {
+    color: #5d85b7;
+}
+
+.traditional-blue h2 {
+    border-bottom: 3px solid #5d85b7;
+}
+
+.traditional-blue .accomplishment-list li,
+.traditional-blue .skill-list li,
+.traditional-blue .energises-list li,
+.traditional-blue .personality-list-one li,
+.traditional-blue .personality-list-two li,
+.traditional-blue .culture-list-left li,
+.traditional-blue .culture-list-right li .traditional-blue .hire-me p {
+    color: #535455;
+}
+
+.traditional-blue .accomplishment-list li:before,
+.traditional-blue .energises-list li:before,
+.traditional-blue .ideal-list li:before,
+.traditional-blue .value-list li:before {
+    background-color: #e3785c;
+}
+
+.traditional-blue .each-value {
+    border-bottom: 2px solid #8bc179;
+    border-left: 2px solid #8bc179;
+}
+
+.traditional-blue .value-circle {
+    background-color: #8bc179;
+}
+
+.traditional-blue .personality-box {
+    border: 8px solid #8bc179;
+}
+
+.traditional-blue .culture-type {
+    background-color: #8bc179;
+    color: #fff;
+}
+
+.traditional-blue .personality-list-one li,
+.traditional-blue .personality-list-two li {
+    border: 1px solid #8bc179;
+}
+
+.traditional-blue .personality-list-one li:before,
+.traditional-blue .personality-list-two li:before {
+    background: #8bc179;
+    border: 1px solid #8bc179;
+}
+
+.traditional-blue .border-class-left:after {
+    border-bottom: 2px solid #8bc179;
+    border-right: 2px solid #8bc179;
+    border-top: 2px solid #8bc179;
+}
+
+.traditional-blue .border-class:after {
+    border-bottom: 2px solid #8bc179;
+    border-left: 2px solid #8bc179;
+    border-top: 2px solid #8bc179;
+}
+
+.traditional-blue .culture-type:before,
+.traditional-blue .culture-type:after {
+    background-color: #8bc179;
+}
+
+.traditional-blue .first-chkbox .Checkbox-visible {
+    border: 1px solid #fbede5;
+}
+
+.traditional-blue .second-chkbox .Checkbox-visible {
+    border: 1px solid #f5d1c0;
+}
+
+.traditional-blue .third-chkbox .Checkbox-visible {
+    border: 1px solid #f1bda8;
+}
+
+.traditional-blue .fourth-chkbox .Checkbox-visible {
+    border: 1px solid #ea9f84;
+}
+
+.traditional-blue .fifth-chkbox .Checkbox-visible {
+    border: 1px solid #e79175;
+}
+
+.traditional-blue .sixth-chkbox .Checkbox-visible {
+    border: 1px solid #e47d60;
+}
+
+.traditional-blue .last-four-chkbox .Checkbox-visible {
+    border: 1px solid #e3785c;
+}
+
+.traditional-blue .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+    background: #fbede5;
+    border-color: #fbede5;
+}
+
+.traditional-blue .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-blue .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-blue .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-blue .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+    border-color: #fbede5;
+}
+
+.traditional-blue .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+    background: #f5d1c0;
+    border-color: #f5d1c0;
+}
+
+.traditional-blue .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-blue .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-blue .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-blue .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+    border-color: #f5d1c0;
+}
+
+.traditional-blue .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+    background: #f1bda8;
+    border-color: #f1bda8;
+}
+
+.traditional-blue .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-blue .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-blue .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-blue .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+    border-color: #f1bda8;
+}
+
+.traditional-blue .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+    background: #ea9f84;
+    border-color: #ea9f84;
+}
+
+.traditional-blue .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-blue .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-blue .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-blue .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #ea9f84;
+}
+
+.traditional-blue .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+    background: #e79175;
+    border-color: #e79175;
+}
+
+.traditional-blue .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-blue .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-blue .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-blue .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #e79175;
+}
+
+.traditional-blue .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+    background: #e47d60;
+    border-color: #e47d60;
+}
+
+.traditional-blue .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-blue .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-blue .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-blue .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #e47d60;
+}
+
+.traditional-blue .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+    background: #e3785c;
+    border-color: #e3785c;
+}
+
+.traditional-blue .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-blue .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-blue .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-blue .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+    border-color: #e3785c;
+}
+
+.traditional-blue .social-icons-wrap label {
+    color: #5095E5;
+}
+
+.traditional-blue .dot {
+    background: #e3785c;
+}
+
+@media print {
+    .traditional-blue .profile-img-border {
+        border: 1px solid #e3785c !important;
+    }
+    .traditional-blue .profile-details p {
+        color: #a4cd95 !important;
+    }
+    .traditional-blue h1 {
+        color: #5d85b7 !important;
+    }
+    .traditional-blue h1 span {
+        color: #5d85b7 !important;
+    }
+    .traditional-blue .contact {
+        color: #535455 !important;
+    }
+    .traditional-blue .profile-details p.tagline {
+        color: #535455 !important;
+    }
+    .traditional-blue .title {
+        color: #5d85b7 !important;
+    }
+    .traditional-blue h2 {
+        border-bottom: 3px solid #5d85b7 !important;
+    }
+    .traditional-blue .accomplishment-list li,
+    .traditional-blue .skill-list li,
+    .traditional-blue .energises-list li,
+    .traditional-blue .personality-list-one li,
+    .traditional-blue .personality-list-two li,
+    .traditional-blue .culture-list-left li,
+    .traditional-blue .culture-list-right li .traditional-blue .hire-me p {
+        color: #535455 !important;
+    }
+    .traditional-blue .accomplishment-list li:before,
+    .traditional-blue .energises-list li:before,
+    .traditional-blue .ideal-list li:before,
+    .traditional-blue .value-list li:before {
+        background-color: #e3785c !important;
+    }
+    .traditional-blue .each-value {
+        border-bottom: 2px solid #8bc179 !important;
+        border-left: 2px solid #8bc179 !important;
+    }
+    .traditional-blue .value-circle {
+        background-color: #8bc179 !important;
+    }
+    .traditional-blue .personality-box {
+        border: 8px solid #8bc179 !important;
+    }
+    .traditional-blue .culture-type {
+        background-color: #8bc179 !important;
+        color: #fff !important;
+    }
+    .traditional-blue .personality-list-one li,
+    .traditional-blue .personality-list-two li {
+        border: 1px solid #8bc179 !important;
+    }
+    .traditional-blue .personality-list-one li:before,
+    .traditional-blue .personality-list-two li:before {
+        background: #8bc179 !important;
+        border: 1px solid #8bc179 !important;
+    }
+    .traditional-blue .border-class-left:after {
+        border-bottom: 2px solid #8bc179 !important;
+        border-right: 2px solid #8bc179 !important;
+        border-top: 2px solid #8bc179 !important;
+    }
+    .traditional-blue .border-class:after {
+        border-bottom: 2px solid #8bc179 !important;
+        border-left: 2px solid #8bc179 !important;
+        border-top: 2px solid #8bc179 !important;
+    }
+    .traditional-blue .culture-type:before,
+    .traditional-blue .culture-type:after {
+        background-color: #8bc179 !important;
+    }
+    .traditional-blue .first-chkbox .Checkbox-visible {
+        border: 1px solid #fbede5 !important;
+    }
+    .traditional-blue .second-chkbox .Checkbox-visible {
+        border: 1px solid #f5d1c0 !important;
+    }
+    .traditional-blue .third-chkbox .Checkbox-visible {
+        border: 1px solid #f1bda8 !important;
+    }
+    .traditional-blue .fourth-chkbox .Checkbox-visible {
+        border: 1px solid #ea9f84 !important;
+    }
+    .traditional-blue .fifth-chkbox .Checkbox-visible {
+        border: 1px solid #e79175 !important;
+    }
+    .traditional-blue .sixth-chkbox .Checkbox-visible {
+        border: 1px solid #e47d60 !important;
+    }
+    .traditional-blue .last-four-chkbox .Checkbox-visible {
+        border: 1px solid #e3785c !important;
+    }
+    .traditional-blue .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+        background: #fbede5 !important;
+        border-color: #fbede5 !important;
+    }
+    .traditional-blue .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-blue .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-blue .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-blue .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+        border-color: #fbede5 !important;
+    }
+    .traditional-blue .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+        background: #f5d1c0 !important;
+        border-color: #f5d1c0 !important;
+    }
+    .traditional-blue .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-blue .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-blue .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-blue .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+        border-color: #f5d1c0 !important;
+    }
+    .traditional-blue .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+        background: #f1bda8 !important;
+        border-color: #f1bda8 !important;
+    }
+    .traditional-blue .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-blue .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-blue .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-blue .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+        border-color: #f1bda8 !important;
+    }
+    .traditional-blue .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+        background: #ea9f84 !important;
+        border-color: #ea9f84 !important;
+    }
+    .traditional-blue .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-blue .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-blue .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-blue .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #ea9f84 !important;
+    }
+    .traditional-blue .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+        background: #e79175 !important;
+        border-color: #e79175 !important;
+    }
+    .traditional-blue .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-blue .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-blue .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-blue .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #e79175 !important;
+    }
+    .traditional-blue .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+        background: #e47d60 !important;
+        border-color: #e47d60 !important;
+    }
+    .traditional-blue .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-blue .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-blue .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-blue .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #e47d60 !important;
+    }
+    .traditional-blue .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+        background: #e3785c !important;
+        border-color: #e3785c !important;
+    }
+    .traditional-blue .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-blue .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-blue .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-blue .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+        border-color: #e3785c !important;
+    }
+    .traditional-blue .social-icons-wrap label {
+        color: #5095E5 !important;
+    }
+    .traditional-blue .dot {
+        background: #e3785c !important;
+    }
+}
+
+
+/* Traditional conservative teal */
+
+.traditional-teal .profile-img-border {
+    border: 1px solid #7898a4;
+}
+
+.traditional-teal .profile-details p {
+    color: #867b77;
+}
+
+.traditional-teal h1 {
+    color: #7898a4;
+}
+
+.traditional-teal h1 span {
+    color: #7898a4;
+}
+
+.traditional-teal .contact {
+    color: #535455;
+}
+
+.traditional-teal .profile-details p.tagline {
+    color: #535455;
+}
+
+.traditional-teal .title {
+    color: #7898a4;
+}
+
+.traditional-teal h2 {
+    border-bottom: 3px solid #7898a4;
+}
+
+.traditional-teal .accomplishment-list li,
+.traditional-teal .skill-list li,
+.traditional-teal .energises-list li,
+.traditional-teal .personality-list-one li,
+.traditional-teal .personality-list-two li,
+.traditional-teal .culture-list-left li,
+.traditional-teal .culture-list-right li .traditional-teal .hire-me p {
+    color: #7c7d7e;
+}
+
+.traditional-teal .accomplishment-list li:before,
+.traditional-teal .energises-list li:before,
+.traditional-teal .ideal-list li:before,
+.traditional-teal .value-list li:before {
+    background-color: #ccac71;
+}
+
+.traditional-teal .each-value {
+    border-bottom: 2px solid #6b605e;
+    border-left: 2px solid #6b605e;
+}
+
+.traditional-teal .value-circle {
+    background-color: #6b605e;
+}
+
+.traditional-teal .personality-box {
+    border: 8px solid #6b605e;
+}
+
+.traditional-teal .culture-type {
+    background-color: #6b605e;
+    color: #fff;
+}
+
+.traditional-teal .personality-list-one li,
+.traditional-teal .personality-list-two li {
+    border: 1px solid #6b605e;
+}
+
+.traditional-teal .personality-list-one li:before,
+.traditional-teal .personality-list-two li:before {
+    background: #6b605e;
+    border: 1px solid #6b605e;
+}
+
+.traditional-teal .border-class-left:after {
+    border-bottom: 2px solid #6b605e;
+    border-right: 2px solid #6b605e;
+    border-top: 2px solid #6b605e;
+}
+
+.traditional-teal .border-class:after {
+    border-bottom: 2px solid #6b605e;
+    border-left: 2px solid #6b605e;
+    border-top: 2px solid #6b605e;
+}
+
+.traditional-teal .culture-type:before,
+.traditional-teal .culture-type:after {
+    background-color: #6b605e;
+}
+
+.traditional-teal .first-chkbox .Checkbox-visible {
+    border: 1px solid #f9f4ea;
+}
+
+.traditional-teal .second-chkbox .Checkbox-visible {
+    border: 1px solid #eee2cb;
+}
+
+.traditional-teal .third-chkbox .Checkbox-visible {
+    border: 1px solid #e7d6b5;
+}
+
+.traditional-teal .fourth-chkbox .Checkbox-visible {
+    border: 1px solid #dbc396;
+}
+
+.traditional-teal .fifth-chkbox .Checkbox-visible {
+    border: 1px solid #d6bb89;
+}
+
+.traditional-teal .sixth-chkbox .Checkbox-visible {
+    border: 1px solid #ceaf75;
+}
+
+.traditional-teal .last-four-chkbox .Checkbox-visible {
+    border: 1px solid #ccac71;
+}
+
+.traditional-teal .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+    background: #f9f4ea;
+    border-color: #f9f4ea;
+}
+
+.traditional-teal .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-teal .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+.traditional-teal .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-teal .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+    border-color: #f9f4ea;
+}
+
+.traditional-teal .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+    background: #eee2cb;
+    border-color: #eee2cb;
+}
+
+.traditional-teal .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-teal .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+.traditional-teal .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-teal .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+    border-color: #eee2cb;
+}
+
+.traditional-teal .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+    background: #e7d6b5;
+    border-color: #e7d6b5;
+}
+
+.traditional-teal .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-teal .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+.traditional-teal .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-teal .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+    border-color: #e7d6b5;
+}
+
+.traditional-teal .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+    background: #dbc396;
+    border-color: #dbc396;
+}
+
+.traditional-teal .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-teal .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+.traditional-teal .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-teal .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #dbc396;
+}
+
+.traditional-teal .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+    background: #d6bb89;
+    border-color: #d6bb89;
+}
+
+.traditional-teal .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-teal .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+.traditional-teal .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-teal .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #d6bb89;
+}
+
+.traditional-teal .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+    background: #ceaf75;
+    border-color: #ceaf75;
+}
+
+.traditional-teal .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-teal .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+.traditional-teal .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-teal .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+    border-color: #ceaf75;
+}
+
+.traditional-teal .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+    background: #ccac71;
+    border-color: #ccac71;
+}
+
+.traditional-teal .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-teal .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+.traditional-teal .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+.traditional-teal .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+    border-color: #ccac71;
+}
+
+.traditional-teal .social-icons-wrap label {
+    color: #7898a4;
+}
+
+.traditional-teal .dot {
+    background: #ccac71;
+}
+
+@media print {
+    .traditional-teal .profile-img-border {
+        border: 1px solid #7898a4 !important;
+    }
+    .traditional-teal .profile-details p {
+        color: #867b77 !important;
+    }
+    .traditional-teal h1 {
+        color: #7898a4 !important;
+    }
+    .traditional-teal h1 span {
+        color: #7898a4 !important;
+    }
+    .traditional-teal .contact {
+        color: #535455 !important;
+    }
+    .traditional-teal .profile-details p.tagline {
+        color: #535455 !important;
+    }
+    .traditional-teal .title {
+        color: #7898a4 !important;
+    }
+    .traditional-teal h2 {
+        border-bottom: 3px solid #7898a4 !important;
+    }
+    .traditional-teal .accomplishment-list li,
+    .traditional-teal .skill-list li,
+    .traditional-teal .energises-list li,
+    .traditional-teal .personality-list-one li,
+    .traditional-teal .personality-list-two li,
+    .traditional-teal .culture-list-left li,
+    .traditional-teal .culture-list-right li .traditional-teal .hire-me p {
+        color: #7c7d7e !important;
+    }
+    .traditional-teal .accomplishment-list li:before,
+    .traditional-teal .energises-list li:before,
+    .traditional-teal .ideal-list li:before,
+    .traditional-teal .value-list li:before {
+        background-color: #ccac71 !important;
+    }
+    .traditional-teal .each-value {
+        border-bottom: 2px solid #6b605e !important;
+        border-left: 2px solid #6b605e !important;
+    }
+    .traditional-teal .value-circle {
+        background-color: #6b605e !important;
+    }
+    .traditional-teal .personality-box {
+        border: 8px solid #6b605e !important;
+    }
+    .traditional-teal .culture-type {
+        background-color: #6b605e !important;
+        color: #fff !important;
+    }
+    .traditional-teal .personality-list-one li,
+    .traditional-teal .personality-list-two li {
+        border: 1px solid #6b605e !important;
+    }
+    .traditional-teal .personality-list-one li:before,
+    .traditional-teal .personality-list-two li:before {
+        background: #6b605e !important;
+        border: 1px solid #6b605e !important;
+    }
+    .traditional-teal .border-class-left:after {
+        border-bottom: 2px solid #6b605e !important;
+        border-right: 2px solid #6b605e !important;
+        border-top: 2px solid #6b605e !important;
+    }
+    .traditional-teal .border-class:after {
+        border-bottom: 2px solid #6b605e !important;
+        border-left: 2px solid #6b605e !important;
+        border-top: 2px solid #6b605e !important;
+    }
+    .traditional-teal .culture-type:before,
+    .traditional-teal .culture-type:after {
+        background-color: #6b605e !important;
+    }
+    .traditional-teal .first-chkbox .Checkbox-visible {
+        border: 1px solid #f9f4ea !important;
+    }
+    .traditional-teal .second-chkbox .Checkbox-visible {
+        border: 1px solid #eee2cb !important;
+    }
+    .traditional-teal .third-chkbox .Checkbox-visible {
+        border: 1px solid #e7d6b5 !important;
+    }
+    .traditional-teal .fourth-chkbox .Checkbox-visible {
+        border: 1px solid #dbc396 !important;
+    }
+    .traditional-teal .fifth-chkbox .Checkbox-visible {
+        border: 1px solid #d6bb89 !important;
+    }
+    .traditional-teal .sixth-chkbox .Checkbox-visible {
+        border: 1px solid #ceaf75 !important;
+    }
+    .traditional-teal .last-four-chkbox .Checkbox-visible {
+        border: 1px solid #ccac71 !important;
+    }
+    .traditional-teal .Checkbox.first-chkbox > input:checked + .Checkbox-visible {
+        background: #f9f4ea !important;
+        border-color: #f9f4ea !important;
+    }
+    .traditional-teal .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-teal .Checkbox.first-chkbox > input:hover + .Checkbox-visible,
+    .traditional-teal .Checkbox.first-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-teal .Checkbox.first-chkbox > input:focus + .Checkbox-visible {
+        border-color: #f9f4ea !important;
+    }
+    .traditional-teal .Checkbox.second-chkbox > input:checked + .Checkbox-visible {
+        background: #eee2cb !important;
+        border-color: #eee2cb !important;
+    }
+    .traditional-teal .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-teal .Checkbox.second-chkbox > input:hover + .Checkbox-visible,
+    .traditional-teal .Checkbox.second-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-teal .Checkbox.second-chkbox > input:focus + .Checkbox-visible {
+        border-color: #eee2cb !important;
+    }
+    .traditional-teal .Checkbox.third-chkbox > input:checked + .Checkbox-visible {
+        background: #e7d6b5 !important;
+        border-color: #e7d6b5 !important;
+    }
+    .traditional-teal .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-teal .Checkbox.third-chkbox > input:hover + .Checkbox-visible,
+    .traditional-teal .Checkbox.third-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-teal .Checkbox.third-chkbox > input:focus + .Checkbox-visible {
+        border-color: #e7d6b5 !important;
+    }
+    .traditional-teal .Checkbox.fourth-chkbox > input:checked + .Checkbox-visible {
+        background: #dbc396 !important;
+        border-color: #dbc396 !important;
+    }
+    .traditional-teal .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-teal .Checkbox.fourth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-teal .Checkbox.fourth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-teal .Checkbox.fourth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #dbc396 !important;
+    }
+    .traditional-teal .Checkbox.fifth-chkbox > input:checked + .Checkbox-visible {
+        background: #d6bb89 !important;
+        border-color: #d6bb89 !important;
+    }
+    .traditional-teal .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-teal .Checkbox.fifth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-teal .Checkbox.fifth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-teal .Checkbox.fifth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #d6bb89 !important;
+    }
+    .traditional-teal .Checkbox.sixth-chkbox > input:checked + .Checkbox-visible {
+        background: #ceaf75 !important;
+        border-color: #ceaf75 !important;
+    }
+    .traditional-teal .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-teal .Checkbox.sixth-chkbox > input:hover + .Checkbox-visible,
+    .traditional-teal .Checkbox.sixth-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-teal .Checkbox.sixth-chkbox > input:focus + .Checkbox-visible {
+        border-color: #ceaf75 !important;
+    }
+    .traditional-teal .Checkbox.last-four-chkbox > input:checked + .Checkbox-visible {
+        background: #ccac71 !important;
+        border-color: #ccac71 !important;
+    }
+    .traditional-teal .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-teal .Checkbox.last-four-chkbox > input:hover + .Checkbox-visible,
+    .traditional-teal .Checkbox.last-four-chkbox > input:hover:checked + .Checkbox-visible,
+    .traditional-teal .Checkbox.last-four-chkbox > input:focus + .Checkbox-visible {
+        border-color: #ccac71 !important;
+    }
+    .traditional-teal .social-icons-wrap label {
+        color: #7898a4 !important;
+    }
+    .traditional-teal .dot {
+        background: #ccac71 !important;
+    }
+}
+
+
+/*22-11-2016*/
+.traditional-theme-wrap .profile-details #first_name{
+    font-weight: 300
+}
+.traditional-theme-wrap .profile-details h1 span{
+    font-weight: 600;
+}
+.traditional-theme-wrap section{
+    padding:0px;
+}
+.traditional-theme-wrap section h2{
+    font-weight: 600;
+}
+.traditional-theme-wrap section ul{
+    margin-left: 0px
+}
+.traditional-theme-wrap .personality-box{
+    position: relative;
+    z-index: 99999;
+    text-align: center;
+    padding-top: 20px;
+    background: #ffffff;
+}
+.traditional-theme-wrap .culture-list-left, .traditional-theme-wrap .culture-list-right {
+    width: 137px;
+    margin-bottom: 10px;
+}
+.traditional-theme-wrap .culture-list-left{
+    padding-right: 10px;   
+}
+.traditional-theme-wrap .culture-list-right {
+    padding-left: 20px;
+}
+.traditional-theme-wrap .culture-type{
+    width: 130px;
+    padding: 7px 10px;
+    text-align: center;
+}
+.traditional-theme-wrap .culture-list-left li, .traditional-theme-wrap .culture-list-right li {
+    padding-top: 0;
+    font-size: 15px;
+    line-height: 1.33;
+    margin-bottom: 2px;
+    min-height: 40px;
+}
+.traditional-theme-wrap .hire-me p{
+    font-weight: 400;
+    color: #333;
+    line-height: 1.42857143;
+}
+.traditional-theme-wrap .personality-list-one li, .traditional-theme-wrap .personality-list-two li{
+    width: 100px;
+    text-align: center;
+    display: table;
+}
+.traditional-theme-wrap .personality-list-one li span, .traditional-theme-wrap .personality-list-two li span{
+    height: 22px;
+    line-height: 1.33;
+    display: table-cell;
+    vertical-align: middle;
+}
+/*28-11-2016*/
+.value-list li .dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    display: inline-block;
+}
+.value-list li .dot{
+     background-color: #476d75;
+}
+.traditional-black .value-list li .dot{
+    background-color: #000;
+}
+.traditional-conservative-beige .value-list li .dot{
+    background-color: #476d75;
+}
+.traditional-conservative-blue .value-list li .dot{
+    background-color: #e3785c;
+}
+.traditional-blue-black .value-list li .dot{
+    background-color: #c6322c;
+}
+.traditional-bold-green .value-list li .dot{
+    background-color: #618963;
+}
+.traditional-bold-red .value-list li .dot{
+    background-color: #00797f;
+}
+.traditional-blue .value-list li .dot {
+    background-color: #e3785c;       
+}
+.traditional-bold-blue .value-list li .dot {
+    background-color: #c6322c;       
+}
+.traditional-classic-brown .value-list li .dot{
+    background-color: #de5a58;
+}
+.traditional-classic-light-blue .value-list li .dot{
+    background-color: #6097ac;
+}   
+.traditional-classic-teal .value-list li .dot{
+    background-color: #0e8aa8;
+}
+.traditional-conservative-teal .value-list li .dot{
+    background-color: #ccac71;
+}
+.traditional-violet .value-list li .dot{
+    background-color: #635198;
+}
+.dashboard-common-area .popover-content{
+    width: auto !important
+}
+.traditional-theme-wrap .personality-list-one li, .traditional-theme-wrap .personality-list-two li{
+    /*background: #fff;*/
+    position: relative;
+}
+.personality-list-one li{
+    z-index: 100
+}
+.personality-list-one li, .personality-list-two li{
+    /*z-index: 99;*/
+    z-index: auto;
+    height: 22px;
+    line-height: 20px;
+    padding: 0px;
+}
+
+/*29-11-2016*/
+/*.traditional-black #watermark{
+    border: 1px solid #000;
+}*/
+/*.traditional-conservative-beige #watermark{
+    border: 1px solid #476d75;
+}
+.traditional-conservative-blue #watermark{
+    border: 1px solid #e3785c;
+}
+.traditional-blue-black #watermark{
+    border: 1px solid #c6322c;
+}
+.traditional-bold-green #watermark{
+    border: 1px solid #618963;
+}
+.traditional-bold-red #watermark{
+    border: 1px solid #00797f;
+}
+.traditional-classic-brown #watermark{
+    border: 1px solid #de5a58;
+}
+.traditional-classic-light-blue #watermark{
+    border: 1px solid #6097ac;
+}   
+.traditional-classic-teal #watermark{
+    border: 1px solid #0e8aa8;
+}
+.traditional-conservative-teal #watermark{
+    border: 1px solid #ccac71;
+}
+.traditional-violet #watermark{
+    border: 1px solid #635198;
+}
+.traditional-blue #watermark{
+    border: 1px solid #5d85b7
+}
+.traditional-beige #watermark{
+    border: 1px solid #af9a73
+}
+.traditional-bold-blue #watermark{
+    border: 1px solid #c6322c
+}*/
+/*02-12-2016*/
+.third-row-right{
+    margin-top: 22px;
+}
+
+/*26-12-2016*/
+.traditional-theme-wrap .culture-list-left{
+  padding-left: 4px;
+  padding-right: 5px;
+}
+.traditional-theme-wrap .personality-box{
+    padding-top: 30px;
+}
+
+@media print {
+    /*22-11-2016*/
+    .traditional-theme-wrap .profile-details #first_name{
+        font-weight: 300 !important;
+    }
+    .traditional-theme-wrap .profile-details h1 span{
+        font-weight: 600 !important;
+    }
+    .traditional-theme-wrap section{
+        padding:0px !important;
+    }
+    .traditional-theme-wrap section h2{
+        font-weight: 600 !important;
+    }
+    .traditional-theme-wrap section ul{
+        margin-left: 0px !important;
+    }
+    .traditional-theme-wrap .personality-box{
+        position: relative !important;
+        z-index: 99 !important;
+    }
+    .traditional-theme-wrap .culture-list-left, .traditional-theme-wrap .culture-list-right {
+        width: 137px !important;
+        margin-bottom: 10px !important;
+    }
+    .traditional-theme-wrap .culture-list-left{
+        padding-right: 10px !important;   
+    }
+    .traditional-theme-wrap .culture-list-right {
+        padding-left: 20px !important;
+    }
+    .traditional-theme-wrap .culture-type{
+        width: 130px !important;
+        padding: 7px 10px !important;
+        text-align: center !important;
+    }
+    .traditional-theme-wrap .culture-list-left li, .traditional-theme-wrap .culture-list-right li {
+        padding-top: 10px !important;
+        font-size: 15px !important;
+        line-height: 14px !important;
+    }
+    .traditional-theme-wrap .hire-me p{
+        font-weight: 400 !important;
+        color: #333 !important;
+        line-height: 1.42857143 !important;
+    }
+    .traditional-theme-wrap .personality-list-one li, .traditional-theme-wrap .personality-list-two li{
+        width: 100px !important;
+        text-align: center !important;
+    }
+
+    /*28-11-2016*/
+    .traditional-black .value-list li .dot{
+        background-color: #000 !important;
+    }
+    .traditional-conservative-beige .value-list li .dot{
+        background-color: #476d75 !important;
+    }
+    .traditional-conservative-blue .value-list li .dot{
+        background-color: #e3785c !important;
+    }
+    .traditional-blue-black .value-list li .dot{
+        background-color: #c6322c !important;
+    }
+    .traditional-bold-green .value-list li .dot{
+        background-color: #618963 !important;
+    }
+    .traditional-bold-red .value-list li .dot{
+        background-color: #00797f !important;
+    }
+    .traditional-classic-brown .value-list li .dot{
+        background-color: #de5a58 !important;
+    }
+    .traditional-classic-light-blue .value-list li .dot{
+        background-color: #6097ac !important;
+    }   
+    .traditional-classic-teal .value-list li .dot{
+        background-color: #0e8aa8 !important;
+    }
+    .traditional-conservative-teal .value-list li .dot{
+        background-color: #ccac71 !important;
+    }
+    .traditional-violet .value-list li .dot{
+        background-color: #635198 !important;
+    }
+    .traditional-theme-wrap .personality-list-one li, .traditional-theme-wrap .personality-list-two li{
+        background: #fff !important
+    }
+    /*29-11-2016*/
+    .traditional-black #watermark{
+        border: 1px solid #000 !important;
+    }
+    .traditional-conservative-beige #watermark{
+        border: 1px solid #476d75 !important;
+    }
+    .traditional-conservative-blue #watermark{
+        border: 1px solid #e3785c !important;
+    }
+    .traditional-blue-black #watermark{
+        border: 1px solid #c6322c !important;
+    }
+    .traditional-bold-green #watermark{
+        border: 1px solid #618963 !important;
+    }
+    .traditional-bold-red #watermark{
+        border: 1px solid #00797f !important;
+    }
+    .traditional-classic-brown #watermark{
+        border: 1px solid #de5a58 !important;
+    }
+    .traditional-classic-light-blue #watermark{
+        border: 1px solid #6097ac !important;
+    }   
+    .traditional-classic-teal #watermark{
+        border: 1px solid #0e8aa8 !important;
+    }
+    .traditional-conservative-teal #watermark{
+        border: 1px solid #ccac71 !important;
+    }
+    .traditional-violet #watermark{
+        border: 1px solid #635198 !important;
+    }
+    .traditional-blue #watermark{
+        border: 1px solid #5d85b7 !important;
+    }
+    .traditional-beige #watermark{
+        border: 1px solid #af9a73 !important;
+    }
+    .traditional-bold-blue #watermark{
+        border: 1px solid #c6322c !important;
+    }
+}
+
+.top-skills, .core-values, .third-row-left, .third-row-right, .hire-me, .social-label-only{
+    position: relative;
+    z-index: 9
+}
+.third-row-left {
+    z-index: auto;
+}
+#watermark .watermark-contnet{
+    z-index: 0;
+    top: 43%;
+    color: rgba(0,0,0, 0.4);
+    left: 7%;
+}
+
+
+/*Inline Edit Changes*/
+.first-name-text, .lasts-name-text{
+    float: none;
+    display: inline-block;
+}
+.profile-details h1{
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.profile-details{
+    width: 560px;
+    width: 67%;
+}
+.profile-details h1{
+    height: 40px;
+    line-height: 40px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+.profile-details h1 .editable-inline .form-control{
+    font-weight: 300;
+    font-size: 43px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: -10px;
+    line-height: 40px;
+}
+.profile-details .lasts-name-text .editable-inline .form-control{
+    font-weight: 600;
+    width: 200px;
+}
+.first-name-text .editable-inline .form-control, .last-name-text .editable-inline .form-control{
+    width: 200px;
+}
+.profile-details .text-designation{
+    margin-bottom: 8px;
+    clear: both;
+}
+.profile-details .text-designation p{
+    line-height: 24px;
+    /*height: 21px;*/
+}
+.profile-details .text-designation .editable-inline input[type="text"].form-control{
+    background-image: none;
+    padding-right: 0px;
+}
+.profile-details .text-designation .editable-inline .form-control{
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 21px;
+    height: 21px;
+    /*background: url(../../../images/common/dropdown-icon-gray.svg) no-repeat;*/
+    background-position: center right;
+    position: relative;
+    top: -3px;
+    width: 220px;
+    color: inherit;
+}
+.profile-details .text-designation .designation-text .editable-inline .form-control{
+    width: 490px;
+}
+.profile-details .phone-num .editable-inline .form-control{
+    width: 120px;
+}
+.contact .phone-num .editable-inline .form-control, .contact .email .editable-inline .form-control{
+    font-size: 17px
+}
+.who-am-section .editable-inline .form-control{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 16px;
+    height: 20px;
+    line-height: 20px
+}
+.who-am-section {
+    height: 16px;
+    line-height: 16px;
+    margin-top: 10px;
+    margin-bottom: 0px
+}
+.contact .editable-inline .form-control{
+    width: 120px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    top: -2px;
+}
+.contact {
+    height: 20px;
+    line-height: 20px
+}
+.location-text{
+    font-weight: 400;
+    height: 19px;
+}
+.location-text .editable-inline .form-control{
+    color: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    top: -3px;
+    height: 16px;
+    width: 380px;
+}
+.location-text-content{
+    line-height: 1.33;
+    word-wrap: break-word;
+    /*height: 54px;*/
+}
+.location-text-content .editable-inline .form-control{
+    color: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    height: 54px;
+    line-height: 1.33;
+    position: relative;
+    top: 0px
+}
+.location-text-content .editable-inline .editable-input, .location-text-content .editable-inline .form-inline .form-group,
+.location-text-content .editableform .form-control,
+.location-text-content .editable-inline{
+    display: block;
+    width: 100%;
+}
+.location-text-content .editableform .form-control{
+    overflow: hidden;
+}
+.location-text-content .editable-inline .form-inline .form-group.has-error{
+    overflow: visible;
+}
+.energises-list li{
+    height: 20px;
+    line-height: 20px
+}
+.energises-list .editable-inline .form-control{
+    padding-left: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    width: 355px;
+}
+.energises-list span{
+    display: block;
+}
+.skill-list p{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    line-height: 20px;
+    height: 20px
+}
+.skill-list .editable-inline .form-control{
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 3px !important;
+    line-height: 20px;
+    height: 20px;
+    width: 390px;
+}
+.rating-section{
+    margin-bottom: 5px
+}
+.value-list li, .value-list li span {
+    line-height: 19px;
+    height: 19px;
+}
+.value-list li .editable-inline .form-control{
+    height: 17px;
+    padding-left: 0px;
+    font-size: 16px;
+    width: 150px;
+    /*background: url(../../../images/common/dropdown-icon-gray.svg) no-repeat;*/
+    background-position: center right;
+    height: 19px;
+    line-height: 19px;
+    margin-top: -6px;
+    padding-right: 15px !important
+}
+.value-list li .editable-inline input.form-control{
+    background-image: none;
+    padding-right: 0px !important
+}
+.personality-box-section .editable-inline .form-control{
+    font-size: 14px;
+    /*background: url(../../../images/common/dropdown-icon-gray.svg) no-repeat;*/
+    background-position: center right;
+    width: 95px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.personality-box-section span{
+    height: 20px;
+    line-height: 20px
+}
+.each-value, .each-value p{
+    width: 335px;
+    padding-bottom: 1px;
+}
+.most-valued .each-value .editable-inline input.form-control{
+    background-image: none;
+}
+.most-valued .each-value .editable-inline .form-control{
+    width: 335px;
+    font-weight: 400;
+    padding-top: 8px;
+    font-size: 16px;
+    /*background: url(../../../images/common/dropdown-icon-gray.svg) no-repeat;*/
+    background-position: center right;
+    height: 24px;
+    line-height: 15px;
+    padding-left: 15px !important;
+}
+.culture-type{
+    height: 44px;
+    padding: 0px 10px !important;
+    line-height: 44px;
+}
+.culture-type p{
+    height: 44px;
+    line-height: 1.33;
+}
+.culture-type .editable-inline .form-control{
+    font-size: 17px;
+    font-weight: 100;
+    color: #fff;
+    width: 110px;
+    height: 44px;
+    position: relative;
+    top: -3px;
+}
+.energises-list .editable-inline .form-control{
+    padding-left: 0px
+}
+.hire-me .editable-inline .editable-input, .hire-me .editable-inline .form-inline .form-group,
+.hire-me .editableform .form-control,
+.hire-me .editable-inline{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.hire-me .editableform .form-control{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.42857143;
+    height: 44px;
+    color: inherit;
+    text-align: center;
+    color: initial;
+}
+.social-icons{
+    height: 17px;
+    line-height: 17px;
+}
+.social-icons .editableform .form-control{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    color: inherit;
+    position: relative;
+    top: -2px;
+    width: 180px;
+}
+.traditional-blue .social-icons .editableform .form-control {
+    color: #5095E5
+}
+.traditional-beige .social-icons .editableform .form-control {
+    color: #7b706d
+}
+.traditional-bold-blue .social-icons .editableform .form-control {
+    color: #c6322c 
+}
+.traditional-bold-green .social-icons .editableform .form-control {
+    color: #5095E5
+}
+.traditional-blue .social-icons .editableform .form-control {
+    color: #e06340 
+}
+.traditional-bold-red .social-icons .editableform .form-control {
+    color: #00a7b2
+}
+.traditional-classic-brown .social-icons .editableform .form-control {
+    color: #291E1E
+}
+.traditional-classic-light-blue .social-icons .editableform .form-control {
+    color: #291E1E
+}
+.traditional-classic-teal .social-icons .editableform .form-control {
+    color: #569db8
+}
+
+/*28-12-2016*/
+.profile-not-visible img{
+    /*display: none;*/
+    text-indent: -99999px;
+}
+.core-values .value-list li .dot {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+.ideal-company h2{
+    margin-bottom: 16px;
+}
+.personality-wrap{
+    display: inline-block;
+    float: left;
+    width: 385px;
+    margin-left: 20px;
+}
+
+/*Editer border*/
+.who-am-section p {
+    display: initial;
+}
+.social-label-only{
+    z-index: 1;
+}
+
+.best-fit ul {
+    padding-top: 20px;
+}
+
+.personality-box-textarea small{
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.33;
+    /*word-break: break-all;*/
+}
+.personality-box-textarea .editableform .form-control{
+    font-size: 14px;
+    font-size: 14px;
+    width: 120px;
+    text-align: center;
+    height: 70px;
+    line-height: 1.33;
+    overflow: hidden;
+}
+.traditional-theme-wrap .personality-list-one li span, .traditional-theme-wrap .personality-list-two li span{
+    font-size: 13px;
+}
+.traditional-theme-wrap .personality-list-one li .form-control, .traditional-theme-wrap .personality-list-two li .form-control{
+    font-size: 13px;
+    width: 90px;
+    text-align: center;
+    font-size: 13px;
+}
+.traditional-theme-wrap .culture-list-left li span, .traditional-theme-wrap .culture-list-right li span{
+    font-size: 15px;
+}
+.traditional-theme-wrap .culture-list-left li .form-control, .traditional-theme-wrap .culture-list-right li .form-control{
+    width: 128px;
+    font-size: 15px;
+}
+.profile-details .text-designation .who-am-section .form-control{
+    color: #000;
+    font-size: 17px;
+    top: 0px
+}
+.best-fit h2{
+    margin-bottom: 5px;
+}
+.text-designation .designation-text, .profile-details .text-designation .designation-text .editable-inline .form-control {
+    font-weight: 600;
+}
+@media screen and (max-width: 1440px){
+    #watermark .watermark-contnet{
+        top: 43%;
+        left: 7%;
+    }
+}
+

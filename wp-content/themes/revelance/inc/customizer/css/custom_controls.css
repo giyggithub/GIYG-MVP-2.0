@@ -1,0 +1,20 @@
+.customize-control-image .thumbnail{
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAAGUlEQVQYV2M4gwH+YwCGIasIUwhT25BVBADtzYNYrHvv4gAAAABJRU5ErkJggg==);
+}
+
+.customize-control-image img{
+	width: auto;
+}
+
+.customize_multi_fields .set{
+	padding-right: 15px;
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.customize_multi_remove_field{
+	position: absolute;
+	right: 0;
+	top: 5px;
+	color: red;
+}

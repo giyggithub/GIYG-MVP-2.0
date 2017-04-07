@@ -1,0 +1,4621 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Revelance v2.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-21 14:56+0100\n"
+"PO-Revision-Date: 2015-08-21 14:56+0100\n"
+"Last-Translator: \n"
+"Language-Team: ab-themes <support@ab-themes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_attr__;esc_attr_e;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:13
+msgid "404"
+msgstr ""
+
+#: ../404.php:14
+msgid "Oops, the Page You are Looking for can not be Found"
+msgstr ""
+
+#: ../dnd/abbr_dd.php:10 ../elements/abbr_tc.php:11
+msgid "Full Word"
+msgstr ""
+
+#: ../dnd/abbr_dd.php:14 ../dnd/abbr_dd.php:17 ../elements/abbr_tc.php:6
+#: ../elements/abbr_tc.php:15
+msgid "Abbreviation"
+msgstr ""
+
+#: ../dnd/accordions_dd.php:7
+msgid "New Accordion Section"
+msgstr ""
+
+#: ../dnd/accordions_dd.php:8 ../elements/accordions_tc.php:12
+msgid "Accordion Section"
+msgstr ""
+
+#: ../dnd/accordions_dd.php:11 ../elements/accordions_tc.php:15
+msgid "Expanded accordion no."
+msgstr ""
+
+#: ../dnd/accordions_dd.php:12 ../elements/accordions_tc.php:16
+msgid "Which accordion section will be expanded on load, 0 for none"
+msgstr ""
+
+#: ../dnd/accordions_dd.php:16 ../elements/accordions_tc.php:6
+msgid "Accordion"
+msgstr ""
+
+#: ../dnd/accordions_dd.php:27 ../dnd/callout_box_dd.php:8 ../dnd/h_dd.php:26
+#: ../dnd/service_box_dd.php:7 ../dnd/toggle_dd.php:7
+#: ../elements/accordions_tc.php:43 ../elements/callout_box_tc.php:17
+#: ../elements/h_tc.php:36 ../elements/service_box_tc.php:12
+#: ../elements/toggle_tc.php:12
+msgid "Title"
+msgstr ""
+
+#: ../dnd/accordions_dd.php:31 ../dnd/callout_box_dd.php:77
+#: ../dnd/hidden_dd.php:22 ../dnd/member_dd.php:7 ../dnd/non_member_dd.php:7
+#: ../dnd/pullquote_dd.php:23 ../dnd/qrcode_dd.php:57 ../dnd/raw_dd.php:15
+#: ../dnd/service_box_dd.php:42 ../dnd/table_dd.php:34 ../dnd/text_dd.php:14
+#: ../dnd/toggle_dd.php:16 ../dnd/visible_dd.php:22
+#: ../elements/accordions_tc.php:9 ../elements/accordions_tc.php:47
+#: ../elements/alert_box_tc.php:9 ../elements/blockquote_tc.php:9
+#: ../elements/callout_box_tc.php:9 ../elements/callout_box_tc.php:107
+#: ../elements/cf7.php:28 ../elements/divider_tc.php:9
+#: ../elements/download_tc.php:9 ../elements/h_tc.php:9
+#: ../elements/map_tc.php:9 ../elements/pricing_box_tc.php:9
+#: ../elements/pullquote_tc.php:34 ../elements/qrcode_tc.php:63
+#: ../elements/scroll_popup_tc.php:111 ../elements/search_tc.php:9
+#: ../elements/service_box_tc.php:9 ../elements/service_box_tc.php:60
+#: ../elements/sidebar_tc.php:18 ../elements/spacer_tc.php:9
+#: ../elements/stats_excerpt_tc.php:9 ../elements/table_tc.php:9
+#: ../elements/table_tc.php:51 ../elements/tabs_tc.php:9
+#: ../elements/text_tc.php:10 ../elements/text_tc.php:126
+#: ../elements/timeline_tc.php:9 ../elements/toggle_tc.php:9
+#: ../elements/toggle_tc.php:31 ../elements/ul_tc.php:8
+msgid "Content"
+msgstr ""
+
+#: ../dnd/accordions_dd.php:33 ../elements/accordions_tc.php:39
+msgid "Single accordion section"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:11 ../elements/ab-testimonials.php:16
+msgid "Testimonial Category"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:12 ../elements/ab-testimonials.php:17
+msgid ""
+"Show only testimonials from specific category, displays all categories if "
+"not specified (category slug string)"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:15 ../elements/ab-testimonials.php:20
+#: ../elements/abdev-portfolio.php:22
+msgid "Count"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:16 ../elements/ab-testimonials.php:21
+msgid "Number of testimonials to show"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:20 ../elements/ab-testimonials.php:35
+#: ../elements/ab-tweet-scroller.php:64
+msgid "Show Arrows"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:25 ../elements/ab-testimonials.php:40
+msgid "Show Pagination"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:30 ../elements/ab-testimonials.php:46
+msgid "Delimiter"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:31 ../elements/ab-testimonials.php:47
+msgid "Delimiter between author and company"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:41 ../dnd/alert_box_dd.php:16
+#: ../dnd/button_dd.php:39 ../dnd/pricing_box_dd.php:40
+#: ../dnd/pricing_box_dd.php:73 ../dnd/team_dd.php:7
+#: ../elements/ab-testimonials.php:31 ../elements/alert_box_tc.php:20
+#: ../elements/button_tc.php:44 ../elements/pricing_box_tc.php:42
+#: ../elements/pricing_box_tc.php:43 ../elements/pricing_box_tc.php:82
+#: ../elements/table_tc.php:18 ../elements/table_tc.php:24
+#: ../elements/table_tc.php:30 ../elements/table_tc.php:36
+#: ../elements/tabs_tc.php:22 ../elements/tabs_tc.php:34
+#: ../elements/tabs_tc.php:45 ../elements/team_tc.php:11
+#: ../elements/timeline_tc.php:22 ../elements/timeline_tc.php:33
+msgid "Style"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:52 ../elements/ab-testimonials.php:59
+msgid "Slide Effect Name"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:64 ../elements/ab-testimonials.php:72
+msgid "Slide Effect Easing"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:67 ../elements/ab-testimonials.php:76
+msgid "Duration"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:69 ../elements/ab-testimonials.php:78
+msgid "Duration of slide effect in milliseconds"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:79 ../elements/ab-testimonials.php:89
+#: ../elements/ab-tweet-scroller.php:99
+msgid "Pause on Hover"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:80
+msgid ""
+"Determines whether the timeout between transitions should be paused "
+"\"onMouseOver\" (only applies when play=\"true\")"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:83 ../elements/ab-testimonials.php:94
+msgid "Slide Duration"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:85 ../elements/ab-testimonials.php:96
+msgid "Pause between two slide animations in milliseconds"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:94
+#: ../elements/ab-testimonials.php:106
+msgid "Slide Direction"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:97
+#: ../elements/ab-testimonials.php:110
+msgid "Autoplay Slider"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:102
+#: ../dnd/additional/ab-testimonials.php:142
+#: ../dnd/additional/search_dd.php:11 ../dnd/animation_dd.php:55
+#: ../dnd/button_dd.php:60 ../dnd/callout_box_dd.php:72
+#: ../dnd/children_dd.php:15 ../dnd/dropcap_dd.php:12 ../dnd/icon_dd.php:40
+#: ../dnd/image_dd.php:62 ../dnd/knob_dd.php:62 ../dnd/pricing_box_dd.php:98
+#: ../dnd/progress_bar_dd.php:20 ../dnd/service_box_dd.php:37
+#: ../dnd/stats_excerpt_dd.php:24 ../dnd/table_dd.php:28 ../dnd/tabs_dd.php:38
+#: ../dnd/text_dd.php:8 ../dnd/ul_dd.php:11
+#: ../elements/ab-testimonials.php:116 ../elements/ab-testimonials.php:161
+#: ../elements/ab-tweet-scroller.php:122 ../elements/abbr_tc.php:23
+#: ../elements/accordions_tc.php:25 ../elements/alert_box_tc.php:41
+#: ../elements/blockquote_tc.php:29 ../elements/button_tc.php:78
+#: ../elements/buynow_tc.php:52 ../elements/callout_box_tc.php:101
+#: ../elements/chart_bar_tc.php:29 ../elements/chart_doughnut_tc.php:24
+#: ../elements/chart_line_tc.php:29 ../elements/chart_pie_tc.php:25
+#: ../elements/chart_polar_tc.php:25 ../elements/chart_radar_tc.php:29
+#: ../elements/children_tc.php:24 ../elements/divider_tc.php:82
+#: ../elements/donate_tc.php:39 ../elements/download_tc.php:31
+#: ../elements/dropcap_tc.php:26 ../elements/email_tc.php:30
+#: ../elements/follow_us_tc.php:23 ../elements/h_tc.php:30
+#: ../elements/highlight_tc.php:23 ../elements/icon_tc.php:45
+#: ../elements/image_hotspot_tc.php:95 ../elements/image_switch_tc.php:112
+#: ../elements/image_tc.php:117 ../elements/knob_tc.php:76
+#: ../elements/nivo_slider_tc.php:151 ../elements/posts_tc.php:91
+#: ../elements/pricing_box_tc.php:117 ../elements/progress_bar_tc.php:32
+#: ../elements/pullquote_tc.php:28 ../elements/qrcode_tc.php:76
+#: ../elements/rss_tc.php:33 ../elements/scroll_popup_tc.php:105
+#: ../elements/search_tc.php:47 ../elements/service_box_tc.php:54
+#: ../elements/sidebar_tc.php:32 ../elements/sitemap_tc.php:32
+#: ../elements/stats_excerpt_tc.php:109 ../elements/table_tc.php:44
+#: ../elements/tabs_tc.php:63 ../elements/team_tc.php:132
+#: ../elements/text_tc.php:120 ../elements/timeline_tc.php:51
+#: ../elements/toggle_tc.php:25 ../elements/tooltip_tc.php:40
+#: ../elements/ul_tc.php:87 ../elements/vimeo_tc.php:53
+#: ../elements/youtube_tc.php:58
+msgid "Class"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:103
+#: ../dnd/additional/ab-testimonials.php:143
+#: ../dnd/additional/search_dd.php:12 ../dnd/animation_dd.php:56
+#: ../dnd/button_dd.php:61 ../dnd/callout_box_dd.php:73
+#: ../dnd/children_dd.php:16 ../dnd/dropcap_dd.php:13 ../dnd/h_dd.php:22
+#: ../dnd/icon_dd.php:41 ../dnd/image_dd.php:63 ../dnd/knob_dd.php:63
+#: ../dnd/pricing_box_dd.php:99 ../dnd/progress_bar_dd.php:21
+#: ../dnd/service_box_dd.php:38 ../dnd/stats_excerpt_dd.php:25
+#: ../dnd/table_dd.php:29 ../dnd/tabs_dd.php:39 ../dnd/text_dd.php:9
+#: ../dnd/ul_dd.php:12 ../elements/ab-testimonials.php:117
+#: ../elements/ab-testimonials.php:162 ../elements/ab-tweet-scroller.php:123
+#: ../elements/abbr_tc.php:24 ../elements/accordions_tc.php:26
+#: ../elements/alert_box_tc.php:42 ../elements/blockquote_tc.php:30
+#: ../elements/button_tc.php:79 ../elements/buynow_tc.php:53
+#: ../elements/callout_box_tc.php:102 ../elements/chart_bar_tc.php:30
+#: ../elements/chart_doughnut_tc.php:25 ../elements/chart_line_tc.php:30
+#: ../elements/chart_pie_tc.php:26 ../elements/chart_polar_tc.php:26
+#: ../elements/chart_radar_tc.php:30 ../elements/children_tc.php:25
+#: ../elements/divider_tc.php:83 ../elements/donate_tc.php:40
+#: ../elements/download_tc.php:32 ../elements/dropcap_tc.php:27
+#: ../elements/email_tc.php:31 ../elements/follow_us_tc.php:24
+#: ../elements/h_tc.php:31 ../elements/highlight_tc.php:24
+#: ../elements/icon_tc.php:46 ../elements/image_hotspot_tc.php:96
+#: ../elements/image_switch_tc.php:113 ../elements/image_tc.php:118
+#: ../elements/knob_tc.php:77 ../elements/nivo_slider_tc.php:152
+#: ../elements/posts_tc.php:92 ../elements/pricing_box_tc.php:118
+#: ../elements/progress_bar_tc.php:33 ../elements/pullquote_tc.php:29
+#: ../elements/qrcode_tc.php:77 ../elements/rss_tc.php:34
+#: ../elements/scroll_popup_tc.php:106 ../elements/search_tc.php:48
+#: ../elements/service_box_tc.php:55 ../elements/sidebar_tc.php:33
+#: ../elements/sitemap_tc.php:33 ../elements/stats_excerpt_tc.php:110
+#: ../elements/table_tc.php:45 ../elements/tabs_tc.php:64
+#: ../elements/team_tc.php:133 ../elements/text_tc.php:121
+#: ../elements/timeline_tc.php:52 ../elements/toggle_tc.php:26
+#: ../elements/tooltip_tc.php:41 ../elements/ul_tc.php:88
+#: ../elements/vimeo_tc.php:54 ../elements/youtube_tc.php:59
+msgid "Additional custom classes for custom styling"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:107
+msgid "AB Testimonials Slider"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:114
+#: ../elements/ab-testimonials.php:133
+msgid "Name field placeholder"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:115
+#: ../elements/ab-testimonials.php:134
+msgid "Your Name"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:118
+#: ../elements/ab-testimonials.php:137
+msgid "Profile field placeholder"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:119
+#: ../elements/ab-testimonials.php:138
+msgid "Your Profile Link"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:122
+#: ../elements/ab-testimonials.php:141
+msgid "Image upload field label"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:123
+#: ../elements/ab-testimonials.php:142
+msgid "Your Image"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:126
+#: ../elements/ab-testimonials.php:145
+msgid "Company name field placeholder"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:127
+#: ../elements/ab-testimonials.php:146
+msgid "Your Company"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:130
+#: ../elements/ab-testimonials.php:149
+msgid "Company link field placeholder"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:131
+#: ../elements/ab-testimonials.php:150
+msgid "Your Company Link"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:134
+#: ../elements/ab-testimonials.php:153
+msgid "Testimonial textarea placeholder"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:135
+#: ../elements/ab-testimonials.php:154
+msgid "Your Testimonial"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:138
+#: ../elements/ab-testimonials.php:157
+msgid "Submit button text"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:139
+#: ../elements/ab-testimonials.php:158
+msgid "Submit Testimonial"
+msgstr ""
+
+#: ../dnd/additional/ab-testimonials.php:146
+msgid "AB Testimonial Submit Form"
+msgstr ""
+
+#: ../dnd/additional/search_dd.php:7 ../elements/chart_doughnut_tc.php:78
+#: ../elements/chart_line_tc.php:76 ../elements/chart_pie_tc.php:77
+#: ../elements/chart_polar_tc.php:79 ../elements/chart_radar_tc.php:75
+msgid "Label"
+msgstr ""
+
+#: ../dnd/additional/search_dd.php:8 ../elements/search_tc.php:13
+#: ../sidebar.php:7
+msgid "Search"
+msgstr ""
+
+#: ../dnd/additional/search_dd.php:15 ../elements/search_tc.php:6
+msgid "Search Field"
+msgstr ""
+
+#: ../dnd/alert_box_dd.php:21
+msgid "No Icon"
+msgstr ""
+
+#: ../dnd/alert_box_dd.php:26 ../elements/alert_box_tc.php:33
+msgid "No Close Button"
+msgstr ""
+
+#: ../dnd/alert_box_dd.php:30 ../elements/alert_box_tc.php:47
+msgid "Message"
+msgstr ""
+
+#: ../dnd/alert_box_dd.php:32 ../elements/alert_box_tc.php:6
+msgid "Alert Box"
+msgstr ""
+
+#: ../dnd/alert_box_dd.php:46 ../elements/alert_box_tc.php:59
+msgid "Close"
+msgstr ""
+
+#: ../dnd/animation_dd.php:8 ../dnd/divider_dd.php:28 ../dnd/image_dd.php:15
+#: ../dnd/ul_dd.php:16 ../elements/divider_tc.php:31
+#: ../elements/image_hotspot_tc.php:20 ../elements/image_switch_tc.php:22
+#: ../elements/image_tc.php:18 ../elements/scroll_popup_tc.php:17
+#: ../elements/stats_excerpt_tc.php:42 ../elements/text_tc.php:14
+#: ../elements/ul_tc.php:18
+msgid "Entrance Animation"
+msgstr ""
+
+#: ../dnd/animation_dd.php:11 ../dnd/divider_dd.php:32 ../dnd/image_dd.php:18
+#: ../dnd/ul_dd.php:20 ../elements/divider_tc.php:35
+#: ../elements/image_hotspot_tc.php:24 ../elements/image_switch_tc.php:26
+#: ../elements/image_tc.php:22 ../elements/scroll_popup_tc.php:20
+#: ../elements/stats_excerpt_tc.php:46 ../elements/text_tc.php:18
+#: ../elements/ul_tc.php:22
+msgid "Flip"
+msgstr ""
+
+#: ../dnd/animation_dd.php:12 ../dnd/divider_dd.php:33 ../dnd/image_dd.php:19
+#: ../dnd/ul_dd.php:21 ../elements/divider_tc.php:36
+#: ../elements/image_hotspot_tc.php:25 ../elements/image_switch_tc.php:27
+#: ../elements/image_tc.php:23 ../elements/scroll_popup_tc.php:21
+#: ../elements/stats_excerpt_tc.php:47 ../elements/text_tc.php:19
+#: ../elements/ul_tc.php:23
+msgid "Flip In X"
+msgstr ""
+
+#: ../dnd/animation_dd.php:13 ../dnd/divider_dd.php:34 ../dnd/image_dd.php:20
+#: ../dnd/ul_dd.php:22 ../elements/divider_tc.php:37
+#: ../elements/image_hotspot_tc.php:26 ../elements/image_switch_tc.php:28
+#: ../elements/image_tc.php:24 ../elements/scroll_popup_tc.php:22
+#: ../elements/stats_excerpt_tc.php:48 ../elements/text_tc.php:20
+#: ../elements/ul_tc.php:24
+msgid "Flip In Y"
+msgstr ""
+
+#: ../dnd/animation_dd.php:14 ../dnd/divider_dd.php:35 ../dnd/image_dd.php:21
+#: ../dnd/ul_dd.php:23 ../elements/divider_tc.php:38
+#: ../elements/image_hotspot_tc.php:27 ../elements/image_switch_tc.php:29
+#: ../elements/image_tc.php:25 ../elements/scroll_popup_tc.php:23
+#: ../elements/stats_excerpt_tc.php:49 ../elements/text_tc.php:21
+#: ../elements/ul_tc.php:25
+msgid "Fade In"
+msgstr ""
+
+#: ../dnd/animation_dd.php:15 ../dnd/divider_dd.php:36 ../dnd/image_dd.php:22
+#: ../dnd/ul_dd.php:24 ../elements/divider_tc.php:39
+#: ../elements/image_hotspot_tc.php:28 ../elements/image_switch_tc.php:30
+#: ../elements/image_tc.php:26 ../elements/scroll_popup_tc.php:24
+#: ../elements/stats_excerpt_tc.php:50 ../elements/text_tc.php:22
+#: ../elements/ul_tc.php:26
+msgid "Fade In Up"
+msgstr ""
+
+#: ../dnd/animation_dd.php:16 ../dnd/divider_dd.php:37 ../dnd/image_dd.php:23
+#: ../dnd/ul_dd.php:25 ../elements/divider_tc.php:40
+#: ../elements/image_hotspot_tc.php:29 ../elements/image_switch_tc.php:31
+#: ../elements/image_tc.php:27 ../elements/scroll_popup_tc.php:25
+#: ../elements/stats_excerpt_tc.php:51 ../elements/text_tc.php:23
+#: ../elements/ul_tc.php:27
+msgid "Fade In Down"
+msgstr ""
+
+#: ../dnd/animation_dd.php:17 ../dnd/divider_dd.php:38 ../dnd/image_dd.php:24
+#: ../dnd/ul_dd.php:26 ../elements/divider_tc.php:41
+#: ../elements/image_hotspot_tc.php:30 ../elements/image_switch_tc.php:32
+#: ../elements/image_tc.php:28 ../elements/scroll_popup_tc.php:26
+#: ../elements/stats_excerpt_tc.php:52 ../elements/text_tc.php:24
+#: ../elements/ul_tc.php:28
+msgid "Fade In Left"
+msgstr ""
+
+#: ../dnd/animation_dd.php:18 ../dnd/divider_dd.php:39 ../dnd/image_dd.php:25
+#: ../dnd/ul_dd.php:27 ../elements/divider_tc.php:42
+#: ../elements/image_hotspot_tc.php:31 ../elements/image_switch_tc.php:33
+#: ../elements/image_tc.php:29 ../elements/scroll_popup_tc.php:27
+#: ../elements/stats_excerpt_tc.php:53 ../elements/text_tc.php:25
+#: ../elements/ul_tc.php:29
+msgid "Fade In Right"
+msgstr ""
+
+#: ../dnd/animation_dd.php:19 ../dnd/divider_dd.php:40 ../dnd/image_dd.php:26
+#: ../dnd/ul_dd.php:28 ../elements/divider_tc.php:43
+#: ../elements/image_hotspot_tc.php:32 ../elements/image_switch_tc.php:34
+#: ../elements/image_tc.php:30 ../elements/scroll_popup_tc.php:28
+#: ../elements/stats_excerpt_tc.php:54 ../elements/text_tc.php:26
+#: ../elements/ul_tc.php:30
+msgid "Fade In Up Big"
+msgstr ""
+
+#: ../dnd/animation_dd.php:20 ../dnd/divider_dd.php:41 ../dnd/image_dd.php:27
+#: ../dnd/ul_dd.php:29 ../elements/divider_tc.php:44
+#: ../elements/image_hotspot_tc.php:33 ../elements/image_switch_tc.php:35
+#: ../elements/image_tc.php:31 ../elements/scroll_popup_tc.php:29
+#: ../elements/stats_excerpt_tc.php:55 ../elements/text_tc.php:27
+#: ../elements/ul_tc.php:31
+msgid "Fade In Down Big"
+msgstr ""
+
+#: ../dnd/animation_dd.php:21 ../dnd/divider_dd.php:42 ../dnd/image_dd.php:28
+#: ../dnd/ul_dd.php:30 ../elements/divider_tc.php:45
+#: ../elements/image_hotspot_tc.php:34 ../elements/image_switch_tc.php:36
+#: ../elements/image_tc.php:32 ../elements/scroll_popup_tc.php:30
+#: ../elements/stats_excerpt_tc.php:56 ../elements/text_tc.php:28
+#: ../elements/ul_tc.php:32
+msgid "Fade In Left Big"
+msgstr ""
+
+#: ../dnd/animation_dd.php:22 ../dnd/divider_dd.php:43 ../dnd/image_dd.php:29
+#: ../dnd/ul_dd.php:31 ../elements/divider_tc.php:46
+#: ../elements/image_hotspot_tc.php:35 ../elements/image_switch_tc.php:37
+#: ../elements/image_tc.php:33 ../elements/scroll_popup_tc.php:31
+#: ../elements/stats_excerpt_tc.php:57 ../elements/text_tc.php:29
+#: ../elements/ul_tc.php:33
+msgid "Fade In Right Big"
+msgstr ""
+
+#: ../dnd/animation_dd.php:23 ../dnd/divider_dd.php:44 ../dnd/image_dd.php:30
+#: ../dnd/ul_dd.php:32 ../elements/divider_tc.php:47
+#: ../elements/image_hotspot_tc.php:36 ../elements/image_switch_tc.php:38
+#: ../elements/image_tc.php:34 ../elements/scroll_popup_tc.php:32
+#: ../elements/text_tc.php:30 ../elements/ul_tc.php:34
+msgid "Slide In Left"
+msgstr ""
+
+#: ../dnd/animation_dd.php:24 ../dnd/divider_dd.php:45 ../dnd/image_dd.php:31
+#: ../dnd/ul_dd.php:33 ../elements/divider_tc.php:48
+#: ../elements/image_hotspot_tc.php:37 ../elements/image_switch_tc.php:39
+#: ../elements/image_tc.php:35 ../elements/scroll_popup_tc.php:33
+#: ../elements/text_tc.php:31 ../elements/ul_tc.php:35
+msgid "Slide In Right"
+msgstr ""
+
+#: ../dnd/animation_dd.php:25 ../dnd/divider_dd.php:46 ../dnd/image_dd.php:32
+#: ../dnd/ul_dd.php:34 ../elements/divider_tc.php:49
+#: ../elements/image_hotspot_tc.php:38 ../elements/image_switch_tc.php:40
+#: ../elements/image_tc.php:36 ../elements/scroll_popup_tc.php:34
+#: ../elements/stats_excerpt_tc.php:58 ../elements/text_tc.php:32
+#: ../elements/ul_tc.php:36
+msgid "Bounce In"
+msgstr ""
+
+#: ../dnd/animation_dd.php:26 ../dnd/divider_dd.php:47 ../dnd/image_dd.php:33
+#: ../dnd/ul_dd.php:35 ../elements/divider_tc.php:50
+#: ../elements/image_hotspot_tc.php:39 ../elements/image_switch_tc.php:41
+#: ../elements/image_tc.php:37 ../elements/scroll_popup_tc.php:35
+#: ../elements/stats_excerpt_tc.php:59 ../elements/text_tc.php:33
+#: ../elements/ul_tc.php:37
+msgid "Bounce In Down"
+msgstr ""
+
+#: ../dnd/animation_dd.php:27 ../dnd/divider_dd.php:48 ../dnd/image_dd.php:34
+#: ../dnd/ul_dd.php:36 ../elements/divider_tc.php:51
+#: ../elements/image_hotspot_tc.php:40 ../elements/image_switch_tc.php:42
+#: ../elements/image_tc.php:38 ../elements/scroll_popup_tc.php:36
+#: ../elements/stats_excerpt_tc.php:60 ../elements/text_tc.php:34
+#: ../elements/ul_tc.php:38
+msgid "Bounce In Up"
+msgstr ""
+
+#: ../dnd/animation_dd.php:28 ../dnd/divider_dd.php:49 ../dnd/image_dd.php:35
+#: ../dnd/ul_dd.php:37 ../elements/divider_tc.php:52
+#: ../elements/image_hotspot_tc.php:41 ../elements/image_switch_tc.php:43
+#: ../elements/image_tc.php:39 ../elements/scroll_popup_tc.php:37
+#: ../elements/stats_excerpt_tc.php:61 ../elements/text_tc.php:35
+#: ../elements/ul_tc.php:39
+msgid "Bounce In Left"
+msgstr ""
+
+#: ../dnd/animation_dd.php:29 ../dnd/divider_dd.php:50 ../dnd/image_dd.php:36
+#: ../dnd/ul_dd.php:38 ../elements/divider_tc.php:53
+#: ../elements/image_hotspot_tc.php:42 ../elements/image_switch_tc.php:44
+#: ../elements/image_tc.php:40 ../elements/scroll_popup_tc.php:38
+#: ../elements/stats_excerpt_tc.php:62 ../elements/text_tc.php:36
+#: ../elements/ul_tc.php:40
+msgid "Bounce In Right"
+msgstr ""
+
+#: ../dnd/animation_dd.php:30 ../dnd/divider_dd.php:51 ../dnd/image_dd.php:37
+#: ../dnd/ul_dd.php:39 ../elements/divider_tc.php:54
+#: ../elements/image_hotspot_tc.php:43 ../elements/image_switch_tc.php:45
+#: ../elements/image_tc.php:41 ../elements/scroll_popup_tc.php:39
+#: ../elements/stats_excerpt_tc.php:63 ../elements/text_tc.php:37
+#: ../elements/ul_tc.php:41
+msgid "Rotate In"
+msgstr ""
+
+#: ../dnd/animation_dd.php:31 ../dnd/divider_dd.php:52 ../dnd/image_dd.php:38
+#: ../dnd/ul_dd.php:40 ../elements/divider_tc.php:55
+#: ../elements/image_hotspot_tc.php:44 ../elements/image_switch_tc.php:46
+#: ../elements/image_tc.php:42 ../elements/scroll_popup_tc.php:40
+#: ../elements/stats_excerpt_tc.php:64 ../elements/text_tc.php:38
+#: ../elements/ul_tc.php:42
+msgid "Rotate In Down Left"
+msgstr ""
+
+#: ../dnd/animation_dd.php:32 ../dnd/divider_dd.php:53 ../dnd/image_dd.php:39
+#: ../dnd/ul_dd.php:41 ../elements/divider_tc.php:56
+#: ../elements/image_hotspot_tc.php:45 ../elements/image_switch_tc.php:47
+#: ../elements/image_tc.php:43 ../elements/scroll_popup_tc.php:41
+#: ../elements/stats_excerpt_tc.php:65 ../elements/text_tc.php:39
+#: ../elements/ul_tc.php:43
+msgid "Rotate In Down Right"
+msgstr ""
+
+#: ../dnd/animation_dd.php:33 ../dnd/divider_dd.php:54 ../dnd/image_dd.php:40
+#: ../dnd/ul_dd.php:42 ../elements/divider_tc.php:57
+#: ../elements/image_hotspot_tc.php:46 ../elements/image_switch_tc.php:48
+#: ../elements/image_tc.php:44 ../elements/scroll_popup_tc.php:42
+#: ../elements/stats_excerpt_tc.php:66 ../elements/text_tc.php:40
+#: ../elements/ul_tc.php:44
+msgid "Rotate In Up Left"
+msgstr ""
+
+#: ../dnd/animation_dd.php:34 ../dnd/divider_dd.php:55 ../dnd/image_dd.php:41
+#: ../dnd/ul_dd.php:43 ../elements/divider_tc.php:58
+#: ../elements/image_hotspot_tc.php:47 ../elements/image_switch_tc.php:49
+#: ../elements/image_tc.php:45 ../elements/scroll_popup_tc.php:43
+#: ../elements/stats_excerpt_tc.php:67 ../elements/text_tc.php:41
+#: ../elements/ul_tc.php:45
+msgid "Rotate In Up Right"
+msgstr ""
+
+#: ../dnd/animation_dd.php:35 ../dnd/divider_dd.php:56 ../dnd/image_dd.php:42
+#: ../dnd/ul_dd.php:44 ../elements/divider_tc.php:59
+#: ../elements/image_hotspot_tc.php:48 ../elements/image_switch_tc.php:50
+#: ../elements/image_tc.php:46 ../elements/scroll_popup_tc.php:44
+#: ../elements/stats_excerpt_tc.php:68 ../elements/text_tc.php:42
+#: ../elements/ul_tc.php:46
+msgid "Light Speed In"
+msgstr ""
+
+#: ../dnd/animation_dd.php:36 ../dnd/divider_dd.php:57 ../dnd/image_dd.php:43
+#: ../dnd/ul_dd.php:45 ../elements/divider_tc.php:60
+#: ../elements/image_hotspot_tc.php:49 ../elements/image_switch_tc.php:51
+#: ../elements/image_tc.php:47 ../elements/scroll_popup_tc.php:45
+#: ../elements/stats_excerpt_tc.php:69 ../elements/text_tc.php:43
+#: ../elements/ul_tc.php:47
+msgid "Roll In"
+msgstr ""
+
+#: ../dnd/animation_dd.php:37 ../dnd/divider_dd.php:58 ../dnd/image_dd.php:44
+#: ../dnd/ul_dd.php:46 ../elements/divider_tc.php:61
+#: ../elements/image_hotspot_tc.php:50 ../elements/image_switch_tc.php:52
+#: ../elements/image_tc.php:48 ../elements/scroll_popup_tc.php:46
+#: ../elements/stats_excerpt_tc.php:70 ../elements/text_tc.php:44
+#: ../elements/ul_tc.php:48
+msgid "Flash"
+msgstr ""
+
+#: ../dnd/animation_dd.php:38 ../dnd/divider_dd.php:59 ../dnd/image_dd.php:45
+#: ../dnd/ul_dd.php:47 ../elements/divider_tc.php:62
+#: ../elements/image_hotspot_tc.php:51 ../elements/image_switch_tc.php:53
+#: ../elements/image_tc.php:49 ../elements/scroll_popup_tc.php:47
+#: ../elements/stats_excerpt_tc.php:71 ../elements/text_tc.php:45
+#: ../elements/ul_tc.php:49
+msgid "Bounce"
+msgstr ""
+
+#: ../dnd/animation_dd.php:39 ../dnd/divider_dd.php:60 ../dnd/image_dd.php:46
+#: ../dnd/ul_dd.php:48 ../elements/divider_tc.php:63
+#: ../elements/image_hotspot_tc.php:52 ../elements/image_switch_tc.php:54
+#: ../elements/image_tc.php:50 ../elements/scroll_popup_tc.php:48
+#: ../elements/stats_excerpt_tc.php:72 ../elements/text_tc.php:46
+#: ../elements/ul_tc.php:50
+msgid "Shake"
+msgstr ""
+
+#: ../dnd/animation_dd.php:40 ../dnd/divider_dd.php:61 ../dnd/image_dd.php:47
+#: ../dnd/ul_dd.php:49 ../elements/divider_tc.php:64
+#: ../elements/image_hotspot_tc.php:53 ../elements/image_switch_tc.php:55
+#: ../elements/image_tc.php:51 ../elements/scroll_popup_tc.php:49
+#: ../elements/stats_excerpt_tc.php:73 ../elements/text_tc.php:47
+#: ../elements/ul_tc.php:51
+msgid "Tada"
+msgstr ""
+
+#: ../dnd/animation_dd.php:41 ../dnd/divider_dd.php:62 ../dnd/image_dd.php:48
+#: ../dnd/ul_dd.php:50 ../elements/divider_tc.php:65
+#: ../elements/image_hotspot_tc.php:54 ../elements/image_switch_tc.php:56
+#: ../elements/image_tc.php:52 ../elements/scroll_popup_tc.php:50
+#: ../elements/stats_excerpt_tc.php:74 ../elements/text_tc.php:48
+#: ../elements/ul_tc.php:52
+msgid "Swing"
+msgstr ""
+
+#: ../dnd/animation_dd.php:42 ../dnd/divider_dd.php:63 ../dnd/image_dd.php:49
+#: ../dnd/ul_dd.php:51 ../elements/divider_tc.php:66
+#: ../elements/image_hotspot_tc.php:55 ../elements/image_switch_tc.php:57
+#: ../elements/image_tc.php:53 ../elements/scroll_popup_tc.php:51
+#: ../elements/stats_excerpt_tc.php:75 ../elements/text_tc.php:49
+#: ../elements/ul_tc.php:53
+msgid "Wobble"
+msgstr ""
+
+#: ../dnd/animation_dd.php:43 ../dnd/divider_dd.php:64 ../dnd/image_dd.php:50
+#: ../dnd/ul_dd.php:52 ../elements/divider_tc.php:67
+#: ../elements/image_hotspot_tc.php:56 ../elements/image_hotspot_tc.php:150
+#: ../elements/image_switch_tc.php:58 ../elements/image_tc.php:54
+#: ../elements/scroll_popup_tc.php:52 ../elements/stats_excerpt_tc.php:76
+#: ../elements/text_tc.php:50 ../elements/ul_tc.php:54
+msgid "Pulse"
+msgstr ""
+
+#: ../dnd/animation_dd.php:47 ../dnd/image_dd.php:54
+#: ../elements/image_hotspot_tc.php:80 ../elements/image_switch_tc.php:82
+#: ../elements/image_tc.php:78 ../elements/scroll_popup_tc.php:57
+#: ../elements/text_tc.php:71
+msgid "Animation Duration (in ms)"
+msgstr ""
+
+#: ../dnd/animation_dd.php:51 ../dnd/image_dd.php:58
+#: ../elements/image_hotspot_tc.php:85 ../elements/image_switch_tc.php:87
+#: ../elements/image_tc.php:83 ../elements/scroll_popup_tc.php:62
+#: ../elements/text_tc.php:75
+msgid "Animation Delay (in ms)"
+msgstr ""
+
+#: ../dnd/animation_dd.php:60
+msgid "Animated Content"
+msgstr ""
+
+#: ../dnd/animation_dd.php:62
+msgid "Animation Box"
+msgstr ""
+
+#: ../dnd/blockquote_dd.php:8 ../elements/blockquote_tc.php:12
+msgid "Author"
+msgstr ""
+
+#: ../dnd/blockquote_dd.php:11 ../dnd/button_dd.php:48
+#: ../dnd/pricing_box_dd.php:82 ../elements/button_tc.php:54
+#: ../elements/pricing_box_tc.php:92
+msgid "URL"
+msgstr ""
+
+#: ../dnd/blockquote_dd.php:14 ../elements/blockquote_tc.php:18
+#: ../inc/class-tgm-plugin-activation.php:2521
+msgid "Source"
+msgstr ""
+
+#: ../dnd/blockquote_dd.php:18 ../elements/blockquote_tc.php:35
+msgid "Blockquote"
+msgstr ""
+
+#: ../dnd/blockquote_dd.php:20 ../elements/blockquote_tc.php:6
+msgid "Blockquote Block"
+msgstr ""
+
+#: ../dnd/button_dd.php:8 ../dnd/callout_box_dd.php:16
+#: ../dnd/pricing_box_dd.php:43 ../elements/button_tc.php:12
+#: ../elements/callout_box_tc.php:31 ../elements/pricing_box_tc.php:56
+msgid "Button Text"
+msgstr ""
+
+#: ../dnd/button_dd.php:9 ../dnd/callout_box_dd.php:17
+#: ../elements/button_tc.php:13 ../elements/callout_box_tc.php:32
+msgid "Click Here"
+msgstr ""
+
+#: ../dnd/button_dd.php:12 ../dnd/pricing_box_dd.php:46
+#: ../elements/button_tc.php:16 ../elements/pricing_box_tc.php:60
+msgid "Size"
+msgstr ""
+
+#: ../dnd/button_dd.php:16 ../dnd/callout_box_dd.php:24
+#: ../dnd/pricing_box_dd.php:50 ../elements/button_tc.php:20
+#: ../elements/callout_box_tc.php:39 ../elements/pricing_box_tc.php:64
+msgid "Small"
+msgstr ""
+
+#: ../dnd/button_dd.php:17 ../dnd/callout_box_dd.php:25
+#: ../dnd/pricing_box_dd.php:51 ../elements/button_tc.php:21
+#: ../elements/callout_box_tc.php:40 ../elements/pricing_box_tc.php:65
+msgid "Medium"
+msgstr ""
+
+#: ../dnd/button_dd.php:18 ../dnd/callout_box_dd.php:26
+#: ../dnd/pricing_box_dd.php:52 ../elements/button_tc.php:22
+#: ../elements/callout_box_tc.php:41 ../elements/pricing_box_tc.php:66
+msgid "Large"
+msgstr ""
+
+#: ../dnd/button_dd.php:19 ../dnd/callout_box_dd.php:27
+#: ../dnd/pricing_box_dd.php:53 ../elements/button_tc.php:23
+#: ../elements/callout_box_tc.php:42 ../elements/pricing_box_tc.php:67
+msgid "Extra Large"
+msgstr ""
+
+#: ../dnd/button_dd.php:23 ../dnd/pricing_box_dd.php:57
+#: ../elements/button_tc.php:28 ../elements/chart_doughnut_tc.php:68
+#: ../elements/chart_pie_tc.php:67 ../elements/chart_polar_tc.php:69
+msgid "Color"
+msgstr ""
+
+#: ../dnd/button_dd.php:27 ../dnd/callout_box_dd.php:35
+#: ../dnd/pricing_box_dd.php:61 ../elements/button_tc.php:32
+#: ../elements/callout_box_tc.php:50
+msgid "Light"
+msgstr ""
+
+#: ../dnd/button_dd.php:28 ../dnd/callout_box_dd.php:36
+#: ../dnd/pricing_box_dd.php:62 ../elements/button_tc.php:33
+#: ../elements/callout_box_tc.php:51
+msgid "Dark"
+msgstr ""
+
+#: ../dnd/button_dd.php:29 ../dnd/callout_box_dd.php:37
+#: ../dnd/pricing_box_dd.php:63 ../elements/button_tc.php:34
+#: ../elements/callout_box_tc.php:52
+msgid "Yellow"
+msgstr ""
+
+#: ../dnd/button_dd.php:30 ../dnd/callout_box_dd.php:38
+#: ../dnd/pricing_box_dd.php:64 ../elements/button_tc.php:35
+#: ../elements/callout_box_tc.php:53
+msgid "Green"
+msgstr ""
+
+#: ../dnd/button_dd.php:31 ../dnd/callout_box_dd.php:39
+#: ../dnd/pricing_box_dd.php:65 ../elements/button_tc.php:36
+#: ../elements/callout_box_tc.php:54
+msgid "Red"
+msgstr ""
+
+#: ../dnd/button_dd.php:32 ../dnd/callout_box_dd.php:40
+#: ../dnd/pricing_box_dd.php:66 ../elements/button_tc.php:37
+#: ../elements/callout_box_tc.php:55
+msgid "Blue"
+msgstr ""
+
+#: ../dnd/button_dd.php:33 ../dnd/callout_box_dd.php:41
+#: ../dnd/pricing_box_dd.php:67 ../elements/button_tc.php:38
+#: ../elements/callout_box_tc.php:56
+msgid "Gray"
+msgstr ""
+
+#: ../dnd/button_dd.php:34 ../dnd/callout_box_dd.php:42
+#: ../dnd/pricing_box_dd.php:68 ../elements/button_tc.php:39
+#: ../elements/callout_box_tc.php:57
+msgid "Cyan"
+msgstr ""
+
+#: ../dnd/button_dd.php:35 ../dnd/callout_box_dd.php:43
+#: ../dnd/pricing_box_dd.php:69 ../elements/button_tc.php:40
+#: ../elements/callout_box_tc.php:58
+msgid "Aquamarine"
+msgstr ""
+
+#: ../dnd/button_dd.php:43 ../dnd/callout_box_dd.php:51
+#: ../dnd/pricing_box_dd.php:77 ../elements/button_tc.php:48
+#: ../elements/callout_box_tc.php:66 ../elements/pricing_box_tc.php:86
+msgid "Normal"
+msgstr ""
+
+#: ../dnd/button_dd.php:44 ../dnd/callout_box_dd.php:52 ../dnd/knob_dd.php:33
+#: ../dnd/pricing_box_dd.php:78 ../elements/button_tc.php:49
+#: ../elements/callout_box_tc.php:67 ../elements/knob_tc.php:42
+#: ../elements/pricing_box_tc.php:87
+msgid "Rounded"
+msgstr ""
+
+#: ../dnd/button_dd.php:51 ../dnd/pricing_box_dd.php:85 ../dnd/rss_dd.php:14
+#: ../dnd/service_box_dd.php:28 ../dnd/tooltip_dd.php:15
+#: ../elements/button_tc.php:58 ../elements/follow_us_tc.php:53
+#: ../elements/image_switch_tc.php:97 ../elements/image_tc.php:92
+#: ../elements/pricing_box_tc.php:96 ../elements/rss_tc.php:19
+#: ../elements/service_box_tc.php:30 ../elements/tooltip_tc.php:16
+msgid "Target"
+msgstr ""
+
+#: ../dnd/button_dd.php:55 ../dnd/callout_box_dd.php:63
+#: ../dnd/pricing_box_dd.php:89 ../dnd/rss_dd.php:18
+#: ../dnd/service_box_dd.php:32 ../dnd/team_dd.php:93 ../dnd/tooltip_dd.php:19
+#: ../elements/ab-tweet-scroller.php:31 ../elements/button_tc.php:62
+#: ../elements/callout_box_tc.php:79 ../elements/follow_us_tc.php:57
+#: ../elements/image_switch_tc.php:101 ../elements/image_tc.php:96
+#: ../elements/pricing_box_tc.php:100 ../elements/rss_tc.php:23
+#: ../elements/service_box_tc.php:34 ../elements/team_tc.php:115
+#: ../elements/tooltip_tc.php:20
+msgid "Self"
+msgstr ""
+
+#: ../dnd/button_dd.php:56 ../dnd/callout_box_dd.php:64
+#: ../dnd/pricing_box_dd.php:90 ../dnd/rss_dd.php:19
+#: ../dnd/service_box_dd.php:33 ../dnd/team_dd.php:94 ../dnd/tooltip_dd.php:20
+#: ../elements/ab-tweet-scroller.php:30 ../elements/button_tc.php:63
+#: ../elements/callout_box_tc.php:80 ../elements/follow_us_tc.php:58
+#: ../elements/image_switch_tc.php:102 ../elements/image_tc.php:97
+#: ../elements/pricing_box_tc.php:101 ../elements/rss_tc.php:24
+#: ../elements/service_box_tc.php:35 ../elements/team_tc.php:116
+#: ../elements/tooltip_tc.php:21
+msgid "Blank"
+msgstr ""
+
+#: ../dnd/button_dd.php:64 ../dnd/icon_dd.php:9 ../dnd/pricing_box_dd.php:94
+#: ../dnd/stats_excerpt_dd.php:8 ../dnd/tabs_dd.php:78 ../dnd/ul_dd.php:86
+msgid "Icon Name"
+msgstr ""
+
+#: ../dnd/button_dd.php:65 ../dnd/callout_box_dd.php:69
+#: ../dnd/pricing_box_dd.php:95 ../elements/button_tc.php:69
+#: ../elements/callout_box_tc.php:85 ../elements/pricing_box_tc.php:107
+msgid "Optional icon after button text"
+msgstr ""
+
+#: ../dnd/button_dd.php:68 ../elements/button_tc.php:6
+#: ../elements/pricing_box_tc.php:57 ../elements/pricing_box_tc.php:69
+#: ../elements/pricing_box_tc.php:74 ../elements/pricing_box_tc.php:79
+#: ../elements/pricing_box_tc.php:89 ../elements/pricing_box_tc.php:93
+#: ../elements/pricing_box_tc.php:103 ../elements/pricing_box_tc.php:109
+msgid "Button"
+msgstr ""
+
+#: ../dnd/buynow_dd.php:8 ../dnd/donate_dd.php:8 ../elements/buynow_tc.php:12
+#: ../elements/donate_tc.php:12
+msgid "Your Email"
+msgstr ""
+
+#: ../dnd/buynow_dd.php:12 ../dnd/donate_dd.php:12
+#: ../elements/buynow_tc.php:16 ../elements/donate_tc.php:16
+msgid "Locale"
+msgstr ""
+
+#: ../dnd/buynow_dd.php:15 ../elements/buynow_tc.php:20
+msgid "Item Name"
+msgstr ""
+
+#: ../dnd/buynow_dd.php:18 ../elements/buynow_tc.php:23
+msgid "Item Number"
+msgstr ""
+
+#: ../dnd/buynow_dd.php:21 ../elements/buynow_tc.php:26
+msgid "Item Price"
+msgstr ""
+
+#: ../dnd/buynow_dd.php:25 ../dnd/donate_dd.php:22
+#: ../elements/buynow_tc.php:31 ../elements/donate_tc.php:26
+msgid "Currency"
+msgstr ""
+
+#: ../dnd/buynow_dd.php:29 ../elements/buynow_tc.php:35
+msgid "Show credit cards"
+msgstr ""
+
+#: ../dnd/buynow_dd.php:34 ../elements/buynow_tc.php:40
+msgid "Tax Rate"
+msgstr ""
+
+#: ../dnd/buynow_dd.php:38 ../elements/buynow_tc.php:44
+msgid "Shipping Cost"
+msgstr ""
+
+#: ../dnd/buynow_dd.php:41 ../elements/buynow_tc.php:6
+msgid "BuyNow PayPal Button"
+msgstr ""
+
+#: ../dnd/callout_box_dd.php:13 ../elements/callout_box_tc.php:28
+msgid "No Button"
+msgstr ""
+
+#: ../dnd/callout_box_dd.php:20 ../elements/callout_box_tc.php:35
+msgid "Button Size"
+msgstr ""
+
+#: ../dnd/callout_box_dd.php:31 ../elements/callout_box_tc.php:46
+msgid "Button Color"
+msgstr ""
+
+#: ../dnd/callout_box_dd.php:47 ../elements/callout_box_tc.php:62
+msgid "Button Style"
+msgstr ""
+
+#: ../dnd/callout_box_dd.php:56 ../elements/callout_box_tc.php:71
+msgid "Button URL"
+msgstr ""
+
+#: ../dnd/callout_box_dd.php:61 ../elements/callout_box_tc.php:77
+msgid "Button Target"
+msgstr ""
+
+#: ../dnd/callout_box_dd.php:68
+msgid "Button Icon Name"
+msgstr ""
+
+#: ../dnd/callout_box_dd.php:79 ../elements/callout_box_tc.php:6
+msgid "Callout Box"
+msgstr ""
+
+#: ../dnd/children_dd.php:8 ../elements/children_tc.php:12
+msgid "Parent Page ID"
+msgstr ""
+
+#: ../dnd/children_dd.php:12 ../elements/children_tc.php:16
+msgid "Depth"
+msgstr ""
+
+#: ../dnd/children_dd.php:19 ../elements/children_tc.php:6
+msgid "Children of Page"
+msgstr ""
+
+#: ../dnd/clear_dd.php:6
+msgid "Clear"
+msgstr ""
+
+#: ../dnd/clear_dd.php:7
+msgid "This shortcode generates clear:both div element"
+msgstr ""
+
+#: ../dnd/code_dd.php:9 ../dnd/pre_dd.php:9
+msgid "Unique ID"
+msgstr ""
+
+#: ../dnd/code_dd.php:10 ../dnd/pre_dd.php:10 ../dnd/raw_dd.php:11
+#: ../inc/class-tgm-plugin-activation.php:2225
+msgid "Required"
+msgstr ""
+
+#: ../dnd/code_dd.php:14
+msgid "Source Code"
+msgstr ""
+
+#: ../dnd/code_dd.php:17
+msgid "Code Prettifier"
+msgstr ""
+
+#: ../dnd/code_dd.php:18
+msgid ""
+"If you are using multiple code shortcodes on same page every one must have "
+"his own Unique ID"
+msgstr ""
+
+#: ../dnd/current_year_dd.php:7 ../elements/current_year_tc.php:7
+msgid ""
+"This shortcode will generate current year, no matter when post was published"
+msgstr ""
+
+#: ../dnd/current_year_dd.php:8 ../elements/current_year_tc.php:6
+msgid "Current Year"
+msgstr ""
+
+#: ../dnd/date_dd.php:10 ../elements/date_tc.php:11
+msgid "PHP Date Format"
+msgstr ""
+
+#: ../dnd/date_dd.php:13 ../elements/date_tc.php:14
+msgid "Target Date"
+msgstr ""
+
+#: ../dnd/date_dd.php:14 ../elements/date_tc.php:15
+msgid ""
+"PHP strtotime acceptable string, e.g. yesterday, last Monday, 2 days ago..."
+msgstr ""
+
+#: ../dnd/date_dd.php:17 ../elements/date_tc.php:6
+msgid "Date"
+msgstr ""
+
+#: ../dnd/divider_dd.php:8 ../dnd/progress_bar_dd.php:12
+#: ../dnd/tooltip_dd.php:9 ../elements/divider_tc.php:22
+#: ../elements/progress_bar_tc.php:16 ../elements/tooltip_tc.php:10
+msgid "Text"
+msgstr ""
+
+#: ../dnd/divider_dd.php:9 ../elements/divider_tc.php:23
+msgid "e.g. Go to top"
+msgstr ""
+
+#: ../dnd/divider_dd.php:14 ../dnd/download_dd.php:20 ../dnd/email_dd.php:18
+msgid "With Icon"
+msgstr ""
+
+#: ../dnd/divider_dd.php:18 ../elements/divider_tc.php:13
+msgid "Divider Style"
+msgstr ""
+
+#: ../dnd/divider_dd.php:31 ../dnd/qrcode_dd.php:19 ../dnd/tabs_dd.php:23
+#: ../dnd/ul_dd.php:19 ../elements/divider_tc.php:34
+#: ../elements/image_hotspot_tc.php:23 ../elements/image_hotspot_tc.php:149
+#: ../elements/image_switch_tc.php:25 ../elements/image_tc.php:21
+#: ../elements/qrcode_tc.php:23 ../elements/stats_excerpt_tc.php:45
+#: ../elements/tabs_tc.php:41 ../elements/text_tc.php:17
+#: ../elements/timeline_tc.php:29 ../elements/ul_tc.php:21
+msgid "None"
+msgstr ""
+
+#: ../dnd/divider_dd.php:68 ../dnd/ul_dd.php:56 ../elements/divider_tc.php:72
+#: ../elements/stats_excerpt_tc.php:81 ../elements/ul_tc.php:72
+msgid "Animation Duration (ms)"
+msgstr ""
+
+#: ../dnd/divider_dd.php:72 ../elements/divider_tc.php:6
+msgid "Content Divider"
+msgstr ""
+
+#: ../dnd/donate_dd.php:15 ../elements/donate_tc.php:19
+msgid "Donation Name"
+msgstr ""
+
+#: ../dnd/donate_dd.php:18 ../elements/donate_tc.php:22
+msgid "Amount"
+msgstr ""
+
+#: ../dnd/donate_dd.php:26 ../elements/donate_tc.php:30
+msgid "Show Credit Cards"
+msgstr ""
+
+#: ../dnd/donate_dd.php:30 ../elements/donate_tc.php:6
+msgid "Donate PayPal Button"
+msgstr ""
+
+#: ../dnd/download_dd.php:8 ../elements/download_tc.php:12
+msgid "Link Text"
+msgstr ""
+
+#: ../dnd/download_dd.php:11 ../elements/download_tc.php:15
+msgid "URL to File"
+msgstr ""
+
+#: ../dnd/download_dd.php:14 ../elements/download_tc.php:18
+msgid ""
+"Forces this filename, use full name with extension or leave blank for "
+"original file name"
+msgstr ""
+
+#: ../dnd/download_dd.php:15 ../elements/download_tc.php:19
+msgid "Filename"
+msgstr ""
+
+#: ../dnd/download_dd.php:23 ../elements/download_tc.php:6
+msgid "Download Button"
+msgstr ""
+
+#: ../dnd/download_dd.php:24
+msgid ""
+"This shortcode will generate link that forces download, even if browser can "
+"open that file type, e.g. .txt or .jpg file"
+msgstr ""
+
+#: ../dnd/dropcap_dd.php:9 ../elements/dropcap_tc.php:10
+msgid "Dropcap letter"
+msgstr ""
+
+#: ../dnd/dropcap_dd.php:16 ../elements/dropcap_tc.php:6
+msgid "Dropcap Letter"
+msgstr ""
+
+#: ../dnd/email_dd.php:8 ../elements/email_tc.php:13
+msgid "Email Address"
+msgstr ""
+
+#: ../dnd/email_dd.php:13 ../elements/email_tc.php:18
+msgid "Cloak Email from Spam Bots"
+msgstr ""
+
+#: ../dnd/email_dd.php:21 ../elements/email_tc.php:6
+msgid "Email Link"
+msgstr ""
+
+#: ../dnd/email_dd.php:22 ../elements/email_tc.php:7
+msgid ""
+"This shortcode will hide email address form spam bots using JavaScript method"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:8 ../dnd/team_dd.php:41 ../elements/team_tc.php:47
+#: ../inc/customizer/customizer.php:338
+msgid "Twitter URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:11 ../dnd/team_dd.php:44 ../elements/team_tc.php:51
+#: ../inc/customizer/customizer.php:362
+msgid "Linkedin URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:14 ../dnd/team_dd.php:38 ../elements/team_tc.php:43
+#: ../inc/customizer/customizer.php:326
+msgid "Facebook URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:17 ../dnd/team_dd.php:47 ../elements/team_tc.php:55
+msgid "Google+ URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:20 ../dnd/team_dd.php:62 ../elements/team_tc.php:75
+#: ../inc/customizer/customizer.php:422
+msgid "Dribbble URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:23 ../dnd/team_dd.php:80 ../elements/team_tc.php:99
+#: ../inc/customizer/customizer.php:506
+msgid "Skype URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:26 ../inc/customizer/customizer.php:542
+msgid "YouTube URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:29 ../dnd/team_dd.php:86
+#: ../elements/team_tc.php:107 ../inc/customizer/customizer.php:530
+msgid "Vimeo URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:32 ../dnd/team_dd.php:50 ../elements/team_tc.php:59
+#: ../inc/customizer/customizer.php:374
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:35 ../dnd/team_dd.php:53 ../elements/team_tc.php:63
+#: ../inc/customizer/customizer.php:386
+msgid "Github URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:38 ../dnd/rss_dd.php:7 ../dnd/team_dd.php:56
+#: ../elements/rss_tc.php:12 ../elements/team_tc.php:67
+#: ../inc/customizer/customizer.php:398
+msgid "Feed URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:41 ../dnd/team_dd.php:59 ../elements/team_tc.php:71
+#: ../inc/customizer/customizer.php:410
+msgid "Behance URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:44 ../dnd/team_dd.php:65 ../elements/team_tc.php:79
+#: ../inc/customizer/customizer.php:434
+msgid "Dropbox URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:47 ../dnd/team_dd.php:68 ../elements/team_tc.php:83
+#: ../inc/customizer/customizer.php:458
+msgid "Flickr URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:50 ../dnd/team_dd.php:71 ../elements/team_tc.php:87
+#: ../inc/customizer/customizer.php:470
+msgid "Instagram URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:53 ../inc/customizer/customizer.php:482
+msgid "Lastfm URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:56 ../dnd/team_dd.php:77 ../elements/team_tc.php:95
+#: ../inc/customizer/customizer.php:494
+msgid "Picasa URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:59 ../inc/customizer/customizer.php:518
+msgid "Stumbleupon URL"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:62
+msgid "Mail Address"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:65 ../elements/follow_us_tc.php:6
+msgid "Follow us Profile Links"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:66
+msgid "Shortcode will display Social networks icons with link to entered URLs"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:74 ../partials/header_menu.php:43
+msgid "Follow us on Facebook"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:76 ../partials/header_menu.php:44
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:78 ../partials/header_menu.php:45
+msgid "Follow us on Google+"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:80 ../partials/header_menu.php:46
+msgid "Follow us on Linkedin"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:82 ../partials/header_menu.php:47
+msgid "Follow us on Pinterest"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:84 ../partials/header_menu.php:61
+msgid "Our YouTube Profile"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:86 ../partials/header_menu.php:60
+msgid "Our Vimeo Profile"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:88 ../partials/header_menu.php:48
+msgid "Follow us on Github"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:90 ../partials/header_menu.php:49
+msgid "Our RSS feed"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:92 ../partials/header_menu.php:50
+msgid "Our Behance Profile"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:94 ../partials/header_menu.php:51
+msgid "Our Dribbble Profile"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:96 ../partials/header_menu.php:52
+msgid "Our Dropbox Files"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:98 ../partials/header_menu.php:53
+msgid "Send Us Email"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:100 ../partials/header_menu.php:54
+msgid "Our Flickr Profile"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:102 ../partials/header_menu.php:55
+msgid "Our Instagram Profile"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:104 ../partials/header_menu.php:56
+msgid "Our last.fm Profile"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:106 ../partials/header_menu.php:57
+msgid "Our Picasa Profile"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:108 ../partials/header_menu.php:58
+msgid "Our Skype Profile"
+msgstr ""
+
+#: ../dnd/follow_us_dd.php:110 ../partials/header_menu.php:59
+msgid "Our StumbleUpon Profile"
+msgstr ""
+
+#: ../dnd/h_dd.php:18 ../dnd/service_box_dd.php:13 ../elements/h_tc.php:22
+#: ../elements/service_box_tc.php:15
+#: ../inc/class-tgm-plugin-activation.php:2522
+msgid "Type"
+msgstr ""
+
+#: ../dnd/h_dd.php:21
+msgid "Custom class"
+msgstr ""
+
+#: ../dnd/h_dd.php:28 ../elements/h_tc.php:6
+msgid "H1-H6 Headings"
+msgstr ""
+
+#: ../dnd/hidden_dd.php:11 ../dnd/visible_dd.php:11
+msgid "Desktop"
+msgstr ""
+
+#: ../dnd/hidden_dd.php:12 ../dnd/visible_dd.php:12
+msgid "Tablet"
+msgstr ""
+
+#: ../dnd/hidden_dd.php:13 ../dnd/visible_dd.php:13
+msgid "Phablet"
+msgstr ""
+
+#: ../dnd/hidden_dd.php:14 ../dnd/visible_dd.php:14
+msgid "Phone"
+msgstr ""
+
+#: ../dnd/hidden_dd.php:15 ../dnd/visible_dd.php:15
+msgid "Deskop and Tablet"
+msgstr ""
+
+#: ../dnd/hidden_dd.php:16 ../dnd/visible_dd.php:16
+msgid "Phabplet and Phone"
+msgstr ""
+
+#: ../dnd/hidden_dd.php:18
+msgid "Hide on Devices"
+msgstr ""
+
+#: ../dnd/hidden_dd.php:24
+msgid "Hidden on devices"
+msgstr ""
+
+#: ../dnd/hidden_dd.php:25
+msgid ""
+"This shortcode will make content hidden on selected devices, using @media "
+"css method"
+msgstr ""
+
+#: ../dnd/highlight_dd.php:11 ../elements/highlight_tc.php:11
+msgid "Highlight Color"
+msgstr ""
+
+#: ../dnd/highlight_dd.php:16 ../elements/highlight_tc.php:15
+msgid "Text Color"
+msgstr ""
+
+#: ../dnd/highlight_dd.php:20 ../elements/highlight_tc.php:29
+msgid "Highlighted Content"
+msgstr ""
+
+#: ../dnd/highlight_dd.php:22 ../elements/highlight_tc.php:6
+msgid "Highlighted text"
+msgstr ""
+
+#: ../dnd/icon_dd.php:13 ../elements/icon_tc.php:15
+msgid "Icon Size"
+msgstr ""
+
+#: ../dnd/icon_dd.php:18 ../dnd/ul_dd.php:91 ../elements/alert_box_tc.php:27
+#: ../elements/icon_tc.php:19 ../elements/search_tc.php:38
+#: ../elements/service_box_tc.php:44 ../elements/stats_excerpt_tc.php:21
+#: ../elements/ul_tc.php:127
+msgid "Icon Color"
+msgstr ""
+
+#: ../dnd/icon_dd.php:23 ../elements/icon_tc.php:24
+msgid "Rotate Icon"
+msgstr ""
+
+#: ../dnd/icon_dd.php:28 ../elements/icon_tc.php:29
+msgid "Icon Box"
+msgstr ""
+
+#: ../dnd/icon_dd.php:32 ../elements/icon_tc.php:33
+msgid "Icon Box Padding"
+msgstr ""
+
+#: ../dnd/icon_dd.php:37 ../elements/icon_tc.php:37
+msgid "Icon Box Background Color"
+msgstr ""
+
+#: ../dnd/icon_dd.php:44 ../elements/button_tc.php:68
+#: ../elements/divider_tc.php:26 ../elements/download_tc.php:23
+#: ../elements/email_tc.php:21 ../elements/follow_us_tc.php:45
+#: ../elements/icon_tc.php:6 ../elements/icon_tc.php:11
+#: ../elements/pricing_box_tc.php:15 ../elements/search_tc.php:34
+#: ../elements/service_box_tc.php:39 ../elements/service_box_tc.php:41
+#: ../elements/service_box_tc.php:46 ../elements/stats_excerpt_tc.php:17
+#: ../elements/tabs_tc.php:110 ../elements/timeline_tc.php:98
+#: ../elements/ul_tc.php:122
+msgid "Icon"
+msgstr ""
+
+#: ../dnd/image_dd.php:8 ../elements/image_hotspot_tc.php:16
+#: ../elements/image_tc.php:13 ../elements/nivo_slider_tc.php:199
+#: ../elements/scroll_popup_tc.php:13
+msgid "Select Image"
+msgstr ""
+
+#: ../dnd/image_dd.php:11 ../elements/nivo_slider_tc.php:206
+msgid "Image Alt Text"
+msgstr ""
+
+#: ../dnd/image_dd.php:66 ../elements/image_tc.php:6
+#: ../elements/nivo_slider_tc.php:12
+msgid "Image"
+msgstr ""
+
+#: ../dnd/knob_dd.php:8 ../elements/knob_tc.php:12
+msgid "Knob Number"
+msgstr ""
+
+#: ../dnd/knob_dd.php:11 ../elements/knob_tc.php:19
+msgid "Hide Number"
+msgstr ""
+
+#: ../dnd/knob_dd.php:16 ../elements/knob_tc.php:25
+msgid "Angle Offset"
+msgstr ""
+
+#: ../dnd/knob_dd.php:17 ../elements/knob_tc.php:26
+msgid "Starting angle in degrees, default=0"
+msgstr ""
+
+#: ../dnd/knob_dd.php:20 ../elements/knob_tc.php:29
+msgid "Angle Arc"
+msgstr ""
+
+#: ../dnd/knob_dd.php:21 ../elements/knob_tc.php:30
+msgid "Arc size in degrees, default=360"
+msgstr ""
+
+#: ../dnd/knob_dd.php:24 ../elements/knob_tc.php:33
+msgid "Arc Thickness"
+msgstr ""
+
+#: ../dnd/knob_dd.php:25 ../elements/knob_tc.php:34
+msgid "Percent of arc out of circle, 1 very thick, 100 full circle"
+msgstr ""
+
+#: ../dnd/knob_dd.php:28 ../elements/knob_tc.php:37
+msgid "Arc Stroke Ending"
+msgstr ""
+
+#: ../dnd/knob_dd.php:32 ../elements/knob_tc.php:41
+msgid "Default"
+msgstr ""
+
+#: ../dnd/knob_dd.php:37 ../elements/knob_tc.php:47
+msgid "Full Color"
+msgstr ""
+
+#: ../dnd/knob_dd.php:42 ../elements/knob_tc.php:51
+msgid "Empty Color"
+msgstr ""
+
+#: ../dnd/knob_dd.php:46 ../elements/knob_tc.php:55
+msgid "Inner Circle Color"
+msgstr ""
+
+#: ../dnd/knob_dd.php:50 ../elements/knob_tc.php:15
+msgid "Number Color"
+msgstr ""
+
+#: ../dnd/knob_dd.php:55 ../elements/knob_tc.php:59
+msgid "Inner Circle Distance"
+msgstr ""
+
+#: ../dnd/knob_dd.php:56 ../elements/knob_tc.php:60
+msgid ""
+"Distance of inner circle from arc, only if Inner Circle Color is defined; "
+"value in px"
+msgstr ""
+
+#: ../dnd/knob_dd.php:59 ../elements/knob_tc.php:64
+msgid "Knob Label"
+msgstr ""
+
+#: ../dnd/knob_dd.php:66 ../elements/knob_tc.php:6
+msgid "Knob"
+msgstr ""
+
+#: ../dnd/map_dd.php:9 ../elements/map_tc.php:17
+msgid "Height"
+msgstr ""
+
+#: ../dnd/map_dd.php:14 ../elements/map_tc.php:23
+msgid "Map Type"
+msgstr ""
+
+#: ../dnd/map_dd.php:16 ../elements/map_tc.php:25
+msgid "ROADMAP"
+msgstr ""
+
+#: ../dnd/map_dd.php:17 ../elements/map_tc.php:26
+msgid "SATELLITE"
+msgstr ""
+
+#: ../dnd/map_dd.php:18 ../elements/map_tc.php:27
+msgid "HYBRID"
+msgstr ""
+
+#: ../dnd/map_dd.php:19 ../elements/map_tc.php:28
+msgid "TERRAIN"
+msgstr ""
+
+#: ../dnd/map_dd.php:25 ../elements/map_tc.php:33
+msgid "Map Center Latitude"
+msgstr ""
+
+#: ../dnd/map_dd.php:29 ../elements/map_tc.php:37
+msgid "Map Center Longitude"
+msgstr ""
+
+#: ../dnd/map_dd.php:34 ../elements/map_tc.php:48
+msgid "Zoom Level"
+msgstr ""
+
+#: ../dnd/map_dd.php:36 ../elements/map_tc.php:50
+msgid "1"
+msgstr ""
+
+#: ../dnd/map_dd.php:37 ../elements/map_tc.php:51
+msgid "2"
+msgstr ""
+
+#: ../dnd/map_dd.php:38 ../elements/map_tc.php:52
+msgid "3"
+msgstr ""
+
+#: ../dnd/map_dd.php:39 ../elements/map_tc.php:53
+msgid "4"
+msgstr ""
+
+#: ../dnd/map_dd.php:40 ../elements/map_tc.php:54
+msgid "5"
+msgstr ""
+
+#: ../dnd/map_dd.php:41 ../elements/map_tc.php:55
+msgid "6"
+msgstr ""
+
+#: ../dnd/map_dd.php:42 ../elements/map_tc.php:56
+msgid "7"
+msgstr ""
+
+#: ../dnd/map_dd.php:43 ../elements/map_tc.php:57
+msgid "8"
+msgstr ""
+
+#: ../dnd/map_dd.php:44 ../elements/map_tc.php:58
+msgid "9"
+msgstr ""
+
+#: ../dnd/map_dd.php:45 ../elements/map_tc.php:59
+msgid "10"
+msgstr ""
+
+#: ../dnd/map_dd.php:46 ../elements/map_tc.php:60
+msgid "11"
+msgstr ""
+
+#: ../dnd/map_dd.php:47 ../elements/map_tc.php:61
+msgid "12"
+msgstr ""
+
+#: ../dnd/map_dd.php:48 ../elements/map_tc.php:62
+msgid "13"
+msgstr ""
+
+#: ../dnd/map_dd.php:49 ../elements/map_tc.php:63
+msgid "14"
+msgstr ""
+
+#: ../dnd/map_dd.php:50 ../elements/map_tc.php:64
+msgid "15"
+msgstr ""
+
+#: ../dnd/map_dd.php:51 ../elements/map_tc.php:65
+msgid "16"
+msgstr ""
+
+#: ../dnd/map_dd.php:52 ../elements/map_tc.php:66
+msgid "17"
+msgstr ""
+
+#: ../dnd/map_dd.php:53 ../elements/map_tc.php:67
+msgid "18"
+msgstr ""
+
+#: ../dnd/map_dd.php:54 ../elements/map_tc.php:68
+msgid "19"
+msgstr ""
+
+#: ../dnd/map_dd.php:55 ../elements/map_tc.php:69
+msgid "20"
+msgstr ""
+
+#: ../dnd/map_dd.php:56 ../elements/map_tc.php:70
+msgid "21"
+msgstr ""
+
+#: ../dnd/map_dd.php:62 ../elements/map_tc.php:77
+msgid "Enable Scrollweel"
+msgstr ""
+
+#: ../dnd/map_dd.php:67 ../elements/map_tc.php:83
+msgid "Show Map Type Controls"
+msgstr ""
+
+#: ../dnd/map_dd.php:72 ../elements/map_tc.php:89
+msgid "Show Pan Controls"
+msgstr ""
+
+#: ../dnd/map_dd.php:77 ../elements/map_tc.php:95
+msgid "Show Zoom Controls"
+msgstr ""
+
+#: ../dnd/map_dd.php:82 ../elements/map_tc.php:101
+msgid "Show Scale Controls"
+msgstr ""
+
+#: ../dnd/map_dd.php:86 ../elements/map_tc.php:137
+msgid "Marker Title"
+msgstr ""
+
+#: ../dnd/map_dd.php:90 ../elements/map_tc.php:144
+msgid "Custom Marker Image"
+msgstr ""
+
+#: ../dnd/map_dd.php:94
+msgid "Marker Content"
+msgstr ""
+
+#: ../dnd/map_dd.php:98 ../elements/map_tc.php:147
+msgid "Marker Latitude"
+msgstr ""
+
+#: ../dnd/map_dd.php:102 ../elements/map_tc.php:150
+msgid "Marker Longitude"
+msgstr ""
+
+#: ../dnd/map_dd.php:105 ../elements/map_tc.php:6
+msgid "Google Map"
+msgstr ""
+
+#: ../dnd/member_dd.php:9
+msgid "Content in this shortcode will be vissible to registered users only"
+msgstr ""
+
+#: ../dnd/member_dd.php:10
+msgid "Members Only Content "
+msgstr ""
+
+#: ../dnd/non_member_dd.php:9
+msgid ""
+"Content in this shortcode will be visible to non-registered visitors only"
+msgstr ""
+
+#: ../dnd/non_member_dd.php:10
+msgid "Non Members Only Content "
+msgstr ""
+
+#: ../dnd/posts_dd.php:8 ../elements/posts_tc.php:12
+msgid "Category"
+msgstr ""
+
+#: ../dnd/posts_dd.php:11 ../elements/posts_tc.php:15
+msgid "Posts IDs"
+msgstr ""
+
+#: ../dnd/posts_dd.php:15 ../elements/posts_tc.php:21
+msgid "Order"
+msgstr ""
+
+#: ../dnd/posts_dd.php:17 ../elements/posts_tc.php:23
+msgid "ASC"
+msgstr ""
+
+#: ../dnd/posts_dd.php:18 ../elements/posts_tc.php:24
+msgid "DESC"
+msgstr ""
+
+#: ../dnd/posts_dd.php:23 ../elements/posts_tc.php:31
+msgid "Order by"
+msgstr ""
+
+#: ../dnd/posts_dd.php:25 ../elements/abbr_tc.php:18
+#: ../elements/accordions_tc.php:20 ../elements/alert_box_tc.php:36
+#: ../elements/blockquote_tc.php:24 ../elements/button_tc.php:73
+#: ../elements/buynow_tc.php:47 ../elements/callout_box_tc.php:96
+#: ../elements/chart_bar_tc.php:24 ../elements/chart_doughnut_tc.php:19
+#: ../elements/chart_line_tc.php:24 ../elements/chart_pie_tc.php:20
+#: ../elements/chart_polar_tc.php:20 ../elements/chart_radar_tc.php:24
+#: ../elements/children_tc.php:19 ../elements/divider_tc.php:77
+#: ../elements/donate_tc.php:34 ../elements/download_tc.php:26
+#: ../elements/dropcap_tc.php:21 ../elements/email_tc.php:25
+#: ../elements/follow_us_tc.php:18 ../elements/h_tc.php:25
+#: ../elements/highlight_tc.php:18 ../elements/icon_tc.php:40
+#: ../elements/image_hotspot_tc.php:90 ../elements/image_switch_tc.php:107
+#: ../elements/image_tc.php:112 ../elements/knob_tc.php:71
+#: ../elements/posts_tc.php:33 ../elements/posts_tc.php:86
+#: ../elements/pricing_box_tc.php:112 ../elements/progress_bar_tc.php:27
+#: ../elements/pullquote_tc.php:23 ../elements/qrcode_tc.php:71
+#: ../elements/rss_tc.php:28 ../elements/scroll_popup_tc.php:100
+#: ../elements/search_tc.php:42 ../elements/service_box_tc.php:49
+#: ../elements/sidebar_tc.php:27 ../elements/sitemap_tc.php:27
+#: ../elements/stats_excerpt_tc.php:104 ../elements/table_tc.php:39
+#: ../elements/tabs_tc.php:58 ../elements/team_tc.php:127
+#: ../elements/text_tc.php:115 ../elements/timeline_tc.php:46
+#: ../elements/toggle_tc.php:20 ../elements/ul_tc.php:82
+#: ../elements/vimeo_tc.php:48 ../elements/youtube_tc.php:53
+msgid "ID"
+msgstr ""
+
+#: ../dnd/posts_dd.php:26 ../elements/ab-tweet-scroller.php:71
+#: ../elements/posts_tc.php:34
+msgid "none"
+msgstr ""
+
+#: ../dnd/posts_dd.php:27 ../elements/posts_tc.php:35
+msgid "author"
+msgstr ""
+
+#: ../dnd/posts_dd.php:28 ../elements/posts_tc.php:36
+msgid "title"
+msgstr ""
+
+#: ../dnd/posts_dd.php:29 ../elements/posts_tc.php:37
+msgid "name"
+msgstr ""
+
+#: ../dnd/posts_dd.php:30 ../elements/posts_tc.php:38
+msgid "date"
+msgstr ""
+
+#: ../dnd/posts_dd.php:31 ../elements/posts_tc.php:39
+msgid "modified"
+msgstr ""
+
+#: ../dnd/posts_dd.php:32 ../elements/posts_tc.php:40
+msgid "parent"
+msgstr ""
+
+#: ../dnd/posts_dd.php:33 ../elements/posts_tc.php:41
+msgid "rand"
+msgstr ""
+
+#: ../dnd/posts_dd.php:34 ../elements/posts_tc.php:42
+msgid "menu_order"
+msgstr ""
+
+#: ../dnd/posts_dd.php:35 ../elements/posts_tc.php:43
+msgid "post__in"
+msgstr ""
+
+#: ../dnd/posts_dd.php:39 ../elements/posts_tc.php:48
+msgid "Post Parent"
+msgstr ""
+
+#: ../dnd/posts_dd.php:43 ../elements/posts_tc.php:53
+msgid "Post Type"
+msgstr ""
+
+#: ../dnd/posts_dd.php:47 ../dnd/rss_dd.php:11 ../elements/posts_tc.php:58
+#: ../elements/rss_tc.php:16
+msgid "Number of Posts"
+msgstr ""
+
+#: ../dnd/posts_dd.php:51 ../elements/posts_tc.php:62
+msgid "Offset"
+msgstr ""
+
+#: ../dnd/posts_dd.php:54 ../elements/posts_tc.php:65
+msgid "Tag"
+msgstr ""
+
+#: ../dnd/posts_dd.php:58 ../elements/posts_tc.php:70
+msgid "Tax Operator"
+msgstr ""
+
+#: ../dnd/posts_dd.php:61 ../elements/posts_tc.php:74
+msgid "Tax Term"
+msgstr ""
+
+#: ../dnd/posts_dd.php:64 ../elements/posts_tc.php:78
+msgid "Taxonomy"
+msgstr ""
+
+#: ../dnd/posts_dd.php:67 ../elements/posts_tc.php:82
+msgid "Custom Excerpt Limit Words"
+msgstr ""
+
+#: ../dnd/posts_dd.php:68 ../elements/posts_tc.php:83
+msgid ""
+"How many words you want to display? If left empty default WordPress excerpt "
+"will be used."
+msgstr ""
+
+#: ../dnd/posts_dd.php:71 ../elements/posts_tc.php:96
+msgid "Posts Excerpts"
+msgstr ""
+
+#: ../dnd/pre_dd.php:14
+msgid "Preformated Content"
+msgstr ""
+
+#: ../dnd/pre_dd.php:17
+msgid "Preformated Block"
+msgstr ""
+
+#: ../dnd/pre_dd.php:18
+msgid ""
+"If you are using multiple pre shortcodes on same page every one must have "
+"his own Unique ID"
+msgstr ""
+
+#: ../dnd/pricing_box_dd.php:7 ../dnd/pricing_box_dd.php:159
+#: ../elements/pricing_box_tc.php:11
+msgid "Pricing Feature"
+msgstr ""
+
+#: ../dnd/pricing_box_dd.php:8 ../elements/pricing_box_tc.php:12
+msgid "Add Pricing Feature"
+msgstr ""
+
+#: ../dnd/pricing_box_dd.php:11 ../dnd/team_dd.php:16
+#: ../elements/pricing_box_tc.php:19 ../elements/team_tc.php:20
+msgid "Name"
+msgstr ""
+
+#: ../dnd/pricing_box_dd.php:14 ../elements/pricing_box_tc.php:33
+msgid "Decsription"
+msgstr ""
+
+#: ../dnd/pricing_box_dd.php:19 ../elements/pricing_box_tc.php:48
+msgid "Is Featured?"
+msgstr ""
+
+#: ../dnd/pricing_box_dd.php:22 ../elements/pricing_box_tc.php:52
+msgid "Featured Info"
+msgstr ""
+
+#: ../dnd/pricing_box_dd.php:25 ../elements/pricing_box_tc.php:23
+msgid "Price"
+msgstr ""
+
+#: ../dnd/pricing_box_dd.php:28 ../elements/pricing_box_tc.php:26
+msgid "Currency Sign"
+msgstr ""
+
+#: ../dnd/pricing_box_dd.php:31 ../elements/pricing_box_tc.php:29
+msgid "Monthly Text"
+msgstr ""
+
+#: ../dnd/pricing_box_dd.php:37 ../dnd/team_dd.php:11
+#: ../elements/pricing_box_tc.php:39 ../elements/tabs_tc.php:19
+#: ../elements/team_tc.php:15
+msgid "Style 1"
+msgstr ""
+
+#: ../dnd/pricing_box_dd.php:38 ../dnd/team_dd.php:12
+#: ../elements/pricing_box_tc.php:40 ../elements/tabs_tc.php:20
+#: ../elements/team_tc.php:16
+msgid "Style 2"
+msgstr ""
+
+#: ../dnd/pricing_box_dd.php:102
+msgid "Pricing Box"
+msgstr ""
+
+#: ../dnd/pricing_box_dd.php:143 ../elements/pricing_box_tc.php:165
+msgid "Feature Name"
+msgstr ""
+
+#: ../dnd/pricing_box_dd.php:146 ../elements/chart_doughnut_tc.php:65
+#: ../elements/chart_pie_tc.php:64 ../elements/chart_polar_tc.php:66
+#: ../elements/pricing_box_tc.php:168
+msgid "Value"
+msgstr ""
+
+#: ../dnd/pricing_box_dd.php:151
+msgid "Avaliable"
+msgstr ""
+
+#: ../dnd/pricing_box_dd.php:156
+msgid "Not Avaliable"
+msgstr ""
+
+#: ../dnd/progress_bar_dd.php:9 ../elements/progress_bar_tc.php:13
+msgid "Percentage"
+msgstr ""
+
+#: ../dnd/progress_bar_dd.php:15
+msgid "Bar Color"
+msgstr ""
+
+#: ../dnd/progress_bar_dd.php:24 ../elements/progress_bar_tc.php:37
+msgid "Progress Bar"
+msgstr ""
+
+#: ../dnd/pullquote_dd.php:10 ../elements/pullquote_tc.php:11
+msgid "Span 1-11"
+msgstr ""
+
+#: ../dnd/pullquote_dd.php:14 ../dnd/qrcode_dd.php:16
+#: ../elements/pullquote_tc.php:15 ../elements/qrcode_tc.php:20
+msgid "Align"
+msgstr ""
+
+#: ../dnd/pullquote_dd.php:17 ../dnd/qrcode_dd.php:20 ../dnd/tabs_dd.php:14
+#: ../elements/image_hotspot_tc.php:169 ../elements/pullquote_tc.php:18
+#: ../elements/qrcode_tc.php:24 ../elements/tabs_tc.php:31
+msgid "Left"
+msgstr ""
+
+#: ../dnd/pullquote_dd.php:18 ../dnd/qrcode_dd.php:21 ../dnd/tabs_dd.php:15
+#: ../elements/image_hotspot_tc.php:170 ../elements/pullquote_tc.php:19
+#: ../elements/qrcode_tc.php:25 ../elements/tabs_tc.php:32
+msgid "Right"
+msgstr ""
+
+#: ../dnd/pullquote_dd.php:25 ../elements/pullquote_tc.php:6
+msgid "Pullquote"
+msgstr ""
+
+#: ../dnd/qrcode_dd.php:8 ../elements/qrcode_tc.php:12
+msgid "Alt Text"
+msgstr ""
+
+#: ../dnd/qrcode_dd.php:12
+msgid "Size px"
+msgstr ""
+
+#: ../dnd/qrcode_dd.php:25 ../elements/qrcode_tc.php:30
+msgid "MeCard Name"
+msgstr ""
+
+#: ../dnd/qrcode_dd.php:28 ../elements/qrcode_tc.php:33
+msgid "MeCard Address"
+msgstr ""
+
+#: ../dnd/qrcode_dd.php:31 ../elements/qrcode_tc.php:36
+msgid "MeCard Telephone"
+msgstr ""
+
+#: ../dnd/qrcode_dd.php:34 ../elements/qrcode_tc.php:39
+msgid "MeCard Email"
+msgstr ""
+
+#: ../dnd/qrcode_dd.php:37 ../elements/qrcode_tc.php:42
+msgid "MeCard URL"
+msgstr ""
+
+#: ../dnd/qrcode_dd.php:41 ../elements/qrcode_tc.php:47
+msgid "Quality"
+msgstr ""
+
+#: ../dnd/qrcode_dd.php:44 ../elements/qrcode_tc.php:50
+msgid "H"
+msgstr ""
+
+#: ../dnd/qrcode_dd.php:45 ../elements/qrcode_tc.php:51
+msgid "L"
+msgstr ""
+
+#: ../dnd/qrcode_dd.php:46 ../elements/qrcode_tc.php:52
+msgid "M"
+msgstr ""
+
+#: ../dnd/qrcode_dd.php:47 ../elements/qrcode_tc.php:53
+msgid "Q"
+msgstr ""
+
+#: ../dnd/qrcode_dd.php:53 ../elements/qrcode_tc.php:59
+msgid "Border"
+msgstr ""
+
+#: ../dnd/qrcode_dd.php:62 ../elements/qrcode_tc.php:68
+msgid "Use current page/post URL"
+msgstr ""
+
+#: ../dnd/qrcode_dd.php:65 ../elements/qrcode_tc.php:6
+msgid "QR Code"
+msgstr ""
+
+#: ../dnd/raw_dd.php:10
+msgid "Unique Block ID"
+msgstr ""
+
+#: ../dnd/raw_dd.php:18
+msgid "Raw Block"
+msgstr ""
+
+#: ../dnd/raw_dd.php:19
+msgid ""
+"If you are using multiple raw shortcodes on same page every one must have "
+"his own Unique ID"
+msgstr ""
+
+#: ../dnd/rss_dd.php:23
+msgid "RSS Feed"
+msgstr ""
+
+#: ../dnd/rss_dd.php:41 ../elements/rss_tc.php:56
+msgid "No RSS items loaded"
+msgstr ""
+
+#: ../dnd/rss_dd.php:45 ../elements/rss_tc.php:60
+msgid "Posted"
+msgstr ""
+
+#: ../dnd/service_box_dd.php:10
+msgid "Icon name"
+msgstr ""
+
+#: ../dnd/service_box_dd.php:17 ../elements/service_box_tc.php:19
+msgid "Round"
+msgstr ""
+
+#: ../dnd/service_box_dd.php:18 ../elements/service_box_tc.php:20
+msgid "Square"
+msgstr ""
+
+#: ../dnd/service_box_dd.php:19 ../elements/service_box_tc.php:21
+msgid "Round Stroke"
+msgstr ""
+
+#: ../dnd/service_box_dd.php:20 ../elements/service_box_tc.php:22
+msgid "Round Aside"
+msgstr ""
+
+#: ../dnd/service_box_dd.php:21 ../elements/service_box_tc.php:23
+msgid "Aside Small"
+msgstr ""
+
+#: ../dnd/service_box_dd.php:25 ../dnd/tooltip_dd.php:12
+#: ../elements/image_switch_tc.php:92 ../elements/image_switch_tc.php:94
+#: ../elements/image_switch_tc.php:104 ../elements/image_tc.php:88
+#: ../elements/nivo_slider_tc.php:202 ../elements/service_box_tc.php:27
+#: ../elements/tooltip_tc.php:13
+msgid "Link"
+msgstr ""
+
+#: ../dnd/service_box_dd.php:44
+msgid "Service Box"
+msgstr ""
+
+#: ../dnd/sidebar_dd.php:9
+msgid "Sidebar Name or ID"
+msgstr ""
+
+#: ../dnd/sidebar_dd.php:12
+msgid "Sidebar with widgets"
+msgstr ""
+
+#: ../dnd/sidebar_dd.php:13
+msgid ""
+"Display sidebar and all its widgets anywhere inside content. You can create "
+"unlimited number of sidebars in Drag&Drop options."
+msgstr ""
+
+#: ../dnd/sitemap_dd.php:10 ../elements/sitemap_tc.php:14
+msgid "Hide Pages"
+msgstr ""
+
+#: ../dnd/sitemap_dd.php:15 ../elements/sitemap_tc.php:19
+msgid "Hide Categories"
+msgstr ""
+
+#: ../dnd/sitemap_dd.php:20 ../elements/sitemap_tc.php:24
+msgid "Hide Authors"
+msgstr ""
+
+#: ../dnd/sitemap_dd.php:23 ../elements/sitemap_tc.php:6
+msgid "Sitemap"
+msgstr ""
+
+#: ../dnd/sitemap_dd.php:28 ../elements/sitemap_tc.php:43
+msgid "Pages"
+msgstr ""
+
+#: ../dnd/sitemap_dd.php:29 ../elements/sitemap_tc.php:44
+msgid "Categories"
+msgstr ""
+
+#: ../dnd/sitemap_dd.php:30 ../elements/sitemap_tc.php:45
+msgid "Authors"
+msgstr ""
+
+#: ../dnd/spacer_dd.php:9 ../elements/spacer_tc.php:14
+msgid "Height in Pixels"
+msgstr ""
+
+#: ../dnd/spacer_dd.php:12 ../elements/spacer_tc.php:6
+msgid "Spacer"
+msgstr ""
+
+#: ../dnd/spacer_dd.php:13 ../elements/spacer_tc.php:7
+msgid "This shortcode will add additional vertical space between elements"
+msgstr ""
+
+#: ../dnd/stats_excerpt_dd.php:11 ../elements/stats_excerpt_tc.php:26
+msgid "Stats Number"
+msgstr ""
+
+#: ../dnd/stats_excerpt_dd.php:14 ../elements/stats_excerpt_tc.php:33
+msgid "Stats Number Sign"
+msgstr ""
+
+#: ../dnd/stats_excerpt_dd.php:18
+msgid "Animation duration (ms)"
+msgstr ""
+
+#: ../dnd/stats_excerpt_dd.php:21 ../elements/stats_excerpt_tc.php:97
+msgid "Description"
+msgstr ""
+
+#: ../dnd/stats_excerpt_dd.php:28 ../elements/stats_excerpt_tc.php:6
+msgid "Stats Excerpt"
+msgstr ""
+
+#: ../dnd/table_dd.php:9 ../elements/table_tc.php:16
+msgid "Alternative Styling"
+msgstr ""
+
+#: ../dnd/table_dd.php:14 ../elements/table_tc.php:22
+msgid "Rows with Hover"
+msgstr ""
+
+#: ../dnd/table_dd.php:19 ../elements/table_tc.php:28
+msgid "Striped Rows"
+msgstr ""
+
+#: ../dnd/table_dd.php:24 ../elements/table_tc.php:34
+msgid "Condensed Table"
+msgstr ""
+
+#: ../dnd/table_dd.php:36 ../elements/table_tc.php:6
+msgid "Table"
+msgstr ""
+
+#: ../dnd/tabs_dd.php:9 ../elements/tabs_tc.php:16 ../elements/tabs_tc.php:26
+msgid "Tabs Position"
+msgstr ""
+
+#: ../dnd/tabs_dd.php:12 ../elements/image_hotspot_tc.php:167
+#: ../elements/tabs_tc.php:29 ../elements/timeline_tc.php:19
+msgid "Top"
+msgstr ""
+
+#: ../dnd/tabs_dd.php:13 ../elements/image_hotspot_tc.php:168
+#: ../elements/tabs_tc.php:30 ../elements/timeline_tc.php:20
+msgid "Bottom"
+msgstr ""
+
+#: ../dnd/tabs_dd.php:20 ../elements/tabs_tc.php:38
+#: ../elements/timeline_tc.php:26
+msgid "Transition Effect"
+msgstr ""
+
+#: ../dnd/tabs_dd.php:24 ../elements/tabs_tc.php:42
+#: ../elements/timeline_tc.php:30
+msgid "Slide"
+msgstr ""
+
+#: ../dnd/tabs_dd.php:25 ../elements/nivo_slider_tc.php:51
+#: ../elements/tabs_tc.php:43 ../elements/timeline_tc.php:31
+msgid "Fade"
+msgstr ""
+
+#: ../dnd/tabs_dd.php:29 ../elements/tabs_tc.php:48
+#: ../elements/timeline_tc.php:36
+msgid "Selected Tab"
+msgstr ""
+
+#: ../dnd/tabs_dd.php:30 ../elements/tabs_tc.php:49
+#: ../elements/timeline_tc.php:37
+msgid "Initially selected tab, order number"
+msgstr ""
+
+#: ../dnd/tabs_dd.php:34 ../elements/tabs_tc.php:53 ../elements/tabs_tc.php:55
+#: ../elements/timeline_tc.php:41 ../elements/timeline_tc.php:43
+msgid "Break Point"
+msgstr ""
+
+#: ../dnd/tabs_dd.php:35 ../elements/tabs_tc.php:54
+msgid "Width in px. Below this width tabs will be stacked on each other."
+msgstr ""
+
+#: ../dnd/tabs_dd.php:43 ../elements/tabs_tc.php:11
+msgid "New Tab"
+msgstr ""
+
+#: ../dnd/tabs_dd.php:44 ../elements/tabs_tc.php:12
+msgid "Tab no."
+msgstr ""
+
+#: ../dnd/tabs_dd.php:45 ../elements/tabs_tc.php:6
+msgid "Tabs"
+msgstr ""
+
+#: ../dnd/tabs_dd.php:75 ../elements/tabs_tc.php:106
+msgid "Tab Title"
+msgstr ""
+
+#: ../dnd/tabs_dd.php:82 ../elements/tabs_tc.php:114
+msgid "Tab Content"
+msgstr ""
+
+#: ../dnd/tabs_dd.php:84
+msgid "Single Tab"
+msgstr ""
+
+#: ../dnd/team_dd.php:19 ../elements/team_tc.php:23
+msgid "Position"
+msgstr ""
+
+#: ../dnd/team_dd.php:23 ../elements/team_tc.php:27
+msgid "Image URL"
+msgstr ""
+
+#: ../dnd/team_dd.php:26 ../elements/follow_us_tc.php:49
+#: ../elements/team_tc.php:30
+msgid "Profile URL"
+msgstr ""
+
+#: ../dnd/team_dd.php:27 ../elements/team_tc.php:31
+msgid "Link to about page"
+msgstr ""
+
+#: ../dnd/team_dd.php:31 ../elements/team_tc.php:35
+msgid "Use Modal Instead Link"
+msgstr ""
+
+#: ../dnd/team_dd.php:32 ../elements/team_tc.php:36
+msgid ""
+"Modal window will appear on click instead of following a link. Use content "
+"to add modal window content"
+msgstr ""
+
+#: ../dnd/team_dd.php:35 ../elements/team_tc.php:39
+msgid "E-mail address"
+msgstr ""
+
+#: ../dnd/team_dd.php:74 ../elements/team_tc.php:91
+msgid "Last.fm URL"
+msgstr ""
+
+#: ../dnd/team_dd.php:83 ../elements/team_tc.php:103
+msgid "StumbleUpon URL"
+msgstr ""
+
+#: ../dnd/team_dd.php:89 ../elements/team_tc.php:111
+msgid "Social Link Target"
+msgstr ""
+
+#: ../dnd/team_dd.php:99 ../elements/team_tc.php:122
+msgid "Social icons under position"
+msgstr ""
+
+#: ../dnd/team_dd.php:100 ../elements/team_tc.php:123
+msgid ""
+"If enabled social icons will appear under position instead on image overlay."
+msgstr ""
+
+#: ../dnd/team_dd.php:104
+msgid "Team Member"
+msgstr ""
+
+#: ../dnd/text_dd.php:16
+msgid "Text / HTML"
+msgstr ""
+
+#: ../dnd/text_dd.php:17
+msgid ""
+"This shortcode is used by drag and drop builder to wrap text content inside "
+"column, so it can be manipulated as element"
+msgstr ""
+
+#: ../dnd/toggle_dd.php:10 ../elements/toggle_tc.php:15
+msgid "Expanded"
+msgstr ""
+
+#: ../dnd/toggle_dd.php:18
+msgid "Toggle Content"
+msgstr ""
+
+#: ../dnd/tooltip_dd.php:24 ../elements/tooltip_tc.php:25
+msgid "Tooltip Gravity"
+msgstr ""
+
+#: ../dnd/tooltip_dd.php:28 ../elements/follow_us_tc.php:66
+#: ../elements/tooltip_tc.php:29
+msgid "South"
+msgstr ""
+
+#: ../dnd/tooltip_dd.php:29 ../elements/follow_us_tc.php:67
+#: ../elements/tooltip_tc.php:30
+msgid "North"
+msgstr ""
+
+#: ../dnd/tooltip_dd.php:30 ../elements/follow_us_tc.php:68
+#: ../elements/tooltip_tc.php:31
+msgid "East"
+msgstr ""
+
+#: ../dnd/tooltip_dd.php:31 ../elements/follow_us_tc.php:69
+#: ../elements/tooltip_tc.php:32
+msgid "West"
+msgstr ""
+
+#: ../dnd/tooltip_dd.php:32 ../elements/tooltip_tc.php:33
+msgid "Northwest"
+msgstr ""
+
+#: ../dnd/tooltip_dd.php:33 ../elements/tooltip_tc.php:34
+msgid "Northeast"
+msgstr ""
+
+#: ../dnd/tooltip_dd.php:34 ../elements/tooltip_tc.php:35
+msgid "Southwest"
+msgstr ""
+
+#: ../dnd/tooltip_dd.php:35 ../elements/tooltip_tc.php:36
+msgid "Southeast"
+msgstr ""
+
+#: ../dnd/tooltip_dd.php:40 ../elements/image_hotspot_tc.php:174
+#: ../elements/tooltip_tc.php:46
+msgid "Tooltip Content"
+msgstr ""
+
+#: ../dnd/tooltip_dd.php:42 ../elements/tooltip_tc.php:6
+msgid "Tooltip"
+msgstr ""
+
+#: ../dnd/ul_dd.php:7 ../dnd/ul_dd.php:97 ../elements/ul_tc.php:10
+#: ../elements/ul_tc.php:117
+msgid "List Item"
+msgstr ""
+
+#: ../dnd/ul_dd.php:8 ../elements/ul_tc.php:11
+msgid "Add List Item"
+msgstr ""
+
+#: ../dnd/ul_dd.php:60 ../elements/ul_tc.php:77
+msgid "Inner Delay (ms)"
+msgstr ""
+
+#: ../dnd/ul_dd.php:64 ../elements/ul_tc.php:5
+msgid "Unordered List"
+msgstr ""
+
+#: ../dnd/ul_dd.php:95 ../elements/ul_tc.php:131
+msgid "Item Content"
+msgstr ""
+
+#: ../dnd/vimeo_dd.php:8 ../dnd/youtube_dd.php:8 ../elements/vimeo_tc.php:12
+#: ../elements/youtube_tc.php:12
+msgid "Video ID or URL"
+msgstr ""
+
+#: ../dnd/vimeo_dd.php:13 ../elements/vimeo_tc.php:18
+msgid "Show Title"
+msgstr ""
+
+#: ../dnd/vimeo_dd.php:18 ../elements/vimeo_tc.php:23
+msgid "Show By Line"
+msgstr ""
+
+#: ../dnd/vimeo_dd.php:23 ../elements/vimeo_tc.php:28
+msgid "Show Portrait"
+msgstr ""
+
+#: ../dnd/vimeo_dd.php:28 ../dnd/youtube_dd.php:18 ../elements/WP-video.php:55
+#: ../elements/ab-tweet-scroller.php:118 ../elements/nivo_slider_tc.php:29
+#: ../elements/vimeo_tc.php:34 ../elements/youtube_tc.php:22
+msgid "Autoplay"
+msgstr ""
+
+#: ../dnd/vimeo_dd.php:33 ../elements/vimeo_tc.php:39
+msgid "Loop Playing"
+msgstr ""
+
+#: ../dnd/vimeo_dd.php:38 ../elements/vimeo_tc.php:45
+msgid "Controls Color"
+msgstr ""
+
+#: ../dnd/vimeo_dd.php:41
+msgid "Vimeo Video"
+msgstr ""
+
+#: ../dnd/visible_dd.php:18
+msgid "Visible on devices"
+msgstr ""
+
+#: ../dnd/visible_dd.php:24
+msgid "Visible Only on Devices"
+msgstr ""
+
+#: ../dnd/visible_dd.php:25
+msgid ""
+"This shortcode will make content visible only on selected devices, using "
+"@media css method"
+msgstr ""
+
+#: ../dnd/youtube_dd.php:13 ../elements/youtube_tc.php:17
+msgid "Fullscreen Button"
+msgstr ""
+
+#: ../dnd/youtube_dd.php:23 ../elements/youtube_tc.php:27
+msgid "Modest Branding"
+msgstr ""
+
+#: ../dnd/youtube_dd.php:28 ../elements/youtube_tc.php:32
+msgid "Controls"
+msgstr ""
+
+#: ../dnd/youtube_dd.php:33 ../elements/youtube_tc.php:38
+msgid "Show Info Before Play"
+msgstr ""
+
+#: ../dnd/youtube_dd.php:38 ../elements/youtube_tc.php:43
+msgid "Show Related When Video Ends"
+msgstr ""
+
+#: ../dnd/youtube_dd.php:41 ../elements/youtube_tc.php:47
+msgid "Start Playing at (in seconds)"
+msgstr ""
+
+#: ../dnd/youtube_dd.php:44 ../elements/youtube_tc.php:50
+msgid "Stop Playing at (in seconds)"
+msgstr ""
+
+#: ../dnd/youtube_dd.php:47
+msgid "Youtube Video Embed"
+msgstr ""
+
+#: ../elements/WP-video.php:7 ../elements/WP-video.php:8
+msgid "Video - HTML5"
+msgstr ""
+
+#: ../elements/WP-video.php:11 ../elements/abdev-portfolio.php:13
+#: ../elements/flipbook.php:22 ../elements/image_hotspot_tc.php:9
+#: ../elements/image_switch_tc.php:9 ../elements/image_tc.php:9
+#: ../elements/nivo_slider_tc.php:9 ../elements/revslider.php:24
+#: ../elements/scroll_popup_tc.php:9 ../elements/vimeo_tc.php:9
+#: ../elements/youtube_tc.php:9
+msgid "Media"
+msgstr ""
+
+#: ../elements/WP-video.php:15
+msgid "MP4 file"
+msgstr ""
+
+#: ../elements/WP-video.php:19
+msgid "M4V file"
+msgstr ""
+
+#: ../elements/WP-video.php:23
+msgid "WEBM file"
+msgstr ""
+
+#: ../elements/WP-video.php:27
+msgid "OGV file"
+msgstr ""
+
+#: ../elements/WP-video.php:31
+msgid "WMV file"
+msgstr ""
+
+#: ../elements/WP-video.php:35
+msgid "FLV file"
+msgstr ""
+
+#: ../elements/WP-video.php:39
+msgid "Poster image"
+msgstr ""
+
+#: ../elements/WP-video.php:41
+msgid "Defines image to show as placeholder before the media plays"
+msgstr ""
+
+#: ../elements/WP-video.php:45
+msgid "Loop"
+msgstr ""
+
+#: ../elements/WP-video.php:52
+msgid "Allows for the looping of media"
+msgstr ""
+
+#: ../elements/WP-video.php:62
+msgid ""
+"Causes the media to automatically play as soon as the media file is ready"
+msgstr ""
+
+#: ../elements/WP-video.php:65
+msgid "Preload"
+msgstr ""
+
+#: ../elements/WP-video.php:73
+msgid "Specifies if and how the video should be loaded when the page loads"
+msgstr ""
+
+#: ../elements/ab-testimonials.php:8 ../elements/ab-testimonials.php:9
+msgid "Testimonials Slider"
+msgstr ""
+
+#: ../elements/ab-testimonials.php:12 ../elements/ab-testimonials.php:129
+#: ../elements/ab-tweet-scroller.php:13 ../elements/email_tc.php:10
+#: ../elements/follow_us_tc.php:9 ../elements/posts_tc.php:9
+#: ../elements/rss_tc.php:9 ../elements/team_tc.php:8
+msgid "Social"
+msgstr ""
+
+#: ../elements/ab-testimonials.php:60 ../elements/ab-testimonials.php:73
+#: ../elements/ab-testimonials.php:79 ../elements/ab-testimonials.php:91
+#: ../elements/ab-testimonials.php:97 ../elements/ab-testimonials.php:107
+#: ../elements/ab-testimonials.php:113 ../elements/ab-tweet-scroller.php:78
+#: ../elements/ab-tweet-scroller.php:90 ../elements/ab-tweet-scroller.php:96
+#: ../elements/ab-tweet-scroller.php:107 ../elements/ab-tweet-scroller.php:113
+#: ../elements/ab-tweet-scroller.php:119 ../elements/divider_tc.php:69
+#: ../elements/divider_tc.php:74 ../elements/image_hotspot_tc.php:58
+#: ../elements/image_hotspot_tc.php:71 ../elements/image_hotspot_tc.php:77
+#: ../elements/image_hotspot_tc.php:82 ../elements/image_hotspot_tc.php:87
+#: ../elements/image_switch_tc.php:60 ../elements/image_switch_tc.php:73
+#: ../elements/image_switch_tc.php:79 ../elements/image_switch_tc.php:84
+#: ../elements/image_switch_tc.php:89 ../elements/image_tc.php:56
+#: ../elements/image_tc.php:69 ../elements/image_tc.php:75
+#: ../elements/image_tc.php:80 ../elements/image_tc.php:85
+#: ../elements/nivo_slider_tc.php:87 ../elements/nivo_slider_tc.php:93
+#: ../elements/scroll_popup_tc.php:54 ../elements/scroll_popup_tc.php:59
+#: ../elements/scroll_popup_tc.php:64 ../elements/stats_excerpt_tc.php:78
+#: ../elements/stats_excerpt_tc.php:83 ../elements/stats_excerpt_tc.php:88
+#: ../elements/stats_excerpt_tc.php:94 ../elements/ul_tc.php:56
+#: ../elements/ul_tc.php:69 ../elements/ul_tc.php:74 ../elements/ul_tc.php:79
+msgid "Animation"
+msgstr ""
+
+#: ../elements/ab-testimonials.php:90
+msgid ""
+"Determines whether the timeout between transitions should be paused "
+"onMouseOver (only applies when play=true)"
+msgstr ""
+
+#: ../elements/ab-testimonials.php:118 ../elements/ab-testimonials.php:163
+#: ../elements/ab-tweet-scroller.php:124 ../elements/abbr_tc.php:20
+#: ../elements/abbr_tc.php:25 ../elements/accordions_tc.php:22
+#: ../elements/accordions_tc.php:27 ../elements/alert_box_tc.php:38
+#: ../elements/alert_box_tc.php:43 ../elements/blockquote_tc.php:26
+#: ../elements/blockquote_tc.php:31 ../elements/button_tc.php:75
+#: ../elements/button_tc.php:80 ../elements/buynow_tc.php:49
+#: ../elements/buynow_tc.php:54 ../elements/callout_box_tc.php:98
+#: ../elements/callout_box_tc.php:103 ../elements/chart_bar_tc.php:26
+#: ../elements/chart_bar_tc.php:31 ../elements/chart_doughnut_tc.php:21
+#: ../elements/chart_doughnut_tc.php:26 ../elements/chart_line_tc.php:26
+#: ../elements/chart_line_tc.php:31 ../elements/chart_pie_tc.php:22
+#: ../elements/chart_pie_tc.php:27 ../elements/chart_polar_tc.php:22
+#: ../elements/chart_polar_tc.php:27 ../elements/chart_radar_tc.php:26
+#: ../elements/chart_radar_tc.php:31 ../elements/children_tc.php:21
+#: ../elements/children_tc.php:26 ../elements/divider_tc.php:79
+#: ../elements/divider_tc.php:84 ../elements/donate_tc.php:36
+#: ../elements/donate_tc.php:41 ../elements/download_tc.php:28
+#: ../elements/download_tc.php:33 ../elements/dropcap_tc.php:23
+#: ../elements/dropcap_tc.php:28 ../elements/email_tc.php:27
+#: ../elements/email_tc.php:32 ../elements/follow_us_tc.php:20
+#: ../elements/follow_us_tc.php:25 ../elements/h_tc.php:27
+#: ../elements/h_tc.php:32 ../elements/highlight_tc.php:20
+#: ../elements/highlight_tc.php:25 ../elements/icon_tc.php:42
+#: ../elements/icon_tc.php:47 ../elements/image_hotspot_tc.php:92
+#: ../elements/image_hotspot_tc.php:97 ../elements/image_switch_tc.php:109
+#: ../elements/image_switch_tc.php:114 ../elements/image_tc.php:114
+#: ../elements/image_tc.php:119 ../elements/knob_tc.php:73
+#: ../elements/knob_tc.php:78 ../elements/nivo_slider_tc.php:153
+#: ../elements/posts_tc.php:88 ../elements/posts_tc.php:93
+#: ../elements/pricing_box_tc.php:114 ../elements/pricing_box_tc.php:119
+#: ../elements/progress_bar_tc.php:29 ../elements/progress_bar_tc.php:34
+#: ../elements/pullquote_tc.php:25 ../elements/pullquote_tc.php:30
+#: ../elements/qrcode_tc.php:73 ../elements/qrcode_tc.php:78
+#: ../elements/rss_tc.php:30 ../elements/rss_tc.php:35
+#: ../elements/scroll_popup_tc.php:102 ../elements/scroll_popup_tc.php:107
+#: ../elements/search_tc.php:44 ../elements/search_tc.php:49
+#: ../elements/service_box_tc.php:51 ../elements/service_box_tc.php:56
+#: ../elements/sidebar_tc.php:29 ../elements/sidebar_tc.php:34
+#: ../elements/sitemap_tc.php:29 ../elements/sitemap_tc.php:34
+#: ../elements/stats_excerpt_tc.php:106 ../elements/stats_excerpt_tc.php:111
+#: ../elements/table_tc.php:41 ../elements/table_tc.php:46
+#: ../elements/tabs_tc.php:60 ../elements/tabs_tc.php:65
+#: ../elements/team_tc.php:129 ../elements/team_tc.php:134
+#: ../elements/text_tc.php:117 ../elements/text_tc.php:122
+#: ../elements/timeline_tc.php:48 ../elements/timeline_tc.php:53
+#: ../elements/toggle_tc.php:22 ../elements/toggle_tc.php:27
+#: ../elements/tooltip_tc.php:42 ../elements/ul_tc.php:84
+#: ../elements/ul_tc.php:89 ../elements/vimeo_tc.php:50
+#: ../elements/vimeo_tc.php:55 ../elements/youtube_tc.php:55
+#: ../elements/youtube_tc.php:60
+msgid "Advanced"
+msgstr ""
+
+#: ../elements/ab-testimonials.php:125 ../elements/ab-testimonials.php:126
+msgid "Testimonials Submit Form"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:9 ../elements/ab-tweet-scroller.php:10
+msgid "AB Tweet Scroller"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:17
+msgid "User"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:18
+msgid "Displays different user than the one specified in API settings"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:21
+msgid "Limit"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:22
+msgid "Number of tweets to show"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:26
+msgid "External Link Target"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:38
+msgid "Hide Image"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:43
+msgid "Hide Reply Link"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:48
+msgid "Hide Retweet Link"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:53
+msgid "Hide Favorite Link"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:57
+msgid "Date Format"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:58
+msgid ""
+"Specifies date format to be used, or to hide the date. Possible values are "
+"human, hide or PHP date format string"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:67
+msgid "Effect"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:72
+msgid "scroll"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:73
+msgid "fade"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:74
+msgid "crossfade"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:75
+msgid "cover-fade"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:76
+msgid "uncover-fade"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:81
+msgid "Easing"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:85
+msgid "linear"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:86
+msgid "swing"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:87
+msgid "cubic"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:88
+msgid "elastic"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:93 ../elements/ab-tweet-scroller.php:110
+msgid "Transition Duration"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:94
+msgid "Duration of transition in seconds"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:103
+msgid "false"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:104
+msgid "resume"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:105
+msgid "immediate"
+msgstr ""
+
+#: ../elements/ab-tweet-scroller.php:111
+msgid "How long is each slide displayed, in seconds"
+msgstr ""
+
+#: ../elements/abbr_tc.php:10
+msgid "e.g. Abbreviation"
+msgstr ""
+
+#: ../elements/abbr_tc.php:14
+msgid "e.g. abbr"
+msgstr ""
+
+#: ../elements/abbr_tc.php:19 ../elements/accordions_tc.php:21
+#: ../elements/alert_box_tc.php:37 ../elements/blockquote_tc.php:25
+#: ../elements/button_tc.php:74 ../elements/buynow_tc.php:48
+#: ../elements/callout_box_tc.php:97 ../elements/chart_bar_tc.php:25
+#: ../elements/chart_doughnut_tc.php:20 ../elements/chart_line_tc.php:25
+#: ../elements/chart_pie_tc.php:21 ../elements/chart_polar_tc.php:21
+#: ../elements/chart_radar_tc.php:25 ../elements/children_tc.php:20
+#: ../elements/divider_tc.php:78 ../elements/donate_tc.php:35
+#: ../elements/download_tc.php:27 ../elements/dropcap_tc.php:22
+#: ../elements/email_tc.php:26 ../elements/follow_us_tc.php:19
+#: ../elements/h_tc.php:26 ../elements/highlight_tc.php:19
+#: ../elements/icon_tc.php:41 ../elements/image_hotspot_tc.php:91
+#: ../elements/image_switch_tc.php:108 ../elements/image_tc.php:113
+#: ../elements/knob_tc.php:72 ../elements/posts_tc.php:87
+#: ../elements/pricing_box_tc.php:113 ../elements/progress_bar_tc.php:28
+#: ../elements/pullquote_tc.php:24 ../elements/qrcode_tc.php:72
+#: ../elements/rss_tc.php:29 ../elements/scroll_popup_tc.php:101
+#: ../elements/search_tc.php:43 ../elements/service_box_tc.php:50
+#: ../elements/sidebar_tc.php:28 ../elements/sitemap_tc.php:28
+#: ../elements/stats_excerpt_tc.php:105 ../elements/table_tc.php:40
+#: ../elements/tabs_tc.php:59 ../elements/team_tc.php:128
+#: ../elements/text_tc.php:116 ../elements/timeline_tc.php:47
+#: ../elements/toggle_tc.php:21 ../elements/ul_tc.php:83
+#: ../elements/vimeo_tc.php:49 ../elements/youtube_tc.php:54
+msgid "Additional custom ID"
+msgstr ""
+
+#: ../elements/abdev-portfolio.php:9 ../elements/abdev-portfolio.php:10
+#: ../inc/breadcrumbs.php:6 ../index.php:20
+msgid "Portfolio"
+msgstr ""
+
+#: ../elements/abdev-portfolio.php:17
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../elements/abdev-portfolio.php:18
+msgid ""
+"Show only items from specific category, displays all categories if not "
+"specified (category slug string)"
+msgstr ""
+
+#: ../elements/abdev-portfolio.php:23
+msgid "Number of portfolio items to be shown"
+msgstr ""
+
+#: ../elements/abdev-portfolio.php:28
+msgid "More Link Text"
+msgstr ""
+
+#: ../elements/abdev-portfolio.php:29
+msgid "Enter text to be displayed below items as a link to complete portfolio"
+msgstr ""
+
+#: ../elements/abdev-portfolio.php:32
+msgid "More Link URL"
+msgstr ""
+
+#: ../elements/abdev-portfolio.php:33
+msgid "Enter URL for link to complete portfolio"
+msgstr ""
+
+#: ../elements/accordions_tc.php:11
+msgid "New Accordion"
+msgstr ""
+
+#: ../elements/alert_box_tc.php:23
+msgid "Name of the Icon"
+msgstr ""
+
+#: ../elements/blockquote_tc.php:15
+msgid "Author URL"
+msgstr ""
+
+#: ../elements/blockquote_tc.php:21
+msgid "Source URL"
+msgstr ""
+
+#: ../elements/button_tc.php:9 ../elements/children_tc.php:9
+#: ../elements/nivo_slider_tc.php:108 ../elements/nivo_slider_tc.php:113
+#: ../elements/nivo_slider_tc.php:118 ../elements/nivo_slider_tc.php:128
+#: ../elements/nivo_slider_tc.php:138 ../elements/sitemap_tc.php:9
+msgid "Navigation"
+msgstr ""
+
+#: ../elements/buynow_tc.php:9 ../elements/donate_tc.php:9
+#: ../elements/qrcode_tc.php:9
+msgid "E-Commerce"
+msgstr ""
+
+#: ../elements/callout_box_tc.php:12 ../elements/dropcap_tc.php:17
+#: ../elements/stats_excerpt_tc.php:12 ../inc/customizer/customizer.php:111
+msgid "Background Color"
+msgstr ""
+
+#: ../elements/callout_box_tc.php:22
+msgid "Inverted (White) Text"
+msgstr ""
+
+#: ../elements/callout_box_tc.php:84 ../elements/pricing_box_tc.php:106
+msgid "Button Icon"
+msgstr ""
+
+#: ../elements/callout_box_tc.php:91
+msgid "Only Icon Button"
+msgstr ""
+
+#: ../elements/callout_box_tc.php:92
+msgid "Hides button text and shows only icon. Works only with one button"
+msgstr ""
+
+#: ../elements/cf7.php:24
+msgid "Contact form 7"
+msgstr ""
+
+#: ../elements/cf7.php:25
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../elements/cf7.php:32
+msgid "Select Form"
+msgstr ""
+
+#: ../elements/chart_bar_tc.php:6
+msgid "Chart Bar"
+msgstr ""
+
+#: ../elements/chart_bar_tc.php:9 ../elements/chart_doughnut_tc.php:8
+#: ../elements/chart_line_tc.php:9 ../elements/chart_pie_tc.php:9
+#: ../elements/chart_polar_tc.php:9 ../elements/chart_radar_tc.php:9
+#: ../elements/knob_tc.php:9 ../elements/progress_bar_tc.php:9
+msgid "Charts"
+msgstr ""
+
+#: ../elements/chart_bar_tc.php:11 ../elements/chart_doughnut_tc.php:10
+#: ../elements/chart_line_tc.php:11 ../elements/chart_pie_tc.php:11
+#: ../elements/chart_polar_tc.php:11 ../elements/chart_radar_tc.php:11
+msgid "New Label"
+msgstr ""
+
+#: ../elements/chart_bar_tc.php:12 ../elements/chart_doughnut_tc.php:11
+#: ../elements/chart_line_tc.php:12 ../elements/chart_pie_tc.php:12
+#: ../elements/chart_polar_tc.php:12 ../elements/chart_radar_tc.php:12
+msgid "Label Section"
+msgstr ""
+
+#: ../elements/chart_bar_tc.php:15 ../elements/chart_doughnut_tc.php:14
+#: ../elements/chart_line_tc.php:15 ../elements/chart_pie_tc.php:15
+#: ../elements/chart_polar_tc.php:15 ../elements/chart_radar_tc.php:15
+msgid "Width"
+msgstr ""
+
+#: ../elements/chart_bar_tc.php:16 ../elements/chart_doughnut_tc.php:15
+#: ../elements/chart_line_tc.php:16 ../elements/chart_pie_tc.php:16
+#: ../elements/chart_polar_tc.php:16 ../elements/chart_radar_tc.php:16
+#, php-format
+msgid "Width of the Chart, type % or px at the end of the number."
+msgstr ""
+
+#: ../elements/chart_bar_tc.php:20 ../elements/chart_line_tc.php:20
+msgid "Months"
+msgstr ""
+
+#: ../elements/chart_bar_tc.php:21 ../elements/chart_line_tc.php:21
+msgid "Type months (e.g. January,February,March,April,May,June,July)"
+msgstr ""
+
+#: ../elements/chart_bar_tc.php:71
+msgid "Bar Section"
+msgstr ""
+
+#: ../elements/chart_bar_tc.php:75 ../elements/chart_line_tc.php:79
+#: ../elements/chart_radar_tc.php:78
+msgid "Fill Color"
+msgstr ""
+
+#: ../elements/chart_bar_tc.php:80 ../elements/chart_line_tc.php:84
+#: ../elements/chart_radar_tc.php:83
+msgid "Stroke Color"
+msgstr ""
+
+#: ../elements/chart_bar_tc.php:85
+msgid "Highlight Fill Color"
+msgstr ""
+
+#: ../elements/chart_bar_tc.php:90
+msgid "Highlight Stroke Color"
+msgstr ""
+
+#: ../elements/chart_bar_tc.php:95
+msgid "Bar Points"
+msgstr ""
+
+#: ../elements/chart_bar_tc.php:96 ../elements/chart_line_tc.php:110
+#: ../elements/chart_radar_tc.php:109
+msgid "Seperate numbers with comma (e.g. 28, 48, 40, 19, 86, 27, 90)"
+msgstr ""
+
+#: ../elements/chart_doughnut_tc.php:5
+msgid "Chart Doughnut"
+msgstr ""
+
+#: ../elements/chart_doughnut_tc.php:60 ../elements/chart_line_tc.php:71
+#: ../elements/chart_pie_tc.php:59 ../elements/chart_polar_tc.php:61
+#: ../elements/chart_radar_tc.php:70
+msgid "Line Section"
+msgstr ""
+
+#: ../elements/chart_doughnut_tc.php:73 ../elements/chart_pie_tc.php:72
+#: ../elements/chart_polar_tc.php:74
+msgid "Highlight"
+msgstr ""
+
+#: ../elements/chart_line_tc.php:6
+msgid "Chart Line"
+msgstr ""
+
+#: ../elements/chart_line_tc.php:89 ../elements/chart_radar_tc.php:88
+msgid "Point Color"
+msgstr ""
+
+#: ../elements/chart_line_tc.php:94 ../elements/chart_radar_tc.php:93
+msgid "Point Stroke Color"
+msgstr ""
+
+#: ../elements/chart_line_tc.php:99 ../elements/chart_radar_tc.php:98
+msgid "Point Highlight Fill Color"
+msgstr ""
+
+#: ../elements/chart_line_tc.php:104 ../elements/chart_radar_tc.php:103
+msgid "Point Highlight Stroke Color"
+msgstr ""
+
+#: ../elements/chart_line_tc.php:109
+msgid "Line Points"
+msgstr ""
+
+#: ../elements/chart_pie_tc.php:6
+msgid "Chart Pie"
+msgstr ""
+
+#: ../elements/chart_polar_tc.php:6
+msgid "Chart Polar Area"
+msgstr ""
+
+#: ../elements/chart_radar_tc.php:6
+msgid "Chart Radar"
+msgstr ""
+
+#: ../elements/chart_radar_tc.php:20
+msgid "Labels"
+msgstr ""
+
+#: ../elements/chart_radar_tc.php:21
+msgid ""
+"Type labels with commas and without spaces(e.g. Eating,Drinking,Sleeping,"
+"Designing,Coding,Cycling,Running)"
+msgstr ""
+
+#: ../elements/chart_radar_tc.php:108
+msgid "Radar Points"
+msgstr ""
+
+#: ../elements/dropcap_tc.php:13
+msgid "Letter Color"
+msgstr ""
+
+#: ../elements/flipbook.php:18 ../elements/flipbook.php:19
+msgid "Real3D Flipbook"
+msgstr ""
+
+#: ../elements/flipbook.php:26
+msgid "Select Flipbook"
+msgstr ""
+
+#: ../elements/follow_us_tc.php:11
+msgid "New Profile Link"
+msgstr ""
+
+#: ../elements/follow_us_tc.php:12
+msgid "Follow us Link"
+msgstr ""
+
+#: ../elements/follow_us_tc.php:37
+msgid "Single Follow us Link"
+msgstr ""
+
+#: ../elements/follow_us_tc.php:41
+msgid "Tooltip Title"
+msgstr ""
+
+#: ../elements/follow_us_tc.php:42
+msgid ""
+"Name of the social network (e.g. Follow us on Facebook,Follow us on Twitter,"
+"Follow us on Google+), this will be shown as tooltip"
+msgstr ""
+
+#: ../elements/follow_us_tc.php:63
+msgid "Tooltip Gravity Position"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:6
+msgid "Image Hotspots"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:11
+msgid "New Hotspot"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:12
+msgid "Hotspot"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:62 ../elements/image_switch_tc.php:64
+#: ../elements/image_tc.php:60 ../elements/text_tc.php:55
+#: ../elements/ul_tc.php:60
+msgid "Timing Function"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:65 ../elements/image_switch_tc.php:67
+#: ../elements/image_tc.php:63 ../elements/text_tc.php:58
+#: ../elements/ul_tc.php:63
+msgid "Linear"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:66 ../elements/image_switch_tc.php:68
+#: ../elements/image_tc.php:64 ../elements/text_tc.php:59
+#: ../elements/ul_tc.php:64
+msgid "Ease"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:67 ../elements/image_switch_tc.php:69
+#: ../elements/image_tc.php:65 ../elements/text_tc.php:60
+#: ../elements/ul_tc.php:65
+msgid "Ease-in"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:68 ../elements/image_switch_tc.php:70
+#: ../elements/image_tc.php:66 ../elements/text_tc.php:61
+#: ../elements/ul_tc.php:66
+msgid "Ease-out"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:69 ../elements/image_switch_tc.php:71
+#: ../elements/image_tc.php:67 ../elements/text_tc.php:62
+#: ../elements/ul_tc.php:67
+msgid "Ease-in-out"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:74 ../elements/image_switch_tc.php:76
+#: ../elements/image_tc.php:72 ../elements/text_tc.php:66
+msgid "Trigger Point (in px)"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:75 ../elements/image_switch_tc.php:77
+#: ../elements/image_tc.php:73 ../elements/text_tc.php:67
+msgid "Amount of pixels from bottom to start animation"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:124
+msgid "Single hotspot section"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:128
+msgid "Vertical Position (%)"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:131
+msgid "Horizontal Position (%)"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:134
+msgid "Number in Hotspot"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:137
+msgid "Icon in Hotspot"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:141
+msgid "Icon or Text Color"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:146
+msgid "Select Hotspot Effect"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:151
+msgid "Grow"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:155
+msgid "Hotspot Background"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:159
+msgid "Effect Background"
+msgstr ""
+
+#: ../elements/image_hotspot_tc.php:164
+msgid "Tooltip Position"
+msgstr ""
+
+#: ../elements/image_switch_tc.php:6
+msgid "Image Switch"
+msgstr ""
+
+#: ../elements/image_switch_tc.php:13
+msgid "First Image"
+msgstr ""
+
+#: ../elements/image_switch_tc.php:18
+msgid "Second Image"
+msgstr ""
+
+#: ../elements/image_tc.php:102
+msgid "Lightbox"
+msgstr ""
+
+#: ../elements/image_tc.php:107
+msgid "Lightbox Icon"
+msgstr ""
+
+#: ../elements/image_tc.php:108
+msgid "Choose Lightbox Icon that will be shown on hover"
+msgstr ""
+
+#: ../elements/knob_tc.php:67
+msgid "Knob Label Color"
+msgstr ""
+
+#: ../elements/map_tc.php:11
+msgid "Add New Marker"
+msgstr ""
+
+#: ../elements/map_tc.php:12
+msgid "Marker"
+msgstr ""
+
+#: ../elements/map_tc.php:16 ../elements/map_tc.php:21
+#: ../elements/map_tc.php:46 ../elements/map_tc.php:74
+#: ../elements/map_tc.php:81 ../elements/map_tc.php:87
+#: ../elements/map_tc.php:93 ../elements/map_tc.php:99
+msgid "Customize"
+msgstr ""
+
+#: ../elements/map_tc.php:42
+msgid "Auto Center and Zoom to Show all Markers"
+msgstr ""
+
+#: ../elements/map_tc.php:132
+msgid "Single marker section"
+msgstr ""
+
+#: ../elements/map_tc.php:140
+msgid "Marker Subtitle"
+msgstr ""
+
+#: ../elements/map_tc.php:153
+msgid "Marker Adress"
+msgstr ""
+
+#: ../elements/map_tc.php:156
+msgid "Marker Telephone 1"
+msgstr ""
+
+#: ../elements/map_tc.php:159
+msgid "Marker Telephone 2"
+msgstr ""
+
+#: ../elements/map_tc.php:162
+msgid "Marker Fax"
+msgstr ""
+
+#: ../elements/map_tc.php:165
+msgid "Marker E-mail"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:6
+msgid "Nivo Slider"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:11
+msgid "New Image"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:18
+msgid "Start on a random slide"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:22 ../elements/nivo_slider_tc.php:35
+#: ../elements/nivo_slider_tc.php:105 ../elements/nivo_slider_tc.php:125
+#: ../elements/nivo_slider_tc.php:135 ../elements/nivo_slider_tc.php:145
+msgid "Yes"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:23 ../elements/nivo_slider_tc.php:34
+#: ../elements/nivo_slider_tc.php:106 ../elements/nivo_slider_tc.php:126
+#: ../elements/nivo_slider_tc.php:136 ../elements/nivo_slider_tc.php:146
+msgid "No"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:26 ../elements/nivo_slider_tc.php:37
+#: ../elements/nivo_slider_tc.php:62 ../elements/nivo_slider_tc.php:68
+#: ../elements/nivo_slider_tc.php:74 ../elements/nivo_slider_tc.php:81
+#: ../elements/nivo_slider_tc.php:98 ../elements/nivo_slider_tc.php:148
+#: ../elements/posts_tc.php:49 ../elements/posts_tc.php:54
+#: ../elements/posts_tc.php:66 ../elements/posts_tc.php:71
+#: ../elements/posts_tc.php:75 ../elements/posts_tc.php:79
+#: ../elements/scroll_popup_tc.php:81 ../elements/scroll_popup_tc.php:86
+#: ../elements/scroll_popup_tc.php:91 ../elements/scroll_popup_tc.php:97
+msgid "Custom"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:30
+msgid "Check if you want the carousel to autoplay"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:40
+msgid "Autoplay Effect"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:44
+msgid "Slice Down"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:45
+msgid "Slice Down Left"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:46
+msgid "Slice Up"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:47
+msgid "Slice Up Left"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:48
+msgid "Slice Up Down"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:49
+msgid "Slice Up Down Left"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:50
+msgid "Fold"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:52
+msgid "Random"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:53
+msgid "Slide in Right"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:54
+msgid "Slide in Left"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:55
+msgid "Box Random"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:56
+msgid "Box Rain"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:57
+msgid "Box Rain Reverse"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:58
+msgid "Box Rain Grow"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:59
+msgid "Box Rain Grow Reverse"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:65
+msgid "Slices"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:66
+msgid "For slice animations"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:71
+msgid "Box Cols"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:72 ../elements/nivo_slider_tc.php:78
+msgid "For box animations"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:77
+msgid "Box Rows"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:84
+msgid "Slide transition speed"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:85
+msgid "Duration in ms. Default: 800 ms"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:90
+msgid "Duration of the slide"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:91
+msgid "Duration in ms. Default: 3000 ms"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:96
+msgid "Set starting Slide (0 is default"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:101
+msgid "Next & Prev navigation"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:111
+msgid "Previous Text"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:116
+msgid "Next Text"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:121
+msgid "1,2,3... navigation"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:131
+msgid "Use thumbnails for Control Nav"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:141
+msgid "Stop animation while hovering"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:194
+msgid "Nivo Single Slide"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:209
+msgid "Image Caption Text"
+msgstr ""
+
+#: ../elements/nivo_slider_tc.php:212
+msgid "Single image section"
+msgstr ""
+
+#: ../elements/posts_tc.php:6
+msgid "Posts"
+msgstr ""
+
+#: ../elements/posts_tc.php:26 ../elements/posts_tc.php:45
+msgid "Order By"
+msgstr ""
+
+#: ../elements/pricing_box_tc.php:6
+msgid "Pricing box"
+msgstr ""
+
+#: ../elements/pricing_box_tc.php:49 ../elements/pricing_box_tc.php:53
+msgid "Featured"
+msgstr ""
+
+#: ../elements/pricing_box_tc.php:72
+msgid "Button Text Color"
+msgstr ""
+
+#: ../elements/pricing_box_tc.php:77
+msgid "Button Background Color"
+msgstr ""
+
+#: ../elements/pricing_box_tc.php:161
+msgid "Pricing feature"
+msgstr ""
+
+#: ../elements/pricing_box_tc.php:172
+msgid "Avaliable Icon"
+msgstr ""
+
+#: ../elements/pricing_box_tc.php:176
+msgid "Not Avaliable Icon"
+msgstr ""
+
+#: ../elements/progress_bar_tc.php:6
+msgid "Progress bar"
+msgstr ""
+
+#: ../elements/progress_bar_tc.php:19
+msgid "Bar Color Start"
+msgstr ""
+
+#: ../elements/progress_bar_tc.php:23
+msgid "Bar Color End"
+msgstr ""
+
+#: ../elements/qrcode_tc.php:16
+msgid "Size (px)"
+msgstr ""
+
+#: ../elements/revslider.php:20 ../elements/revslider.php:21
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../elements/revslider.php:28
+msgid "Slider Alias"
+msgstr ""
+
+#: ../elements/rss_tc.php:6
+msgid "RSS"
+msgstr ""
+
+#: ../elements/scroll_popup_tc.php:6
+msgid "Scroll Popup"
+msgstr ""
+
+#: ../elements/scroll_popup_tc.php:68
+msgid "Popup Position"
+msgstr ""
+
+#: ../elements/scroll_popup_tc.php:71
+msgid "Top Center"
+msgstr ""
+
+#: ../elements/scroll_popup_tc.php:72
+msgid "Top Left"
+msgstr ""
+
+#: ../elements/scroll_popup_tc.php:73
+msgid "Top Right"
+msgstr ""
+
+#: ../elements/scroll_popup_tc.php:74 ../inc/customizer/customizer.php:172
+msgid "Center Center"
+msgstr ""
+
+#: ../elements/scroll_popup_tc.php:75
+msgid "Center Left"
+msgstr ""
+
+#: ../elements/scroll_popup_tc.php:76
+msgid "Center Right"
+msgstr ""
+
+#: ../elements/scroll_popup_tc.php:77
+msgid "Bottom Center"
+msgstr ""
+
+#: ../elements/scroll_popup_tc.php:78
+msgid "Bottom Left"
+msgstr ""
+
+#: ../elements/scroll_popup_tc.php:79
+msgid "Bottom Right"
+msgstr ""
+
+#: ../elements/scroll_popup_tc.php:84
+#, php-format
+msgid "Popup Width (% or px)"
+msgstr ""
+
+#: ../elements/scroll_popup_tc.php:89
+#, php-format
+msgid "Popup Height (% or px)"
+msgstr ""
+
+#: ../elements/scroll_popup_tc.php:94
+msgid "Close Icon"
+msgstr ""
+
+#: ../elements/scroll_popup_tc.php:95
+msgid "Choose Close Icon that will be shown on hover"
+msgstr ""
+
+#: ../elements/search_tc.php:12
+msgid "Placeholder"
+msgstr ""
+
+#: ../elements/search_tc.php:16
+msgid "Background Color on input"
+msgstr ""
+
+#: ../elements/search_tc.php:18
+msgid "Pick a color for input background."
+msgstr ""
+
+#: ../elements/search_tc.php:22
+msgid "Border Color"
+msgstr ""
+
+#: ../elements/search_tc.php:24
+msgid "Pick a color for input border."
+msgstr ""
+
+#: ../elements/search_tc.php:27
+msgid "Border Radius (px)"
+msgstr ""
+
+#: ../elements/search_tc.php:30
+msgid "Set a number for border radius on input."
+msgstr ""
+
+#: ../elements/service_box_tc.php:6
+msgid "Service box"
+msgstr ""
+
+#: ../elements/sidebar_tc.php:14
+#: ../inc/admin/categories_additional_fields.php:27
+#: ../inc/admin/categories_additional_fields.php:69
+msgid "Sidebar"
+msgstr ""
+
+#: ../elements/sidebar_tc.php:15
+msgid ""
+"Display sidebar and all its widgets anywhere inside content. You can create "
+"unlimited number of sidebars in Creator's options."
+msgstr ""
+
+#: ../elements/sidebar_tc.php:24 ../inc/admin/page_additional_fields.php:68
+msgid "Select Sidebar"
+msgstr ""
+
+#: ../elements/spacer_tc.php:17
+msgid "Hide Spacer on Mobile Size"
+msgstr ""
+
+#: ../elements/spacer_tc.php:22
+msgid "Hide Spacer on Tablet Size"
+msgstr ""
+
+#: ../elements/stats_excerpt_tc.php:29
+msgid "Stats Number Color"
+msgstr ""
+
+#: ../elements/stats_excerpt_tc.php:36
+msgid "Stats Number Sign Color"
+msgstr ""
+
+#: ../elements/stats_excerpt_tc.php:86
+msgid "Delay (ms)"
+msgstr ""
+
+#: ../elements/stats_excerpt_tc.php:91
+msgid "Trigger Point"
+msgstr ""
+
+#: ../elements/stats_excerpt_tc.php:92
+#, php-format
+msgid ""
+"Amount of pixels from bottom to start animation. If you use pixels, enter "
+"the number, if you use percentage enter the number with % sign."
+msgstr ""
+
+#: ../elements/stats_excerpt_tc.php:100
+msgid "Description Color"
+msgstr ""
+
+#: ../elements/tabs_tc.php:102
+msgid "Tab"
+msgstr ""
+
+#: ../elements/team_tc.php:5
+msgid "Team"
+msgstr ""
+
+#: ../elements/team_tc.php:40 ../elements/team_tc.php:44
+#: ../elements/team_tc.php:48 ../elements/team_tc.php:52
+#: ../elements/team_tc.php:56 ../elements/team_tc.php:60
+#: ../elements/team_tc.php:64 ../elements/team_tc.php:68
+#: ../elements/team_tc.php:72 ../elements/team_tc.php:76
+#: ../elements/team_tc.php:80 ../elements/team_tc.php:84
+#: ../elements/team_tc.php:88 ../elements/team_tc.php:92
+#: ../elements/team_tc.php:96 ../elements/team_tc.php:100
+#: ../elements/team_tc.php:104 ../elements/team_tc.php:108
+#: ../elements/team_tc.php:118 ../elements/team_tc.php:124
+#: ../inc/customizer/customizer.php:555
+msgid "Icons"
+msgstr ""
+
+#: ../elements/team_tc.php:138
+msgid "Modal Content"
+msgstr ""
+
+#: ../elements/text_tc.php:6
+msgid "Text Box"
+msgstr ""
+
+#: ../elements/text_tc.php:7
+msgid "You can place any HTML content in this box and animate it."
+msgstr ""
+
+#: ../elements/text_tc.php:79
+msgid "Hide Content Only to Members"
+msgstr ""
+
+#: ../elements/text_tc.php:82 ../elements/text_tc.php:88
+#: ../elements/text_tc.php:94 ../elements/text_tc.php:100
+#: ../elements/text_tc.php:106 ../elements/text_tc.php:112
+msgid "Hide"
+msgstr ""
+
+#: ../elements/text_tc.php:85
+msgid "Hide Content Only to Non Members"
+msgstr ""
+
+#: ../elements/text_tc.php:91
+msgid "Hide on Desktop"
+msgstr ""
+
+#: ../elements/text_tc.php:97
+msgid "Hide on Tablet"
+msgstr ""
+
+#: ../elements/text_tc.php:103
+msgid "Hide on Phablet"
+msgstr ""
+
+#: ../elements/text_tc.php:109
+msgid "Hide on Phone"
+msgstr ""
+
+#: ../elements/timeline_tc.php:6 ../elements/timeline_tc.php:12
+msgid "Timeline"
+msgstr ""
+
+#: ../elements/timeline_tc.php:11
+msgid "New Timeline"
+msgstr ""
+
+#: ../elements/timeline_tc.php:16
+msgid "Titles Position"
+msgstr ""
+
+#: ../elements/timeline_tc.php:42
+msgid "Width in px. Below this width timeline will be stacked on each other."
+msgstr ""
+
+#: ../elements/timeline_tc.php:90
+msgid "Timeline Time"
+msgstr ""
+
+#: ../elements/timeline_tc.php:94
+msgid "Timeline Title"
+msgstr ""
+
+#: ../elements/timeline_tc.php:102
+msgid "Timeline Content"
+msgstr ""
+
+#: ../elements/toggle_tc.php:6
+msgid "Toggle"
+msgstr ""
+
+#: ../elements/vimeo_tc.php:6
+msgid "Vimeo"
+msgstr ""
+
+#: ../elements/youtube_tc.php:6
+msgid "Youtube"
+msgstr ""
+
+#: ../footer.php:7
+msgid "Back to top"
+msgstr ""
+
+#: ../functions.php:79
+msgid "Header Menu"
+msgstr ""
+
+#: ../inc/activate_plugins.php:83 ../inc/class-tgm-plugin-activation.php:305
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/activate_plugins.php:84 ../inc/class-tgm-plugin-activation.php:306
+msgid "Install Plugins"
+msgstr ""
+
+#: ../inc/activate_plugins.php:85 ../inc/class-tgm-plugin-activation.php:307
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../inc/activate_plugins.php:86 ../inc/class-tgm-plugin-activation.php:308
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/activate_plugins.php:97 ../inc/class-tgm-plugin-activation.php:370
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/activate_plugins.php:98 ../inc/class-tgm-plugin-activation.php:372
+#: ../inc/class-tgm-plugin-activation.php:3104
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../inc/activate_plugins.php:99
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../inc/admin/categories_additional_fields.php:12
+#: ../inc/admin/categories_additional_fields.php:56
+msgid "Blog Layout"
+msgstr ""
+
+#: ../inc/admin/categories_additional_fields.php:16
+#: ../inc/admin/categories_additional_fields.php:59
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../inc/admin/categories_additional_fields.php:17
+#: ../inc/admin/categories_additional_fields.php:60
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../inc/admin/categories_additional_fields.php:18
+#: ../inc/admin/categories_additional_fields.php:61
+msgid "No Sidebar"
+msgstr ""
+
+#: ../inc/admin/categories_additional_fields.php:19
+#: ../inc/admin/categories_additional_fields.php:62
+msgid "Masonry 3 Columns"
+msgstr ""
+
+#: ../inc/admin/categories_additional_fields.php:20
+#: ../inc/admin/categories_additional_fields.php:63
+msgid "Masonry 4 columns"
+msgstr ""
+
+#: ../inc/admin/categories_additional_fields.php:41
+#: ../inc/admin/categories_additional_fields.php:82
+msgid ""
+"Please select the sidebar you would like to display on this category. Note: "
+"If you like to use custom sidebar you must first create it under Revelance > "
+"Sidebars."
+msgstr ""
+
+#: ../inc/admin/page_additional_fields.php:66
+msgid "Frontpage options"
+msgstr ""
+
+#: ../inc/admin/page_additional_fields.php:67
+msgid "Display categories"
+msgstr ""
+
+#: ../inc/admin/page_additional_fields.php:149
+msgid ""
+"Portfolio plugin must be installed and at least one portfolio category "
+"created"
+msgstr ""
+
+#: ../inc/admin/page_additional_fields.php:189
+msgid "Revolution Slider Options"
+msgstr ""
+
+#: ../inc/admin/page_additional_fields.php:196
+msgid "No sliders found, Please create a slider"
+msgstr ""
+
+#: ../inc/admin/page_additional_fields.php:202
+msgid "Choose Slider"
+msgstr ""
+
+#: ../inc/admin/page_additional_fields.php:209
+msgid "Slider Revolution plugin not installed"
+msgstr ""
+
+#: ../inc/admin/post_additional_fields.php:34
+msgid "Here you can set other media to be shown instead of featured image."
+msgstr ""
+
+#: ../inc/admin/post_additional_fields.php:39
+msgid "Youtube Video ID:"
+msgstr ""
+
+#: ../inc/admin/post_additional_fields.php:46
+msgid "Vimeo Video ID:"
+msgstr ""
+
+#: ../inc/admin/post_additional_fields.php:53
+msgid "SoundCloud ID:"
+msgstr ""
+
+#: ../inc/admin/post_additional_fields.php:60
+msgid "None - Use Featured Image"
+msgstr ""
+
+#: ../inc/breadcrumbs.php:7
+msgid "Forum"
+msgstr ""
+
+#: ../inc/breadcrumbs.php:8
+#, php-format
+msgid "Archive for \"%s\""
+msgstr ""
+
+#: ../inc/breadcrumbs.php:9
+#, php-format
+msgid "Search Results for \"%s\""
+msgstr ""
+
+#: ../inc/breadcrumbs.php:10
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: ../inc/breadcrumbs.php:11
+#, php-format
+msgid "Articles by %s"
+msgstr ""
+
+#: ../inc/breadcrumbs.php:12
+msgid "Error 404"
+msgstr ""
+
+#: ../inc/breadcrumbs.php:127
+msgid "Page"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:371
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:373
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:374
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:375
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:376
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:377
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:378
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:496
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:497
+msgid "Update Required"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:614
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:813
+#: ../inc/class-tgm-plugin-activation.php:3522
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:928
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:928
+#: ../inc/class-tgm-plugin-activation.php:932
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:932
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2228
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2245
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2249
+msgid "External Source"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2253
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2272
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2276
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2278
+msgid "Active"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2284
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2287
+msgid "Requires Update"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2290
+msgid "Update recommended"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2460
+msgid "Installed version:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2468
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2480
+msgid "Available version:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2504
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2520
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2526
+msgid "Version"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2527
+msgid "Status"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2663
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2696
+msgid "Install"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2702
+msgid "Update"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2705
+msgid "Activate"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2737
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2739
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2775
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2777
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2881
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2906
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3103
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3442
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3446
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3447
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3451
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3452
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3452
+#: ../inc/class-tgm-plugin-activation.php:3459
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3452
+#: ../inc/class-tgm-plugin-activation.php:3459
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3453
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3454
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3458
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3459
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3460
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3461
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/customizer/custom_controls.php:35
+msgid "Add More"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:23
+msgid "General"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:34
+msgid "Disable Responsiveness"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:46
+msgid "Favicon"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:58
+msgid "Hide Comments"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:59
+msgid "Check this to hide WordPress comments"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:71
+msgid "Use Preloader"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:84
+msgid "Custom CSS"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:85
+msgid "Here you can place additional CSS or CSS to override theme's styles"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:97
+msgid "Boxed Body"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:98
+msgid "Check this to enable boxed body layout"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:122
+msgid "Background Image"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:133
+msgid "Background Repeat"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:137
+msgid "No Repeat"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:138
+msgid "Tile"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:139
+msgid "Tile Horizontally"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:140
+msgid "Tile Vertically"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:150
+msgid "Background Size"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:154
+msgid "Cover"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:155
+msgid "Contain"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:164
+msgid "Background Position"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:168
+msgid "Left Top"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:169
+msgid "Left Center"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:170
+msgid "Left Bottom"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:171
+msgid "Center Top"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:173
+msgid "Center Bottom"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:174
+msgid "Right Top"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:175
+msgid "Right Center"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:176
+msgid "Right Bottom"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:185
+msgid "Background Attachment"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:189
+msgid "Fixed"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:190
+msgid "Scroll"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:202
+msgid "Header"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:213
+msgid "Header Logo"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:225
+msgid "Sticky Header Logo"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:237
+msgid "Header Logo (Retina Version @2x)"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:238 ../inc/customizer/customizer.php:277
+msgid ""
+"Select an image file for the retina version of the logo. It should be "
+"exactly 2x the size of main logo."
+msgstr ""
+
+#: ../inc/customizer/customizer.php:250
+msgid "Retina Logo Width"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:251 ../inc/customizer/customizer.php:290
+msgid ""
+"If retina logo is uploaded, enter the standard logo (1x) version width, do "
+"not enter the retina logo width."
+msgstr ""
+
+#: ../inc/customizer/customizer.php:263
+msgid "Retina Logo Height"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:264 ../inc/customizer/customizer.php:303
+msgid ""
+"If retina logo is uploaded, enter the standard logo (1x) version height, do "
+"not enter the retina logo height."
+msgstr ""
+
+#: ../inc/customizer/customizer.php:276
+msgid "Sticky Header Logo (Retina Version @2x)"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:289
+msgid "Sticky Header Retina Logo Width"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:302
+msgid "Sticky Header Retina Logo Height"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:315
+msgid "Header Social Icons"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:350
+msgid "Googleplus URL"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:446
+msgid "Mail URL"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:566
+msgid "Complete theme's icons names list"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:567 ../inc/customizer/customizer.php:594
+msgid "Icon list with all icons and their names can be found <a href=\""
+msgstr ""
+
+#: ../inc/customizer/customizer.php:580
+msgid "Disable Theme Icon Font"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:581
+msgid ""
+"If you don't use theme's icons (e.g. you have Font Awesome or WHHG enabled "
+"in Drag and Drop settings) you can disable theme's icon set."
+msgstr ""
+
+#: ../inc/customizer/customizer.php:593
+msgid "Additional theme's icons names list"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:607 ../inc/customizer/customizer.php:619
+msgid "Sidebars"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:620
+msgid "Add as many custom sidebars as you need"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:632
+msgid "Colors"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:644
+msgid "Main Color"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:657
+msgid "Dark Scheme"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:669 ../index.php:13
+msgid "Blog"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:680
+msgid "Additional Content After Category"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:681
+msgid ""
+"Enter HTML content to be shown at the bottom of blog category page, before "
+"footer."
+msgstr ""
+
+#: ../inc/customizer/customizer.php:693
+msgid "Additional Content After Single Post"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:694
+msgid ""
+"Enter HTML content to be shown at the bottom of single post page, before "
+"footer."
+msgstr ""
+
+#: ../inc/customizer/customizer.php:706
+msgid "Footer"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:717
+msgid "Hide Back to Top"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:729
+msgid "Footer Punchline"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:742
+msgid "Copyright Notice"
+msgstr ""
+
+#: ../inc/customizer/customizer.php:743
+msgid "Enter copyright notice to be shown in footer"
+msgstr ""
+
+#: ../inc/sidebars.php:24 ../index.php:171 ../sidebar.php:3 ../single.php:69
+msgid "Primary Sidebar"
+msgstr ""
+
+#: ../inc/sidebars.php:26
+msgid "The Primary Widget Area"
+msgstr ""
+
+#: ../inc/sidebars.php:35 ../inc/sidebars.php:37 ../search.php:29
+msgid "Search Results Sidebar"
+msgstr ""
+
+#: ../inc/widgets/flickr.php:7
+msgid "Photostream from Flickr."
+msgstr ""
+
+#: ../inc/widgets/flickr.php:12
+msgid "Flickr stream"
+msgstr ""
+
+#: ../inc/widgets/flickr.php:50
+msgid "Invalid flickr username or connection error."
+msgstr ""
+
+#: ../inc/widgets/flickr.php:66
+msgid "Photos from Flickr"
+msgstr ""
+
+#: ../inc/widgets/flickr.php:69
+msgid "Title:"
+msgstr ""
+
+#: ../inc/widgets/flickr.php:73
+msgid "Flickr username:"
+msgstr ""
+
+#: ../inc/widgets/flickr.php:77
+msgid "No. of images:"
+msgstr ""
+
+#: ../index.php:9 ../index.php:86 ../page-portfolio.php:7
+msgid "Read More"
+msgstr ""
+
+#: ../index.php:24
+msgid "Posts by"
+msgstr ""
+
+#: ../index.php:27
+msgid "Posts Taged"
+msgstr ""
+
+#: ../index.php:31 ../index.php:36
+msgid "Posts on "
+msgstr ""
+
+#: ../index.php:112 ../index.php:158 ../single.php:51
+msgid "No posts were found. Sorry!"
+msgstr ""
+
+#: ../page-front-page-revolution.php:20
+msgid "You did not select any slider in <i>Front Page Options</i> metabox."
+msgstr ""
+
+#: ../page-portfolio.php:20 ../single-portfolio.php:14
+msgid "This page requires Portfolio plugin to be activated"
+msgstr ""
+
+#: ../page-portfolio.php:76
+msgid "on"
+msgstr ""
+
+#: ../page-portfolio.php:85
+msgid "No Portfolio Posts Found."
+msgstr ""
+
+#: ../partials/comments.php:19
+msgid "Pingback:"
+msgstr ""
+
+#: ../partials/comments.php:19 ../partials/comments.php:55
+msgid "Edit"
+msgstr ""
+
+#. translators: 1: comment author, 2: date and time
+#: ../partials/comments.php:40
+#, php-format
+msgid "%1$s  %2$s"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: ../partials/comments.php:46
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../partials/comments.php:52
+msgid "Reply"
+msgstr ""
+
+#: ../partials/comments.php:57
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../partials/comments.php:73
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../partials/comments.php:91 ../partials/comments.php:112
+msgid "Comment navigation"
+msgstr ""
+
+#: ../partials/comments.php:92 ../partials/comments.php:113
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../partials/comments.php:93 ../partials/comments.php:114
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../partials/comments.php:124
+msgid "Comments are closed."
+msgstr ""
+
+#: ../partials/comments.php:135
+msgid "Name*"
+msgstr ""
+
+#: ../partials/comments.php:138
+msgid "E-mail*"
+msgstr ""
+
+#: ../partials/comments.php:141
+msgid "Website"
+msgstr ""
+
+#: ../partials/comments.php:145
+msgid "Your Comment"
+msgstr ""
+
+#: ../partials/comments.php:152
+msgid "Leave a comment"
+msgstr ""
+
+#: ../partials/pagination-portfolio.php:18
+#: ../partials/pagination-search.php:16 ../partials/pagination.php:18
+msgid "&laquo; Previous"
+msgstr ""
+
+#: ../partials/pagination-portfolio.php:19
+#: ../partials/pagination-search.php:17 ../partials/pagination.php:19
+msgid "Next &raquo;"
+msgstr ""
+
+#: ../search.php:9
+msgid "Showing Results for: "
+msgstr ""
+
+#: ../search.php:25
+msgid "Sorry, your search query yielded no results."
+msgstr ""
+
+#: ../searchform.php:3
+msgid "Search..."
+msgstr ""
+
+#: ../single-portfolio.php:53
+msgid "Project Details"
+msgstr ""
+
+#: ../single-portfolio.php:56
+msgid "CLIENT"
+msgstr ""
+
+#: ../single-portfolio.php:62
+msgid "DATE"
+msgstr ""
+
+#: ../single-portfolio.php:67
+msgid "IN"
+msgstr ""
+
+#: ../single-portfolio.php:82
+msgid "SKILLS"
+msgstr ""
+
+#: ../single-portfolio.php:89
+msgid "LINK"
+msgstr ""
+
+#: ../single-portfolio.php:96
+msgid "PROJECT DESCRIPTION"
+msgstr ""
+
+#: ../single-portfolio.php:114
+msgid "Related Projects"
+msgstr ""
+
+#: ../single.php:10
+msgid "FROM THE BLOG"
+msgstr ""

@@ -1,0 +1,10 @@
+/*
+ * jQuery Nivo Slider v3.2
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+ .nivoSlider{position:relative;width:100%;height:auto;overflow:hidden}.nivoSlider img{position:absolute;top:0;left:0;max-width:none;display:none}.nivo-main-image{display:block!important;position:relative!important;width:100%!important}.nivoSlider a.nivo-imageLink{position:absolute;top:0;left:0;width:100%;height:100%;border:0;padding:0;margin:0;z-index:6;display:none;background:#fff;filter:alpha(opacity=0);opacity:0}.nivo-slice{display:block;position:absolute;z-index:5;height:100%;top:0}.nivo-box{display:block;position:absolute;z-index:5;overflow:hidden}.nivo-box img{display:block}.nivo-caption{position:absolute;left:0;bottom:0;background:#000;color:#fff;width:100%;z-index:8;padding:5px 10px;opacity:.8;overflow:hidden;display:none;-moz-opacity:.8;filter:alpha(opacity=8);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.nivo-caption p{padding:5px;margin:0}.nivo-caption a{display:inline!important}.nivo-html-caption{display:none}.nivo-directionNav a{position:absolute;top:45%;z-index:9;cursor:pointer}.nivo-prevNav{left:0}.nivo-nextNav{right:0}.nivo-controlNav a{cursor:pointer}.nivo-controlNav a.active{font-weight:700}.nivo-directionNav{z-index:10}.slider-wrapper{position:relative}#slider a{border:0;display:block}.nivo-controlNav{padding:20px 0;text-align:left}.nivo-control img{width:100px;margin-right:10px;margin-bottom:10px}.nivo-directionNav a.nivo-prevNav{left:20px}.nivo-directionNav a.nivo-nextNav{right:20px}.nivo-directionNav a.nivo-prevNav i{font-size:30px;color:#fff}.nivo-directionNav a.nivo-nextNav i{font-size:30px;color:#eee;-webkit-transition:all 400ms ease-in-out;-o-transition:all 400ms ease-in-out;transition:all 400ms ease-in-out}.nivo-directionNav a.nivo-nextNav:hover i,.nivo-directionNav a.nivo-prevNav:hover i{color:#ee464d;-webkit-transition:all 400ms ease-in-out;-o-transition:all 400ms ease-in-out;transition:all 400ms ease-in-out}

@@ -1,0 +1,55 @@
+[
+    {
+        "name": "eclemens/php-validation",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/eclemens/php-validation.git",
+            "reference": "7cccbc760cf2f6142360696e1436ac5f4faf5fee"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/eclemens/php-validation/zipball/7cccbc760cf2f6142360696e1436ac5f4faf5fee",
+            "reference": "7cccbc760cf2f6142360696e1436ac5f4faf5fee",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "codeception/specify": "*",
+            "codeception/verify": "*",
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2015-10-06 03:47:51",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "PHPValidation\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "include-path": [
+            "src/"
+        ],
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Eduardo Clemens",
+                "email": "edu.clemens@gmail.com"
+            }
+        ],
+        "description": "PHP Validation class inspired by the jQuery Validation Plugin",
+        "homepage": "https://github.com/eclemens/php-validation",
+        "keywords": [
+            "jquery-validation",
+            "php-validation",
+            "validation",
+            "validator"
+        ]
+    }
+]
